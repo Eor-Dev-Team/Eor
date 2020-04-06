@@ -120,6 +120,111 @@ e_land = {
 				b_land9 = {
 				}
 			}
+			c_land14 = { # 17
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land14 = {
+				}
+			}
+			c_land15 = { # 18
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land15 = {
+				}
+			}
+			c_land16 = { # 19
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land16 = {
+				}
+			}
+			c_land17 = { # 20
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land17 = {
+				}
+			}
+			c_land18 = { # 21
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land18 = {
+				}
+			}
+			c_land19 = { # 22
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land19 = {
+				}
+			}
+			c_land20 = { # 23
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land20 = {
+				}
+			}
+			c_land21 = { # 24
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land21 = {
+				}
+			}
+			c_land22 = { # 25
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land22 = {
+				}
+			}
+			c_land23 = { # 26
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land23 = {
+				}
+			}
+			c_land24 = { # 27
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land24 = {
+				}
+			}
+			c_land25 = { # 28
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land25 = {
+				}
+			}
+			c_land26 = { # 29
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land26 = {
+				}
+			}
+			c_land27 = { # 30
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land27 = {
+				}
+			}
+			c_land28 = { # 31
+				color={ 31 117 129 }
+				color2={ 255 255 255 }
+				
+				b_land28 = {
+				}
+			}			
 		}
 	}
 }
