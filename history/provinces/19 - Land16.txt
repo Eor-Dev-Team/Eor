@@ -6,7 +6,7 @@ title = c_land16
 # Settlements
 max_settlements = 1
 
-b_land1 = castle
+b_land16 = castle
 
 # Misc
 culture = hungarian
