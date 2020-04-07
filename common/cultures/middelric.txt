@@ -1,0 +1,32 @@
+middelric = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { westerngfx }
+	
+	middelrish = {
+		graphical_cultures = { normangfx }
+		
+		color = { 1 0 0 }
+		male_names = {
+			NAME_GOES_HERE
+		}
+		female_names = {
+			NAME_GOES_HERE
+		}
+		from_dynasty_prefix = "of "
+		grammar_transform = french
+		dukes_called_kings = yes
+		feminist = yes
+
+		modifier = default_culture_modifier
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 60
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 60
+		mother_name_chance = 10
+	}
+}

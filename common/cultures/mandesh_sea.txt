@@ -1,0 +1,50 @@
+mandesh_sea = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { muslimgfx }	
+	
+	makan = {
+		graphical_cultures = { westafricangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.72 0.48 0.34 }
+		
+		male_names = {
+			NAME_GOES_HERE
+		}
+		female_names = {
+			NAME_GOES_HERE
+		}
+		
+		founder_named_dynasties = yes
+		
+		modifier = default_culture_modifier
+	}
+	zubri = {
+		graphical_cultures = { westafricangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.93 0.89 0.69 }
+		
+		male_names = {
+			NAME_GOES_HERE
+		}
+		female_names = {
+			NAME_GOES_HERE
+		}
+	}
+	gzabi = {
+		color = { 0.78 0.75 0.90 }
+		
+		graphical_cultures = { westafricangfx arabicgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		male_names = {
+			NAME_GOES_HERE
+		}
+		
+		female_names = {
+			NAME_GOES_HERE
+		}
+		parent = alzairi
+	}
+}

@@ -1,0 +1,42 @@
+tchonfa = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { muslimgfx }
+
+	east_tchonfa = {
+		graphical_cultures = { africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 1 0.50 0.15 }
+
+		male_names = {
+			NAME_GOES_HERE
+		}
+		female_names = {
+			NAME_GOES_HERE
+		}
+		
+		founder_named_dynasties = yes
+		dukes_called_kings = yes
+
+		modifier = default_culture_modifier
+	}
+
+	west_tchonfa = {
+		graphical_cultures = { africangfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 1 0.79 0.05 }
+
+		male_names = {
+			NAME_GOES_HERE
+		}
+		female_names = {
+			NAME_GOES_HERE
+		}
+		
+		founder_named_dynasties = yes
+		dukes_called_kings = yes
+
+		modifier = default_culture_modifier
+	}	
+}

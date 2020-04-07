@@ -1,0 +1,25 @@
+alzairite = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { muslimgfx }
+	
+	alzairi = {
+		graphical_cultures = { levantinegfx arabicgfx }
+		
+		color = { 0 1 0 }
+
+		male_names = {
+			NAME_GOES_HERE
+		}
+		female_names = {
+			NAME_GOES_HERE
+		}
+		from_dynasty_prefix = "of "
+		
+		prefix = yes
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	}
+}

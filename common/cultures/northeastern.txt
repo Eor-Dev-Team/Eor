@@ -1,0 +1,140 @@
+northeastern = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures =  { easterngfx }
+	nikelene = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.59 0.85 0.91 }
+
+		male_names = {
+			Killes Damanties Drastes Drianes Amemnen Esilaes Ener Iaces Ias Ineas Isymnes Kakies Teres Lexandres Lexies Lkaies Nviaraes Nvinemes Nastasies Natelies Ndreas Ndrenikes Ntener Nthemies Nthimes Ntilekes Ntines Ntiekes Ntenies Ntenis Pellenies Pesteles Sklipies Risteidis Ristetelis Rsenies Rtemies Skanies Thanasies Treas Ugustines Utelykes
+			Ardas Arthelemaies Enizeles Asileies Elisaries Ellereven Ellereventes Oethies Osperies Rasidas
+			Calais Calkas Charilaes Christeveres Chrysanthes Chrysippes Chrysestemes Chrysegenes 
+			Damianes Demetries Demesthenes Diegenes Diemedes Dienysies Derethes
+			Ecter Irenaies Leutheries Nerikes Pameinendas Vripidis Res Udexies Ustraties Ugenies Umaies Uvemies Uryales Urymakes Usepies Ustathies Vangeles
+            Vragiskes
+			Apriel Ennadies Ergies Erasimes Ermanes Iannis Lauces Regeras Regeries 
+			Ekteries Elias Eraklis Eredetes Ierethes Imeries Ippecrates Ippelytes Rypaties 
+			Iakepes Iasen Idas Idmen Idemeneus Ieremias Ignaties Ilias Innekenties Ieannes Ieannikies Ierdanes Iesev Isaakies Isaias Isideres Isecrates Ieulianes Ieustinianes Ieustines 
+			Kadmes Kaisaries Kallinikes Kallistes Kapaneus Kaster Kitses Kemitas Kenstantines Kenstanties Kestas Kepreus Kesmas Krates Kren Kyriakes Kyrilles Kyres 
+			Laertes Laies Lampres Lasthenes Laurenties Lazares Len Lenties Leukas Lycaen Lynceus
+			Nakaries Nakis Nanelis Nanuel Narkes Natthaies Naurikies Naximes Negares Negistes Nelanippes Neleagres Neleties Nemnen Nenelaes Nethedies Nidas Nikael Nineas Nitses
+			Narses Nevytes Neptelemes Nester Nikeveres Niketas Nikedemes Nikelaes Niven 
+			Dysseas Idipeus Ileus Ineus Inemaes Nires Restes Rveas
+			Amvilies Andares Ankraties Anes Antelis Antelen Aris Arthenepes Askalis Atrekle Avles Ausanias Elagies Eleus Eleps Eriklis Eriklymenes Erseus Etres Hilaretes Hilippes Hilethes Heinix Hekas Heties Latenas Listhenes Leutarkes Eas Ludemas Lydeukes Lykarpes Lyvies Lyneices Lyvemes Lyventes Rvyries Riames Rekepies Ryrres 
+			Adamanthes Avail Hesus Omanes
+			Apas Akis Amuel Arpeden Erapien Epastianes Ergies Tellies Tevanes Tylianes Ekratis Eveklis Etiris Pyriden Taures Taurakies Strates Rymen Rymmakes
+			Akis Ases Elamen Elemakhes Eucres Anes Eane Emisteklis Ekaristes Ederes Edesies Edetes Edeules Ekrites Ektistes Evanes Eviles Evylaktes Eseus Emas Ucydides Hyestes Iperies Ivys Raianes Imethes Ryvenas Rydeus
+			Aleries 
+            Xeneven
+			Rylas Ryperpies
+			Akarias Enepies Enen Etes
+		}
+		female_names = {
+			Driane Thra The Ne Gidia Katerine Ithra Lexandra Lexeia Nastasia Ndremeda Ndremakhe Nna Nthe Ntheusa Ntigene Ntipatra Ntenia Pellenia Talanta Thanasia 
+			Parpara Pasillike Priseis
+			Cassandra Clepatra Chryseis Chrysegene Clie Clymene
+			Damiane Demetra Despeina Diemede Dienysia Derethea 
+			Rene Laiedera Lectra Leutheria Rate Pivania Dekia Dexia Genia Lalia Nike Vemia Vrasia Vresyne Rykleia Terpe Praxia Sepia Stathia Vanthia 
+			Prielia Ryvallia Rygia Regeria 
+			Ra Camede Lene Pedamia Patia 
+			Ieanna Ieulia Ieuliana Ieustina Ivigeneia Ivis Ismene
+			Kale Kalliepi Kenstantia Kenstantina Kyra Kyriake
+			Laedamia Laedice Lentia 
+			Naki Nargarita Naria Narkia Nartha Nedeia Nelanthe Nelissa Nelpemene
+			Nikarete Nikeletta Nenna 
+			Parthena Pavlina Pelagia Penelepe Penthesilea Petrenia Vilippa Vetini Vyllis Pelyhymnia Pulkeria 
+			Rhedanthe Remane Remylia 
+			Pylla Nenis Via Tella Tevania Tevanie 
+			Terpsihere Thalia Thekla Thekariste Thedera Thedesia Thegnesia Thektiste Thevane Themais 
+            Rania
+			Leria Viana 
+			Ne 
+			Nepia Ze
+		}
+
+		from_dynasty_prefix = "ov "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 40
+		father_name_chance = 15
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 20
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	akkalian = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0 0.5 0.5 }
+
+		male_namas = {
+			Killas Thamantias Thrastas Thrianas Amemnen Esilaas Ener Iacas Ias Ineas Isymnas Kakias Teras Lexanthras Lexias Lkaias Nviaraas Nvinemas Nastasias Natelias Nthreas Nthrenikas Ntener Nthemias Nthimas Ntilekas Ntinas Ntiekas Ntenias Ntenis Pellenias Pastelas Sklipias Risteithis Ristetelis Rsenias Rtemias Skanias Thanasias Treas Ugustinas Utelykas
+			Arthas Arthelemaias Enizelas Asileias Elisarias Ellereven Ellereventas Oethias Osperias Rasithas
+			Calais Calkas Charilaas Christeveras Chrysanthas Chrysippas Chrysastemas Chrysegenas 
+			Thamianas Themetrias Themasthenas Thiegenas Thiemethas Thienysias Therethas
+			Ecter Irenaias Leutherias Nerikas Pameinenthas Vripithis Ras Uthexias Ustratias Ugenias Umaias Uvemias Uryalas Urymakas Usepias Ustathias Vangelas
+            Vragiskas
+			Apriel Ennathias Ergias Erasimas Ermanas Iannis Laucas Regeras Regerias 
+			Ekterias Elias Eraklis Erethetas Ierethas Imerias Ippecratas Ippelytas Rypatias 
+			Iakepas Iasen Ithas Ithmen Ithemeneus Ieremias Ignatias Ilias Innekentias Ieannas Ieannikias Ierthanas Iasev Isaakias Isaias Isitheras Isecratas Ieulianas Ieustinianas Ieustinas 
+			Kathmas Kaisarias Kallinikas Kallistas Kapaneus Kaster Kitsas Kemitas Kenstantinas Kenstantias Kastas Kepreus Kasmas Kratas Kren Kyriakas Kyrillas Kyras 
+			Laertas Laias Lampras Lasthenas Laurentias Lazaras Len Lentias Leukas Lycaen Lynceus
+			Nakarias Nakis Nanelis Nanuel Narkas Natthaias Naurikias Naximas Negaras Negistas Nelanippas Neleagras Neletias Nemnen Nenelaas Nethethias Nithas Nikael Nineas Nitsas
+			Narsas Nevytas Neptelemas Naster Nikeveras Niketas Nikethemas Nikelaas Niven 
+			Thysseas Ithipeus Ileus Ineus Inemaas Niras Rastas Rveas
+			Amvilias Antharas Ankratias Anas Antelis Antelen Aris Arthenepas Askalis Atrekle Avlas Ausanias Elagias Eleus Eleps Eriklis Eriklymenas Erseus Etras Hilaretas Hilippas Hilethas Heinix Hekas Hetias Latenas Listhenas Leutarkas Eas Luthemas Lytheukas Lykarpas Lyvias Lyneicas Lyvemas Lyventas Rvyrias Riamas Rekepias Ryrras 
+			Athamanthas Avail Hasus Omanas
+			Apas Akis Amuel Arpethen Erapien Epastianas Ergias Tellias Tevanas Tylianas Ekratis Eveklis Etiris Pyrithen Tauras Taurakias Stratas Rymen Rymmakas
+			Akis Asas Elamen Elemakhas Eucras Anas Eane Emisteklis Ekaristas Etheras Ethasias Ethetas Etheulas Ekritas Ektistas Evanas Evilas Evylaktas Eseus Emas Ucythithas Hyastas Iperias Ivys Raianas Imethas Ryvenas Rytheus
+			Alerias 
+            Xeneven
+			Rylas Ryperpias
+			Akarias Enepias Enen Etas
+		}
+		female_namas = {
+			Thriane Thra The Ne Githia Katerine Ithra Lexanthra Lexeia Nastasia Nthremetha Nthremakhe Nna Nthe Ntheusa Ntigene Ntipatra Ntenia Pellenia Talanta Thanasia 
+			Parpara Pasillike Priseis
+			Cassanthra Clepatra Chryseis Chrysegene Clie Clymene
+			Thamiane Themetra Thaspeina Thiemethe Thienysia Therethea 
+			Rene Laiethera Lectra Leutheria Rate Pivania Thekia Thexia Genia Lalia Nike Vemia Vrasia Vrasyne Rykleia Terpe Praxia Sepia Stathia Vanthia 
+			Prielia Ryvallia Rygia Regeria 
+			Ra Camethe Lene Pethamia Patia 
+			Ieanna Ieulia Ieuliana Ieustina Ivigeneia Ivis Ismene
+			Kale Kalliepi Kenstantia Kenstantina Kyra Kyriake
+			Laethamia Laethice Lentia 
+			Naki Nargarita Naria Narkia Nartha Netheia Nelanthe Nelissa Nelpemene
+			Nikarete Nikeletta Nenna 
+			Parthena Pavlina Pelagia Penelepe Penthasilea Petrenia Vilippa Vetini Vyllis Pelyhymnia Pulkeria 
+			Rhethanthe Remane Remylia 
+			Pylla Nenis Via Tella Tevania Tevanie 
+			Terpsihere Thalia Thekla Thekariste Thethera Thethasia Thegnasia Thektiste Thevane Themais 
+            Rania
+			Leria Viana 
+			Ne 
+			Nepia Ze
+		}
+
+		from_dynasty_prefix = "ov "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 40
+		father_name_chance = 15
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 20
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+}
