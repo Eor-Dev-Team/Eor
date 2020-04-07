@@ -1,0 +1,57 @@
+#1000 is reserved for Noone.
+#1001-1999 is reserved for the dwarven culture group.
+#2000-2999 is reserved for the erealic culture group.
+#3000-3999 is reserved for the middelric culture group.
+#4000-4999 is reserved for the unterland culture group.
+#
+# Please remember to write the dynasty name as a comment next to
+# the dynasty ID, and a list of titles directly owned by 
+# the character as a comment somewhere in a character's entry.
+# If you are making a new character file, copy and paste 
+# this message at the start of the file, and allocate the next 1000
+# characters for your chosen culture group. If you do not do this,
+# I will burn your minecraft house to the ground.
+
+2000 = { #The Legendary founder of Laurentia
+	name = "Laura"
+	female = yes
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "ereal" 
+	trait = "tough_soldier"
+	811.1.1 = {
+		birth = yes
+	}
+	899.9.9 = {
+		death = yes
+	}
+}
+2001 = {
+	name = "Jalius" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "ereal" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS d_second_land, c_land42, c_land44, c_land47, c_land123
+}
+2002 = {
+	name = "Arnorius" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "ereal" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS k_north_erealis, d_first_land, c_land119, c_land120,
+	#c_land121, c_land122
+}

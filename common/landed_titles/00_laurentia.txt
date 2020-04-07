@@ -1,0 +1,86 @@
+e_laurentia = {
+	color={ 0 0 255 }
+	color2={ 255 255 20 }
+	
+	capital = 123 #c_land120
+	culture = ereal
+	
+	k_north_erealis = {
+		color={ 0 0 255 }
+		color2={ 255 255 255 }
+		
+		capital = 123 #c_land120
+		culture = ereal
+		
+		d_first_land = {
+			color={ 255 255 255 }
+			color2={ 255 255 255 }
+			
+			capital = 123 #c_land120
+			
+			c_land119 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land119 = {
+				}
+			}
+			c_land120 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land120 = {
+				}
+			}
+			c_land121 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land121 = {
+				}
+			}
+			c_land122 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land122 = {
+				}
+			}
+		}
+		d_second_land = {
+			color={ 0 0 0 }
+			color2={ 255 255 255 }
+			
+			capital = 47 #c_land44
+			
+			c_land42 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land42 = {
+				}
+			}
+			c_land44 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land44 = {
+				}
+			}
+			c_land47 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land47 = {
+				}
+			}
+			c_land123 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land123 = {
+				}
+			}
+		}
+	}
+}
