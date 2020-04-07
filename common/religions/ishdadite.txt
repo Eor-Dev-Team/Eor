@@ -1,0 +1,98 @@
+ishdadite = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	crusade_cb = crusade
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1 # only convert if Zealous
+	
+	color = { 0.8 0.8 0.6 }
+	
+	cohortist = {
+		graphical_culture = westerngfx
+
+		icon = 1
+		heresy_icon = 6
+		
+		color = { 1 0.6 0}
+		
+		crusade_name = PURIFICATION
+		use_new_crusade = yes
+		crusade_cb = crusade
+		scripture_name = CONFESSIONS_OF_ISHDAD
+		priest_title = GUARDIAN
+		
+		high_god_name = GOD_ISHDAD_THE_IMMORTAL
+		
+		god_names = {
+			GOD_ISHDAD_THE_IMMORTAL GOD_CSERI GOD_THE_COHORTS
+		}
+		evil_god_names = {
+			KRASSOGGUA
+		}
+		character_modifier = {
+		}
+		
+		aggression = 1.1
+		allow_rivermovement = yes		
+		investiture = yes
+		can_have_antipopes = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		rel_head_defense = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = cserian
+	}
+	cserian = {
+		graphical_culture = westerngfx
+
+		icon = 2
+		heresy_icon = 7
+		
+		color = { 0.7 0.6 0.1}
+		
+		crusade_name = PURIFICATION
+		use_new_crusade = yes
+		crusade_cb = crusade
+		scripture_name = EPISTLES_OF_CSERI
+		priest_title = GUARDIAN
+		
+		high_god_name = GOD_ISHDAD_THE_IMMORTAL
+		
+		god_names = {
+			GOD_ISHDAD_THE_IMMORTAL GOD_CSERI
+		}
+		evil_god_names = {
+			KRASSOGGUA GOD_THE_COHORTS
+		}
+		character_modifier = {
+		}
+		
+		aggression = 1.2
+		allow_rivermovement = yes		
+		investiture = yes
+		can_have_antipopes = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		rel_head_defense = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+		intermarry = cserian
+	}	
+	
+}

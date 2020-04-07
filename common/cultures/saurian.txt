@@ -9,29 +9,54 @@ saurian = {
 		#I have no idea what to put in this list, so here are
 		#some placeholder dinosaur names instead
 		male_names = { 
-			Tyrannosaurus Velociraptor Allosaurus Spinosaurus
-			Deinonychus Carnotaurus Apatosaurus Diplodocus
-			Brachiosaurus Stegosaurus Ankylosaurus Triceratops
-			Iguanodon Parasaurolophus Rajasaurus
+			Aalonkqi Aadeshak Aaresp Aatek Aamaan Aaraak Aatraraa Aakek
+			Baadinab Baamila Baadnabi Benbab Baalenge Baa-Komito Baakjayli Baa-Naga Beeya Beenek-Tsep Baatbengat Beetzismii'suus Biitzii
+			Dbaa Diibensha Djaamba Dnaaga Dmo Dwo Deebelaq Diisanka Dooktar Dzaar Dzeeq
+			Eelagaak Eemgoon Eengongoo Eekyumani Eesengoo Eesek-Saar Eertek
+			Fuumo Feeza Fruumg Foo-Qtaar Fii-Lii Fzaa Fthee
+			Gaak Groq-Kaa Goaatl Grend Gaar Gaab-Daak Gtee-Saa Gree
+			Iqloo Iknoqii Ilungii Iploqii Iqmonqii Itzee Inii
+			Kro'oq Kek Kott Kaabendook Kaabii Kaakbakeele Kaakenkoo Kaabunjii Kaalabuul Kaaloonj Keeqroo Kaantuu Kaanagniila Kaantuu Kaamuanyaa Kshaalaa Ksoongoo Kaazaad Kaazonduu Kiitoqoo Kuumumbaa
+			Lo'oq Laaq-Taar Llob Losaak Leesoquaa Luubuyaa Loofoboaa Lyiindulaa
+			Maafaaqu Maakelele Mlaanguu Maakaambo Maanokaa Maalundaama Mbonguu Mbaamba Miiandaa Mundaa Mkoo'ngoo Maabalaa Mooq'oo Maashalaa
+			Ndombe Ngaama Ngaaluula Ngoonduu Nzeembo Nzaangaa Nzuuzii
+			Oombaa Ooneseq Ooneq Oolaa Oot-Tsii
+			Punguu Pnaa Ptaah
+			Saambaa Ssaak Sshaal Ssambo Ssek Sset Sskek Ssiiq Sset-Laa Ssudoq
+			Tsheenqaa Tsaak Tsaas Tsiimbaa Tssek
 		}
 		female_names = {
-			Tyrannosaurus Velociraptor Allosaurus Spinosaurus
-			Deinonychus Carnotaurus Apatosaurus Diplodocus
-			Brachiosaurus Stegosaurus Ankylosaurus Triceratops
-			Iguanodon Parasaurolophus Rajasaurus
+			Aalonkqi Aadeshak Aaresp Aatek Aamaan Aaraak Aatraraa Aakek
+			Baadinab Baamila Baadnabi Benbab Baalenge Baa-Komito Baakjayli Baa-Naga Beeya Beenek-Tsep Baatbengat Beetzismii'suus Biitzii
+			Dbaa Diibensha Djaamba Dnaaga Dmo Dwo Deebelaq Diisanka Dooktar Dzaar Dzeeq
+			Eelagaak Eemgoon Eengongoo Eekyumani Eesengoo Eesek-Saar Eertek
+			Fuumo Feeza Fruumg Foo-Qtaar Fii-Lii Fzaa Fthee
+			Gaak Groq-Kaa Goaatl Grend Gaar Gaab-Daak Gtee-Saa Gree
+			Iqloo Iknoqii Ilungii Iploqii Iqmonqii Itzee Inii
+			Kro'oq Kek Kott Kaabendook Kaabii Kaakbakeele Kaakenkoo Kaabunjii Kaalabuul Kaaloonj Keeqroo Kaantuu Kaanagniila Kaantuu Kaamuanyaa Kshaalaa Ksoongoo Kaazaad Kaazonduu Kiitoqoo Kuumumbaa
+			Lo'oq Laaq-Taar Llob Losaak Leesoquaa Luubuyaa Loofoboaa Lyiindulaa
+			Maafaaqu Maakelele Mlaanguu Maakaambo Maanokaa Maalundaama Mbonguu Mbaamba Miiandaa Mundaa Mkoo'ngoo Maabalaa Mooq'oo Maashalaa
+			Ndombe Ngaama Ngaaluula Ngoonduu Nzeembo Nzaangaa Nzuuzii
+			Oombaa Ooneseq Ooneq Oolaa Oot-Tsii
+			Punguu Pnaa Ptaah
+			Saambaa Ssaak Sshaal Ssambo Ssek Sset Sskek Ssiiq Sset-Laa Ssudoq
+			Tsheenqaa Tsaak Tsaas Tsiimbaa Tssek			
 		}
 
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "tze "
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 40
-		mat_grf_name_chance = 40
-		father_name_chance = 15
+		
+		#The short lives (c 50 years) of Lizardmen predispose them to name children after themselves rather than their ancestors
+		
+		pat_grf_name_chance = 15
+		mat_grf_name_chance = 15
+		father_name_chance = 70
 		
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 20
-		mother_name_chance = 20
+		pat_grm_name_chance = 15
+		mat_grm_name_chance = 15
+		mother_name_chance = 70
 
 		modifier = default_culture_modifier
 	}

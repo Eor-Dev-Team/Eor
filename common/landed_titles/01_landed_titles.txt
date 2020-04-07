@@ -1,6 +1,42 @@
 ###### AUTO GENERATED CONTENT (c) CKTools v19 ######
 
+d_cohortist = {
+	color={ 14 255 16 }
+	color2={ 255 255 255 }
+	capital = 3 #Temporary
+	culture = ishdad
+	religion = cohortist
+	dignity = 100
+	landless = yes
+	controls_religion = cohortist
+	short_name = yes
+	primary = yes
+	assimilate = no
+	dynasty_title_names = no	
+	
+	title = "HIGH_COHORT"
+	foa = "POPE_FOA"
+	
+}
 
+d_cserian = {
+	color={ 56 200 160 }
+	color2={ 255 255 255 }
+	capital = 3 #Temporary
+	culture = ishdad
+	religion = cserian
+	dignity = 100
+	caliphate = yes
+	controls_religion = cserian
+	short_name = yes
+	primary = yes
+	assimilate = no
+	dynasty_title_names = no	
+	
+	title = "INCARN"
+	foa = "POPE_FOA"
+	
+}
 
 e_land = {
 	color={ 40 215 20 }
@@ -176,11 +212,46 @@ e_land = {
 				b_land118 = {
 				}
 			}
+			c_land119 = { # 122
+				color={ 84 21 81 }
+				color2={ 255 255 255 }
+				
+				b_land119 = {
+				}
+			}
 			c_land12 = { # 15
 				color={ 110 180 63 }
 				color2={ 255 255 255 }
 				
 				b_land12 = {
+				}
+			}
+			c_land120 = { # 123
+				color={ 126 24 209 }
+				color2={ 255 255 255 }
+				
+				b_land120 = {
+				}
+			}
+			c_land121 = { # 124
+				color={ 168 27 82 }
+				color2={ 255 255 255 }
+				
+				b_land121 = {
+				}
+			}
+			c_land122 = { # 125
+				color={ 0 30 210 }
+				color2={ 255 255 255 }
+				
+				b_land122 = {
+				}
+			}
+			c_land123 = { # 126
+				color={ 42 33 83 }
+				color2={ 255 255 255 }
+				
+				b_land123 = {
 				}
 			}
 			c_land124 = { # 127
@@ -883,11 +954,25 @@ e_land = {
 				b_land41 = {
 				}
 			}
+			c_land42 = { # 45
+				color={ 0 110 70 }
+				color2={ 255 255 255 }
+				
+				b_land42 = {
+				}
+			}
 			c_land43 = { # 46
 				color={ 0 130 70 }
 				color2={ 255 255 255 }
 				
 				b_land43 = {
+				}
+			}
+			c_land44 = { # 47
+				color={ 0 150 70 }
+				color2={ 255 255 255 }
+				
+				b_land44 = {
 				}
 			}
 			c_land45 = { # 48
@@ -902,6 +987,13 @@ e_land = {
 				color2={ 255 255 255 }
 				
 				b_land46 = {
+				}
+			}
+			c_land47 = { # 50
+				color={ 0 210 70 }
+				color2={ 255 255 255 }
+				
+				b_land47 = {
 				}
 			}
 			c_land48 = { # 51
