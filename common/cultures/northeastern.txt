@@ -74,7 +74,7 @@ northeastern = {
 		
 		color = { 0 0.5 0.5 }
 
-		male_namas = {
+		male_names = {
 			Killas Thamantias Thrastas Thrianas Amemnen Esilaas Ener Iacas Ias Ineas Isymnas Kakias Teras Lexanthras Lexias Lkaias Nviaraas Nvinemas Nastasias Natelias Nthreas Nthrenikas Ntener Nthemias Nthimas Ntilekas Ntinas Ntiekas Ntenias Ntenis Pellenias Pastelas Sklipias Risteithis Ristetelis Rsenias Rtemias Skanias Thanasias Treas Ugustinas Utelykas
 			Arthas Arthelemaias Enizelas Asileias Elisarias Ellereven Ellereventas Oethias Osperias Rasithas
 			Calais Calkas Charilaas Christeveras Chrysanthas Chrysippas Chrysastemas Chrysegenas 
@@ -98,7 +98,7 @@ northeastern = {
 			Rylas Ryperpias
 			Akarias Enepias Enen Etas
 		}
-		female_namas = {
+		female_names = {
 			Thriane Thra The Ne Githia Katerine Ithra Lexanthra Lexeia Nastasia Nthremetha Nthremakhe Nna Nthe Ntheusa Ntigene Ntipatra Ntenia Pellenia Talanta Thanasia 
 			Parpara Pasillike Priseis
 			Cassanthra Clepatra Chryseis Chrysegene Clie Clymene
