@@ -7,22 +7,56 @@ ishdadic = {
 		color = { 0.9 0.1 0.1 }
 
 		male_names = { 
-			GenericName
+			Abunis Athis Apophos Aysher Atlis Aratlis Arsetes Aripsis Artshen Atlis Aropses Arosses Aton Araton Ashmose Athiten Akroten Ashitep Arhashot
+			Beshales Beershel Baphothis Berenses Bothis
+			Cseroth Csinth Cnin Cnoth Cthon Csellion Csepsis Caphron Celtonth Cellin Celshes Csashep
+			Dereth Djall Drespis Djan Djamasp 
+			Enwej Esses Ethalor Eglash Eyder Ensses Etrotep Etroten Entiyu
+			Hashep Hashot Hashotep Horshes Huthep Heshipses
+			Ikkis Inroth Imhotra Iahmsu Ipsis Ikrish Itrepses Ishmose Ishsaron Ishses Ishtaron Isheth Ishcasar
+			Lahmose Latses Lapses Lathotses Leshep Latresses Luthetis Larentis Losiris
+			Moshe Matrespes Menes Maat Maamose Mothelles Mumosses
+			Nashbal Nathat Naban Nabal Naphrathes Nepsis Nejj Nefer Nefret
+			Opses Osher Otrates Oshir Obiris Osses
+			Ptar Pathothep Paressis Panthetes Ptha Pjaa Pansses Patramides
+			Rameses Ramtashep Ramose Rataphet Rasses Racthares Ramides
+			Shepser Shepses Setes Setmose Settra Seshep Secthis Secses Secmose Submose Sobep Sobes Sobesses
+			Tshen Tuthmose Tuthshepsis Tuthsiris Tutathis Tuthatlis Tuthopses Tuthshepser Tuthanra Tsares Tares Tithansis Tithayis Tithosis Tyoses Tyomen Tyothep 
+			Wedj Wajd Warasses Wesses Wjet Wejesses
+			Yuayir Yosses Yehosaphath
 		}
 		female_names = {
-			GenericName
+			Apsa Abuna Apopha Attusa Attosa Atseta Atra Atrodita Acthphara Arossa Arata Ashmosa Akrota Ashatep
+			Bubasta Baphota Busira Betphara Beith Bara Bethshara
+			Cseri Csara Cna Ctha Cthasha Csira Csitita Csitara Cthtita Cthtara Calasa Csa
+			Djusita Djalla Djisa Drana Dretha Dresipi Dhitipi Darita
+			Ethel Essel Encsiti Encsara Enrama Ethratara Ecshasa Etrosa
+			Hattis Hortartara Harthiti Horthita Hyisa Hrossa Helshi Helwusha Hosha
+			Inshisi Ishasa Ishiss Ishes Ishara Ishala
+			Lamia Lamassa Latifi Lashisa Lehira Lehtiri
+			Mara Mana Maria Masha Matiri Meyam
+			Nefertara Nefrita Nesha Nipsa Nissa Nosisa
+			Opel Othira Obessa Ocsara Octha Ocsava
+			Patra Patrata Pathratitt
+			Sephsa Sepha Subassa Sobessa Soba Sarasha Serapa
+			Tshetsi Tuthratiti Tussa Tothrata
+			Ushabti Ushara Untratari Untratiti
+			Zeyb Zassa Zamassa
 		}
 
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "net "
+		dukes_called_kings = yes
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 40
-		mat_grf_name_chance = 40
-		father_name_chance = 15
+		#The Ishdadites are more likely to name their sons after their maternal grandfather
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 50
+		father_name_chance = 20
 		
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 20
+		#The Ishdadites are more likely to name their daughters after their paternal grandmother
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 30
 		mother_name_chance = 20
 
 		modifier = default_culture_modifier
