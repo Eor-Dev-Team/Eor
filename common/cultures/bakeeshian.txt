@@ -8,10 +8,10 @@ bakeeshian = {
 		color = { 0.71 0.90 0.11 }
 
 		male_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		from_dynasty_prefix = "of "
 		

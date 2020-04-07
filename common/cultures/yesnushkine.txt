@@ -8,10 +8,10 @@ yesnushkine = {
 		color = { 0.8 0.4 0.3 }
 
 		male_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		from_dynasty_prefix = "of "
 		prefix = no
@@ -33,10 +33,10 @@ yesnushkine = {
 		color = { 0.6 0 0 }
 
 		male_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		from_dynasty_prefix = "of "
 		prefix = no

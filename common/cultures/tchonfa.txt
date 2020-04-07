@@ -9,10 +9,10 @@ tchonfa = {
 		color = { 1 0.50 0.15 }
 
 		male_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		
 		founder_named_dynasties = yes
@@ -28,10 +28,10 @@ tchonfa = {
 		color = { 1 0.79 0.05 }
 
 		male_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		
 		founder_named_dynasties = yes

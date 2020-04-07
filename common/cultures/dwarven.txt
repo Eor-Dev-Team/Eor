@@ -8,10 +8,10 @@ dwarven = {
 		color = { 0 0.63 0.91 }
 
 		male_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 
 		from_dynasty_prefix = "of "
@@ -36,10 +36,10 @@ dwarven = {
 		color = { 0.5 0 0.1 }
 
 		male_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 
 		from_dynasty_prefix = "of "
@@ -64,10 +64,10 @@ dwarven = {
 		color = { 0.72 0.48 0.34 }
 
 		male_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 
 		from_dynasty_prefix = "of "

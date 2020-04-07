@@ -9,10 +9,10 @@ mandesh_sea = {
 		color = { 0.72 0.48 0.34 }
 		
 		male_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		
 		founder_named_dynasties = yes
@@ -26,10 +26,10 @@ mandesh_sea = {
 		color = { 0.93 0.89 0.69 }
 		
 		male_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 	}
 	gzabi = {
@@ -39,11 +39,11 @@ mandesh_sea = {
 		secondary_event_pictures = bedouin_arabic
 		
 		male_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
 		parent = alzairi
 	}

@@ -7,10 +7,10 @@ yeathish = {
 		color = { 0 0.7 0.8 }
 
 		male_names = { 
-			NAME_GOES_HERE
+			GenericName
 		}
 		female_names = {
-			NAME_GOES_HERE
+			GenericName
 		}
         parent = shirahi
         parent = unterlander
