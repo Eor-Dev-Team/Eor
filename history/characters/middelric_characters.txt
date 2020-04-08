@@ -1,14 +1,8 @@
-#1000 is reserved for Noone.
-#1001-1999 is reserved for the dwarven culture group.
-#2000-2999 is reserved for the erealic culture group.
-#3000-3999 is reserved for the middelric culture group.
-#4000-4999 is reserved for the unterland culture group.
-#
 # Please remember to write the dynasty name as a comment next to
 # the dynasty ID, and a list of titles directly owned by 
 # the character as a comment somewhere in a character's entry.
-# If you are making a new character file, copy and paste 
-# this message at the start of the file, and allocate the next 1000
-# characters for your chosen culture group. If you do not do this,
-# I will burn your minecraft house to the ground.
+# If you do not do this, I will burn your house to the ground
+# in minecraft
+#
+# 3000-3999 is reserved for the Middelric culture group.
 

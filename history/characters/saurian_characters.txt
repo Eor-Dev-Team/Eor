@@ -4,5 +4,5 @@
 # If you do not do this, I will burn your house to the ground
 # in minecraft
 #
-# 1001-1999 is reserved for the Dwarven culture group.
+# 9000-9999 is reserved for the Saurian culture group.
 
