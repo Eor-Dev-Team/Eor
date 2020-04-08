@@ -6,48 +6,108 @@ erealic = {
 		
 		color = { 0 0 1 }
 
-		male_names = { 
-			Acerus Aedius Aemius Alessanus Andus Antanius Arnorius Atteus Agutus Aurus
-			Balibus Barhatus Belzarus Bonifus Bonusius Brotus
-			Calugius Cammedus Carcellus Carenus Cashus Celpernus Clodus Corelius
-			Demacus Diadumus Dinius Domazianus Druzus
-			Elbagus
-			Galus Ganeus Getus Glabeus Gordius Graltus Ganbaus
-			Haranus Hosilus
-			Jalius Janus
-			Lecilus Lecius Lenolus Lucellus Lutaus
-			Macrus Malcus Malius Massus Mazius Memmus
-			Narus Nevrus Numeus
-			Ondeatus Otus
-			Quentus
-			Palus Pertacus Pomerius Pomeus Puneus Presus Pyus
-			Ramelus Rimus
-			Sepitus Sevus Sheianus Sigrus Sinius Suprus
-			Tabenius Tareius Tarianus Teranus Tyberus Tytus Tulus
-			Unterus Urcinarus
-			Valenus Valius Venditus Verus Vesranius Vosunus Vysanius Vytius
-		}
-		female_names = {
-			Acera Armina Annia Antania Arnorie Aguta Aura
-			Belzara Bonife Burnea
-			Camme Carcella Caren Cashe Cloda Corelia
-			Dinia Domaziana Druzi
-			Elbaga Erea 
-			Galia Glabea Gordia Grala Ganbaea
-			Honida Hosila
-			Jalia Jane
-			Lanea Laure Lecie Lecile Lenole Lucelle Luta
-			Malca Malia Massue Mazie Memma
-			Nara Nevra Numea Numina
-			Ondeata Oria Ordinia Orene
-			Quenta Quina
-			Pale Petre Pomeria Pomea Punea Prese Pya
-			Ramele Rena Rime
-			Sepite Seve Sheia Sigra Sinia Sorea Supre
-			Tabenia Tareia Tariana Terana Tybere Tyte Tule
-			Untere Urcina Uste
-			Velena Valie Vendita Vere Vesrania Vysania Vytie
-		}
+        male_names = { 
+            Acerus Aedius Aemius Alessanus Andus Antanius Arnorius Atteus Agutus Aurus
+            Balibus Barhatus Belzarus Bonifus Bonusius Brotus
+            Calugius Cammedus Carcellus Carenus Cashus Celpernus Clodus Corelius
+            Demacus Diadumus Dinius Domazianus Druzus
+            Elbagus
+            Galus Ganeus Getus Glabeus Gordius Graltus Ganbaus
+            Haranus Hosilus
+            Jalius Janus
+            Lecilus Lecius Lenolus Lucellus Lutaus
+            Macrus Malcus Malius Massus Mazius Memmus
+            Narus Nevrus Numeus
+            Ondeatus Otus
+            Quentus
+            Palus Pertacus Pomerius Pomeus Puneus Presus Pyus
+            Ramelus Rimus
+            Sepitus Sevus Sheianus Sigrus Sinius Suprus
+            Tabenius Tareius Tarianus Teranus Tyberus Tytus Tulus
+            Unterus Urcinarus
+            Valenus Valius Venditus Verus Vesranius Visanius Vosunus Vitius
+        }
+        female_names = {
+            Acera Armina Annia Antania Arnorie Aguta Aura
+            Belzara Bonife Burnea
+            Camme Carcella Caren Cashe Cloda Corelia
+            Dinia Domaziana Druzi
+            Elbaga Erea 
+            Galia Glabea Gordia Grala Ganbaea
+            Honida Hosila
+            Jalia Jane
+            Lanea Laure Lecie Lecile Lenole Lucelle Luta
+            Malca Malia Massue Mazie Memma
+            Nara Nevra Numea Numina
+            Ondeata Oria Ordinia Orene
+            Quenta Quina
+            Pale Petre Pomeria Pomea Punea Prese Pya
+            Ramele Rena Rime
+            Sepite Seve Sheia Sigra Sinia Sorea Supre
+            Tabenia Tareia Tariana Terana Tybere Tyte Tule
+            Untere Urcina Uste
+            Velena Valie Vendita Vere Vesrania Vysania Vytie
+        }
+
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 40
+		father_name_chance = 15
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 25
+		mother_name_chance = 30
+
+		modifier = default_culture_modifier
+	}
+	calugian = {
+		graphical_cultures = { byzantinegfx }
+		
+		color = { 0.5 0.1 0.9 }
+
+        male_names = { 
+            Acerus Aedius Aemius Alessanus Andus Antanius Arnorius Atteus Agutus Aurus
+            Calugius Cammedus Carcellus Carenus Cashus Celphernus Clodus Corelius
+            Demacus Diadumus Dinius Domazianus Druzus
+            Elpagus
+            Galus Ganeus Getus Glapeus Gordius Graltus Ganpaus
+            Haranus Hosilus
+            Jalius Janus
+            Lecilus Lecius Lenolus Lucellus Lutaus
+            Macrus Malcus Malius Massus Mazius Memmus
+            Narus Nevrus Numeus
+            Ondeatus Otus
+            Quentus
+            Palipus Parhatus Pelzarus Ponifus Ponusius Protus Phalus Phertacus Phomerius Phomeus Phuneus Phresus Phyus
+            Ramelus Rimus
+            Sephitus Sevus Sheianus Sigrus Sinius Suphrus
+            Tapenius Tareius Tarianus Teranus Typerus Tytus Tulus
+            Unterus Urcinarus
+            Valenus Valius Venditus Verus Vesranius Visanius Vosunus Vitius
+        }
+        female_names = {
+            Acera Arména Annéa Antanéa Arnorée Aguta Aura
+            Camme Carcella Caren Cashe Cloda Coreléa
+            Dénéa Domazéana Druzé
+            Elpaga Erea 
+            Galéa Glapea Gordéa Grala Ganpaea
+            Honéda Hoséla
+            Jaléa Jane
+            Lanea Laure Lecée Lecéle Lenole Lucelle Luta
+            Malca Maléa Massue Mazée Memma
+            Nara Nevra Numea Nuména
+            Ondeata Oréa Ordénéa Orene
+            Quenta Quéna
+            Pelzara Ponéfe Purnea Phale Phetre Phomeréa Phomea Phunea Phrese Phya
+            Ramele Rena Réme
+            Sephéte Seve Sheéa Ségra Sénéa Sorea Suphre
+            Tapenéa Tareéa Taréana Terana Typere Tyte Tule
+            Untere Urcéna Uste
+            Velena Valée Vendéta Vere Vesranéa Vysanéa Vytée
+        }
 
 		from_dynasty_prefix = "of "
 

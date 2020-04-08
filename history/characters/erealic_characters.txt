@@ -5,6 +5,7 @@
 # in minecraft
 #
 # 2000-2999 is reserved for the Erealic culture group.
+# NOTE: Characters in my own demesne will be numbered from 2900 on
 
 2000 = { #The Legendary founder of Laurentia
 	name = "Laura"
@@ -48,4 +49,90 @@
 	}
 	#OWNS k_north_erealis, d_first_land, c_land119, c_land120,
 	#c_land121, c_land122
+}
+2900 = {
+	name = "Suphre" 
+	female = yes
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	900.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+2901 = {
+	name = "Phomeus" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS d_border, c_land142, c_land143, c_land155, c_land156
+}
+2902 = {
+	name = "Quentus" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS d_east, c_land152, c_land153, c_land154
+}
+2903 = {
+	name = "Lanea" 
+	female = yes
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS d_main, c_land149, c_land150
+}
+2904 = {
+	name = "Tytus" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "ereal" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS d_north, c_land146, c_land147, c_land148
+}
+2905 = {
+	name = "Acera" 
+	female = yes
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS d_west, c_land144, c_land145, c_land151
 }

@@ -1,6 +1,6 @@
 
 1066.1.1={
 	law = full_cognatic_succession
-	law = succ_gavelkind
+	law = succ_feudal_elective
 	holder = 2901 #Pomeus
 }

@@ -9,7 +9,7 @@ max_settlements = 1
 b_land144 = castle
 
 # Misc
-culture = hungarian
+culture = calugian
 religion = norse_pagan
 
 #History

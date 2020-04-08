@@ -1,6 +1,5 @@
-# e_land
-1066.1.1={
-	law = agnatic_succession
+1066.1.1 = {
+	law = full_cognatic_succession
 	law = succ_gavelkind
-	holder=1000
+	holder = 2902 #Quentus
 }

@@ -1,0 +1,8 @@
+900.1.1 = {
+	law = full_cognatic_succession
+	law = succ_feudal_elective
+	holder = 2900 #Suphre
+}
+1000.1.1 = {
+	holder = 0
+}

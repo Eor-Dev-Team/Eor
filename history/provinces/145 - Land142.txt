@@ -1,4 +1,4 @@
-# c_land142
+# c_land141
 
 # County Title
 title = c_land142
@@ -9,7 +9,7 @@ max_settlements = 1
 b_land142 = castle
 
 # Misc
-culture = hungarian
+culture = calugian
 religion = norse_pagan
 
 #History

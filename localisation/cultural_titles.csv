@@ -1,10 +1,24 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#
+# EREALIC GROUP
+# ereal
 duke_ereal;Etibun;;;;;;;;;;;;;x,,,,,,
 duke_female_ereal;Etibunis;;;;;;;;;;;;;x,,,,,,
 king_ereal;Tchonsul;;;;;;;;;;;;;x,,,,,,
 king_female_ereal;Tchonsulis;;;;;;;;;;;;;x,,,,,,
-emperor_ereal;Impeator;;;;;;;;;;;;;x,,,,,,
+emperor_ereal;Impeatur;;;;;;;;;;;;;x,,,,,,
 emperor_female_ereal;Impeatis;;;;;;;;;;;;;x,,,,,,
+#
+# calugian
+duke_calugian;Etipun;;;;;;;;;;;;;x,,,,,,
+duke_female_calugian;Etépunés;;;;;;;;;;;;;x,,,,,,
+king_calugian;Tchonsul;;;;;;;;;;;;;x,,,,,,
+king_female_calugian;Tchonsolés;;;;;;;;;;;;;x,,,,,,
+emperor_calugian;Impheator;;;;;;;;;;;;;x,,,,,,
+emperor_female_calugian;Émpheatés;;;;;;;;;;;;;x,,,,,,
+#
+# ISHDADIC GROUP
+# ishdad
 count_ishdad;Governor;;;;;;;;;;;;;x,,,,,,
 count_female_ishdad;Governess;;;;;;;;;;;;;x,,,,,,
 duke_ishdad;Mejay;;;;;;;;;;;;;x,,,,,,
