@@ -7,10 +7,46 @@ erealic = {
 		color = { 0 0 1 }
 
 		male_names = { 
-			GenericName
+			Acerus Aedius Aemius Alessanus Andus Antanius Arnorius Atteus Agutus Aurus
+			Balibus Barhatus Belzarus Bonifus Bonusius Brotus
+			Calugius Cammedus Carcellus Carenus Cashus Celpernus Clodus Corelius
+			Demacus Diadumus Dinius Domazianus Druzus
+			Elbagus
+			Galus Ganeus Getus Glabeus Gordius Graltus Ganbaus
+			Haranus Hosilus
+			Jalius Janus
+			Lecilus Lecius Lenolus Lucellus Lutaus
+			Macrus Malcus Malius Massus Mazius Memmus
+			Narus Nevrus Numeus
+			Ondeatus Otus
+			Quentus
+			Palus Pertacus Pomerius Pomeus Puneus Presus Pyus
+			Ramelus Rimus
+			Sepitus Sevus Sheianus Sigrus Sinius Suprus
+			Tabenius Tareius Tarianus Teranus Tyberus Tytus Tulus
+			Unterus Urcinarus
+			Valenus Valius Venditus Verus Vesranius Vosunus Vysanius Vytius
 		}
 		female_names = {
-			GenericName
+			Acera Armina Annia Antania Arnorie Aguta Aura
+			Belzara Bonife Burnea
+			Camme Carcella Caren Cashe Cloda Corelia
+			Dinia Domaziana Druzi
+			Elbaga Erea 
+			Galia Glabea Gordia Grala Ganbaea
+			Honida Hosila
+			Jalia Jane
+			Lanea Laure Lecie Lecile Lenole Lucelle Luta
+			Malca Malia Massue Mazie Memma
+			Nara Nevra Numea Numina
+			Ondeata Oria Ordinia Orene
+			Quenta Quina
+			Pale Petre Pomeria Pomea Punea Prese Pya
+			Ramele Rena Rime
+			Sepite Seve Sheia Sigra Sinia Sorea Supre
+			Tabenia Tareia Tariana Terana Tybere Tyte Tule
+			Untere Urcina Uste
+			Velena Valie Vendita Vere Vesrania Vysania Vytie
 		}
 
 		from_dynasty_prefix = "of "
@@ -21,9 +57,9 @@ erealic = {
 		father_name_chance = 15
 		
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 20
-		mother_name_chance = 20
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 25
+		mother_name_chance = 30
 
 		modifier = default_culture_modifier
 	}

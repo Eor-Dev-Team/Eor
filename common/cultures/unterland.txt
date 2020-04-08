@@ -8,23 +8,40 @@ unterland = {
 		color = { 0.8 0.8 0.8 }
 
 		male_names = {
-			GenericName
+			Frenzis "Frenzis Gerhalt" "Frenzis Heinzer" "Frenzis Henrick" "Frenzis Karel" "Frenzis Luka" "Frenzis Mikel" "Frenzis Oto" "Frenzis Sebaston" "Frenzis Vyktor" "Frenzis Wulgan"
+			Gerhalt "Gerhalt Frenzis" "Gerhalt Heinzer" "Gerhalt Henrick "Gerhalt Karel" "Gerhalt Lukan" "Gerhalt Mikel" "Gerhalt Oto" "Gerhalt Sebaston" "Gerhalt Vyktor" "Gerhalt Wulgan"
+			Heinzer "Heinzer Frenzis" "Heinzer Gerhalt" "Heinzer Henrick" "Heinzer Karel" "Heinzer Lukan" "Heinzer Mikel" "Heinzer Oto" "Heinzer Sebaston" "Heinzer Vyktor" "Heinzer Wulgan" Henrick "Henrick Frenzis" "Henrick Gerhalt" "Henrick Heinzer" "Henrick Karel" "Henrick Lukan" "Henrick Mikel" "Henrick Oto" "Henrick Sebaston" "Henrick Vyktor" "Henrick Wulgan"
+			Karel "Karel Frenzis" "Karel Gerhalt" "Karel Heinzer" "Karel Henrick" "Karel Lukan" "Karel Mikel" "Karel Oto" "Karel Sebaston" "Karel Vyktor" "Karel Wulgan"
+			Lukan "Lukan Frenzis" "Lukan Gerhalt" "Lukan Heinzer" "Lukan Henrick" "Lukan Karel" "Lukan Mikel" "Lukan Oto" "Lukan Sebaston" "Lukan Vyktor" "Lukan Wulgan"
+			Mikel "Mikel Frenzis" "Mikel Gerhalt" "Mikel Heinzer" "Mikel Henrick" "Mikel Karel" "Mikel Lukan" "Mikel Oto" "Mikel Sebaston" "Mikel Vyktor" "Mikel Wulgan"
+			Oto "Oto Frenzis" "Oto Gerhalt" "Oto Heinzer" "Oto Henrick" "Oto Karel" "Oto Lukan" "Oto Mikel" "Oto Sebaston" "Oto Vyktor" "Oto Wulgan"
+			Sebaston "Sebaston Frenzis" "Sebaston Gerhalt" "Sebaston Heinzer" "Sebaston Karel" "Sebaston Lukan" "Sebaston Mikel" "Sebaston Oto" "Sebaston Vyktor" "Sebaston Wulgan"
+			Vyktor "Vyktor Frenzis" "Vyktor Gerhalt" "Vyktor Heinzer" "Vyktor Henrick" "Vyktor Karel" "Vyktor Lukan" "Vyktor Mikel" "Vyktor Oto" "Vyktor Sebaston" "Vyktor Wulgan"
+			Wulgan "Wulgan Frenzis" "Wulgan Gerhalt" "Wulgan Heinzer" "Wulgan Henrick" "Wulgan Karel" "Wulgan Lukan" "Wulgan Mikel" "Wulgan Oto" "Wulgan Sebaston" "Wulgan Vyktor"
 		}
 		female_names = {
-			GenericName
+			Anjan "Anjan Eman" "Anjan Hanan" "Anjan Helgan" "Anjan Ingridan" "Anjan Karinan" "Anjan Katarinan" "Anjan Lenan" "Anjan Stefanan" "Anjan Tanyan" "Anjan Vyktorian"
+			Eman "Eman Anjan" "Eman Hanan" "Eman Helgan" "Eman Ingridan" "Eman Karinan" "Eman Katarinan" "Eman Hanan" "Eman Helgan" "Eman Ingridan" "Eman Karinan" "Eman Katarinan" "Eman Lenan" "Eman Stefanan" "Eman Tanyan" "Eman Vyktorian"
+			Hanan "Hanan Anjan" "Hanan Eman" "Hanan Helgan" "Hanan Ingridan" "Hanan Karinan" "Hanan Katarinan" "Hanan Lenan" "Hanan Stefanan" "Hanan Tanyan" "Hanan Vyktorian" Helgan "Helgan Anjan" "Helgan Eman" "Helgan Hanan" "Helgan Ingridan" "Helgan Karinan" "Helgan Katarinan" "Helgan Lenan" "Helgan Stefanan" "Helgan Tanyan" "Helgan Vyktorian"
+			Ingridan "Ingridan Anjan" "Ingridan Eman" "Ingridan Karinan" "Ingridan Hanan" "Ingridan Helgan" "Ingridan Karinan" "Ingridan Katarinan" "Ingridan Lenan" "Ingridan Stefanan" "Ingridan Tanyan" "Ingridan Vyktorian"
+			Karinan "Karinan Anjan" "Karinan Eman" "Karinan Hanan" "Karinan Helgan" "Karinan Ingridan" "Karinan Katarinan" "Karinan Lenan" "Karinan Stefanan" "Karinan Tanyan" "Karinan Vyktorian" Katarinan "Katarinan Anjan" "Katarinan Eman" "Katarinan Hanan" "Katarinan Helgan" "Katarinan Ingridan" "Katarinan Karinan" "Katarinan Lenan" "Katarinan Stefanan" "Katarinan Tanyan" "Katarinan Vyktorian"
+			Lenan "Lenan Anjan" "Lenan Eman" "Lenan Hanan" "Lenan Helgan" "Lenan Ingridan" "Lenan Karinan" "Lenan Katarinan" "Lenan Stefanan" "Lenan Tanyan" "Lenan Vyktorian"
+			Stefanan "Stefanan Anjan" "Stefanan Eman" "Stefanan Hanan" "Stefanan Helgan" "Stefanan Ingridan" "Stefanan Karinan" "Stefanan Katarinan" "Stefanan Lenan" "Stefanan Tanyan" "Stefanan Vyktorian"
+			Tanyan "Tanyan Anjan" "Tanyan Eman" "Tanyan Hanan" "Tanyan Helgan" "Tanyan Ingridan" "Tanyan Karinan" "Tanyan Katarinan" "Tanyan Lenan" "Tanyan Stefanan" "Tanyan Vyktorian"
+			Vyktorian "Vyktorian Anjan" "Vyktorian Eman" "Vyktorian Hanan" "Vyktorian Helgan" "Vyktorian Ingridan" "Vyktorian Karinan" "Vyktorian Katarinan" "Vyktorian Lenan" "Vyktorian Stefanan" "Vyktorian Tanyan"
 		}
-		from_dynasty_prefix = "of "
+		from_dynasty_prefix = "von "
 		feminist = yes
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
-		mat_grf_name_chance = 5
-		father_name_chance = 10
+		mat_grf_name_chance = 15
+		father_name_chance = 30
 		
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
+		pat_grm_name_chance = 15
 		mat_grm_name_chance = 50
-		mother_name_chance = 5
+		mother_name_chance = 30
 
 		modifier = default_culture_modifier
 	}

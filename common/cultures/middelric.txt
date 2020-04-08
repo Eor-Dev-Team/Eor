@@ -7,10 +7,46 @@ middelric = {
 		
 		color = { 1 0 0 }
 		male_names = {
-			GenericName
+			Acerus Aedius Aemius Alessanus Andus Antanius Arnorius Atteus Agutus Aurus
+			Balibus Barhatus Belzarus Bonifus Bonusius Brotus
+			Calugius Cammedus Carcellus Carenus Cashus Celpernus Clodus Corelius
+			Demacus Diadumus Dinius Domazianus Druzus
+			Elbagus
+			Galus Ganeus Getus Glabeus Gordius Graltus Ganbaus
+			Haranus Hosilus
+			Jalius Janus
+			Lecilus Lecius Lenolus Lucellus Lutaus
+			Macrus Malcus Malius Massus Mazius Memmus
+			Narus Nevrus Numeus
+			Ondeatus Otus
+			Quentus
+			Palus Pertacus Pomerius Pomeus Puneus Presus Pyus
+			Ramelus Rimus
+			Sepitus Sevus Sheianus Sigrus Sinius Suprus
+			Tabenius Tareius Tarianus Teranus Tyberus Tytus Tulus
+			Unterus Urcinarus
+			Valenus Valius Venditus Verus Vesranius Vosunus Vysanius Vytius
 		}
 		female_names = {
-			GenericName
+			Aceran Arminan Annian Antanian Arnorian Agutan Auran
+			Belzaran Bonifan Burnean
+			Camman Carcellan Caran Cashan Clodan Corelian
+			Dinian Domazianan Druzian
+			Elbagan Erean 
+			Galian Glabean Gordian Gralan Ganbaean
+			Honidan Hosilan
+			Jalian Janan
+			Lanean Lauran Lecian Lecilan Lenolan Lucellean Lutan
+			Malcan Malian Massuan Mazian Memman
+			Naran Nevran Numean Numinan
+			Ondeatan Orian Ordinian Orenan
+			Quentan Quinan
+			Palan Petran Pomerian Pomean Punean Presan Pyan
+			Ramelan Renan Riman
+			Sepitan Sevan Sheian Sigran Sinian Sorean Supran
+			Tabenian Tareian Tarianan Teranan Tyberan Tytan Tulan
+			Unteran Urcinan Ustan
+			Velenan Valian Venditan Veran Vesranian Vysanian Vytian
 		}
 		from_dynasty_prefix = "of "
 		grammar_transform = french
@@ -20,13 +56,13 @@ middelric = {
 		modifier = default_culture_modifier
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 60
+		pat_grf_name_chance = 70
 		mat_grf_name_chance = 10
 		father_name_chance = 10
 		
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 10
-		mat_grm_name_chance = 60
+		mat_grm_name_chance = 70
 		mother_name_chance = 10
 	}
 }
