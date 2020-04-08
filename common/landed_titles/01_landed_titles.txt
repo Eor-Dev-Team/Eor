@@ -155,13 +155,6 @@ e_land = {
 				b_land115 = {
 				}
 			}
-			c_land116 = { # 119
-				color={ 168 12 207 }
-				color2={ 255 255 255 }
-				
-				b_land116 = {
-				}
-			}
 			c_land117 = { # 120
 				color={ 0 15 80 }
 				color2={ 255 255 255 }
@@ -176,27 +169,6 @@ e_land = {
 				b_land12 = {
 				}
 			}
-			c_land124 = { # 127
-				color={ 84 36 211 }
-				color2={ 255 255 255 }
-				
-				b_land124 = {
-				}
-			}
-			c_land125 = { # 128
-				color={ 126 39 84 }
-				color2={ 255 255 255 }
-				
-				b_land125 = {
-				}
-			}
-			c_land126 = { # 129
-				color={ 168 42 212 }
-				color2={ 255 255 255 }
-				
-				b_land126 = {
-				}
-			}
 			c_land127 = { # 130
 				color={ 0 45 85 }
 				color2={ 255 255 255 }
@@ -209,13 +181,6 @@ e_land = {
 				color2={ 255 255 255 }
 				
 				b_land128 = {
-				}
-			}
-			c_land129 = { # 132
-				color={ 84 51 86 }
-				color2={ 255 255 255 }
-				
-				b_land129 = {
 				}
 			}
 			c_land13 = { # 16
@@ -293,13 +258,6 @@ e_land = {
 				color2={ 255 255 255 }
 				
 				b_land14 = {
-				}
-			}
-			c_land140 = { # 143
-				color={ 126 84 219 }
-				color2={ 255 255 255 }
-				
-				b_land140 = {
 				}
 			}
 			c_land141 = { # 144
@@ -1236,13 +1194,69 @@ e_laurentia = {
 				}
 			}
 		}
+		d_halfcoast = {
+			color={ 64 64 64 }
+			color2={ 255 255 255 }
+			
+			capital = 132 #c_land129
+			
+			c_land126 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land126 = {
+				}
+			}
+			c_land129 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land129 = {
+				}
+			}
+			c_land140 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land140 = {
+				}
+			}
+		}
+		d_pertac = {
+			color={ 128 64 128 }
+			color2={ 255 255 255 }
+			
+			capital = 119 #c_land116
+			
+			c_land116 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land116 = {
+				}
+			}
+			c_land124 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land124 = {
+				}
+			}
+			c_land125 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land125 = {
+				}
+			}
+		}
 	}
 	k_peninsula = {
 		color={ 128 64 64 }
 		color2={ 255 255 255 }
 		
 		capital = 153 #c_land150
-		culture = ereal
+		culture = calugian
 		
 		d_border = {
 			color={ 0 255 0 }

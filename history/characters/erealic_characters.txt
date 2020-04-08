@@ -50,6 +50,36 @@
 	#OWNS k_north_erealis, d_first_land, c_land119, c_land120,
 	#c_land121, c_land122
 }
+2003 = {
+	name = "Tariana"
+    female = yes	
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "ereal" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS d_halfcoast, c_land126, c_land129, c_land140
+}
+2004 = {
+	name = "Lenole"
+    female = yes	
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "ereal" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS d_pertac, c_land116, c_land124, c_land125
+}
 2900 = {
 	name = "Suphre" 
 	female = yes

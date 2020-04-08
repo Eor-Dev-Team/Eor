@@ -12,6 +12,10 @@ d_first_land;The First Lands;;;;;;;;;;;;;x
 d_first_land_adj;Firstlander;;;;;;;;;;;;;x
 d_second_land;The Second Lands;;;;;;;;;;;;;x
 d_second_land_adj;Secondlander;;;;;;;;;;;;;x
+d_halfcoast;Halfcoast;;;;;;;;;;;;;x
+d_halfcoast_adj;Halfcoastal;;;;;;;;;;;;;x
+d_pertac;Pertac;;;;;;;;;;;;;x
+d_pertac_adj;Pertacan;;;;;;;;;;;;;x
 #
 # Kingdom of Antania
 calugian;Calugian;;;;;;;;;;;;;x
