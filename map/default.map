@@ -1,6 +1,6 @@
 max_provinces = 197
-# stats:  191 provinces
-# unused: 68 90 99
+# stats:  186 provinces
+# unused: 40-41 45 68 90 99 121 142
 definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"

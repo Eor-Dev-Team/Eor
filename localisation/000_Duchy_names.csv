@@ -1,3 +1,7 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+d_first_land;first_land;first_land;first_land;;first_land;;;;;;;;;x
+d_first_land_adj;first_landian;;first_lander;;;;;;;;;;;x
 d_land;Land;Land;Land;;Land;;;;;;;;;x
 d_land_adj;Landian;;lander;;;;;;;;;;;x
+d_second_land;second_land;second_land;second_land;;second_land;;;;;;;;;x
+d_second_land_adj;second_landian;;second_lander;;;;;;;;;;;x
