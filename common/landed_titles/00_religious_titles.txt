@@ -1,0 +1,37 @@
+d_cohortist = {
+	color={ 14 255 16 }
+	color2={ 255 255 255 }
+	capital = 3 #Temporary
+	culture = ishdad
+	religion = cohortist
+	dignity = 100
+	landless = yes
+	controls_religion = cohortist
+	short_name = yes
+	primary = yes
+	assimilate = no
+	dynasty_title_names = no	
+	
+	title = "HIGH_COHORT"
+	foa = "POPE_FOA"
+	
+}
+
+d_cserian = {
+	color={ 56 200 160 }
+	color2={ 255 255 255 }
+	capital = 3 #Temporary
+	culture = ishdad
+	religion = cserian
+	dignity = 100
+	caliphate = yes
+	controls_religion = cserian
+	short_name = yes
+	primary = yes
+	assimilate = no
+	dynasty_title_names = no	
+	
+	title = "INCARN"
+	foa = "POPE_FOA"
+	
+}
