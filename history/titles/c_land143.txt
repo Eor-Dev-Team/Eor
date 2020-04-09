@@ -1,6 +1,6 @@
-
-1066.1.1={
+1066.1.1 = {
+	liege = d_border
 	law = full_cognatic_succession
 	law = succ_gavelkind
-	holder = 2901 #Pomeus
+	holder = 2914 #Diadumus
 }

@@ -1,6 +1,6 @@
-
-1066.1.1={
+1066.1.1 = {
+	set_tribute_suzerain = { who = d_border type = permanent }
 	law = full_cognatic_succession
 	law = succ_gavelkind
-	holder = 2901 #Pomeus
+	holder = 2913 #Coreléa
 }

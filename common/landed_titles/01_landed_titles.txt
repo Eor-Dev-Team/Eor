@@ -1518,34 +1518,34 @@ e_laurentia = {
 		culture = calugian
 		
 		d_border = {
-			color={ 0 255 0 }
+			color={ 255 0 255 }
 			color2={ 255 255 255 }
 			
 			capital = 158 #c_land155
 			
 			c_land142 = {
-				color={ 0 255 0 }
+				color={ 255 32 255 }
 				color2={ 255 255 255 }
 				
 				b_land142 = {
 				}
 			}
 			c_land143 = {
-				color={ 0 255 0 }
+				color={ 192 0 255 }
 				color2={ 255 255 255 }
 				
 				b_land143 = {
 				}
 			}
 			c_land155 = {
-				color={ 0 255 0 }
+				color={ 255 0 255 }
 				color2={ 255 255 255 }
 				
 				b_land155 = {
 				}
 			}
 			c_land156 = {
-				color={ 0 255 0 }
+				color={ 255 0 192 }
 				color2={ 255 255 255 }
 				
 				b_land156 = {
@@ -1559,21 +1559,21 @@ e_laurentia = {
 			capital = 157 #c_land154
 			
 			c_land152 = {
-				color={ 0 255 0 }
+				color={ 0 0 128 }
 				color2={ 255 255 255 }
 				
 				b_land152 = {
 				}
 			}
 			c_land153 = {
-				color={ 0 255 0 }
+				color={ 0 0 64 }
 				color2={ 255 255 255 }
 				
 				b_land153 = {
 				}
 			}
 			c_land154 = {
-				color={ 0 255 0 }
+				color={ 0 0 255 }
 				color2={ 255 255 255 }
 				
 				b_land154 = {
@@ -1581,20 +1581,20 @@ e_laurentia = {
 			}
 		}
 		d_main = {
-			color={ 0 0 0 }
+			color={ 128 64 64 }
 			color2={ 255 255 255 }
 			
 			capital = 153 #c_land150
 			
 			c_land149 = {
-				color={ 0 255 0 }
+				color={ 128 32 64 }
 				color2={ 255 255 255 }
 				
 				b_land149 = {
 				}
 			}
 			c_land150 = {
-				color={ 0 255 0 }
+				color={ 128 64 64 }
 				color2={ 255 255 255 }
 				
 				b_land150 = {
@@ -1608,21 +1608,21 @@ e_laurentia = {
 			capital = 150 #c_land147
 			
 			c_land146 = {
-				color={ 0 255 0 }
+				color={ 192 0 0 }
 				color2={ 255 255 255 }
 				
 				b_land146 = {
 				}
 			}
 			c_land147 = {
-				color={ 0 255 0 }
+				color={ 255 0 0 }
 				color2={ 255 255 255 }
 				
 				b_land147 = {
 				}
 			}
 			c_land148 = {
-				color={ 0 255 0 }
+				color={ 128 0 0 }
 				color2={ 255 255 255 }
 				
 				b_land148 = {
@@ -1636,21 +1636,21 @@ e_laurentia = {
 			capital = 148 #c_land145
 			
 			c_land144 = {
-				color={ 0 255 0 }
+				color={ 0 64 255 }
 				color2={ 255 255 255 }
 				
 				b_land144 = {
 				}
 			}
 			c_land145 = {
-				color={ 0 255 0 }
+				color={ 0 128 255 }
 				color2={ 255 255 255 }
 				
 				b_land145 = {
 				}
 			}
 			c_land151 = {
-				color={ 0 255 0 }
+				color={ 0 128 192 }
 				color2={ 255 255 255 }
 				
 				b_land151 = {

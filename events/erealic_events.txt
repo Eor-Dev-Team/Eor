@@ -1,0 +1,29 @@
+#cricket events, basically modified versions of the mesoamerican ball game events in AtEFF##
+
+namespace = erealic_event
+
+narrative_event = {
+	id = erealic_event.01
+	title = TITLE_artanian_restoration
+	desc = {
+		text = EVTDESC_artanian_restoration
+		trigger = {
+			is_alternate_start = no
+		}
+	}
+	picture = GFX_evt_artanian_restoration
+	trigger = {
+	    culture = calugian
+		has_landed_title = k_peninsula
+		NOT = { has_global_flag = artania_restored }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = OPT_A_artanian_restoration
+		prestige = 400
+		set_global_flag = artania_restored
+		effect = { add_artifact = crown_of_artania }
+    }
+}

@@ -1,0 +1,44 @@
+#Calugian Artifacts
+banner_of_artania = {
+	quality = 2
+	calugian_opinion = 5
+	command_modifier = {
+		morale_offence = 0.05
+		morale_defence = 0.05
+	}
+	#flags = { }
+	active = {
+		culture = calugian
+	}
+	allowed_gift = {
+		OR = {
+			culture = calugian
+			has_landed_title = k_peninsula
+		}
+	}
+	
+	stacking = yes
+	picture = "GFX_banner_of_artania"
+}
+crown_of_artania = {
+	quality = 3
+	calugian_opinion = 10
+	monthly_character_prestige = 0.2
+	#flags = { }
+	active = {
+		OR = {
+			culture = calugian
+			has_landed_title = k_peninsula
+		}
+	}
+	allowed_gift = {
+		OR = {
+			culture = calugian
+			has_landed_title = k_peninsula
+		}
+	}
+	
+	stacking = yes
+	picture = "GFX_crown_of_artania"
+	slot = crown
+}

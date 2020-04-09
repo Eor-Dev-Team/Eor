@@ -121,6 +121,9 @@ erealic = {
 		mat_grm_name_chance = 25
 		mother_name_chance = 30
 
-		modifier = default_culture_modifier
+		modifier = calugian_culture_modifier
+		character_modifier = {
+			calugian_opinion = 10
+		}
 	}
 }

@@ -106,21 +106,22 @@
 	1080.1.1 = {
 		death = yes
 	}
-	#OWNS d_border, c_land142, c_land143, c_land155, c_land156
+	#OWNS d_border, c_land155
 }
 2902 = {
 	name = "Quentus" 
 	dynasty = 400 #De Menezes
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "skilled_tactician"
 	1020.1.1 = {
 		birth = yes
+		effect = { add_artifact = banner_of_artania }
 	}
 	1080.1.1 = {
 		death = yes
 	}
-	#OWNS d_east, c_land152, c_land153, c_land154
+	#OWNS c_land154
 }
 2903 = {
 	name = "Lanea" 
@@ -135,7 +136,7 @@
 	1080.1.1 = {
 		death = yes
 	}
-	#OWNS d_main, c_land149, c_land150
+	#OWNS c_land150
 }
 2904 = {
 	name = "Tytus" 
@@ -149,10 +150,127 @@
 	1080.1.1 = {
 		death = yes
 	}
-	#OWNS d_north, c_land146, c_land147, c_land148
+	#OWNS c_land147
 }
 2905 = {
 	name = "Acera" 
+	female = yes
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+		add_claim = d_west
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land151
+}
+2906 = {
+	name = "Parhatus" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land146
+}
+2907 = {
+	name = "Sigrus" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land148
+}
+2908 = {
+	name = "Macrus" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+		add_claim = d_west
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land144
+}
+2909 = {
+	name = "Nevrus" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land145
+}
+2910 = {
+	name = "Sénéa" 
+	female = yes
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+		add_claim = d_west
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS d_west, c_land153
+}
+2911 = {
+	name = "Glapeus" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land152
+}
+2912 = {
+	name = "Phresus" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land149
+}
+2913 = {
+	name = "Coreléa" 
 	female = yes
 	dynasty = 400 #De Menezes
 	religion = "norse_pagan"
@@ -164,5 +282,33 @@
 	1080.1.1 = {
 		death = yes
 	}
-	#OWNS d_west, c_land144, c_land145, c_land151
+	#OWNS c_land142
+}
+2914 = {
+	name = "Diadumus" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land143
+}
+2915 = {
+	name = "Venditus" 
+	dynasty = 400 #De Menezes
+	religion = "norse_pagan"
+	culture = "calugian" 
+	trait = "tough_soldier"
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land156
 }
