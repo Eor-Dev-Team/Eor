@@ -1,0 +1,15 @@
+# c_land217
+
+# County Title
+title = c_land217
+
+# Settlements
+max_settlements = 1
+
+b_land217 = castle
+
+# Misc
+culture = hungarian
+religion = norse_pagan
+
+#History
