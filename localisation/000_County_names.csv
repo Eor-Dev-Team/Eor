@@ -91,10 +91,10 @@ c_land140;Land140;Land140;Land140;;Land140;;;;;;;;;x
 c_land140_adj;Land140ian;;land140er;;;;;;;;;;;x
 c_land141;Land141;Land141;Land141;;Land141;;;;;;;;;x
 c_land141_adj;Land141ian;;land141er;;;;;;;;;;;x
-c_land142;Land142;Land142;Land142;;Land142;;;;;;;;;x
-c_land142_adj;Land142ian;;land142er;;;;;;;;;;;x
-c_land143;Land143;Land143;Land143;;Land143;;;;;;;;;x
-c_land143_adj;Land143ian;;land143er;;;;;;;;;;;x
+c_land142;Garvéum;;;;;;;;;;;;;x
+c_land142_adj;Garvéan;;;;;;;;;;;;;x
+c_land143;Western March;;;;;;;;;;;;;x
+c_land143_adj;Westmarchian;;;;;;;;;;;;;x
 c_land144;Land144;Land144;Land144;;Land144;;;;;;;;;x
 c_land144_adj;Land144ian;;land144er;;;;;;;;;;;x
 c_land145;Land145;Land145;Land145;;Land145;;;;;;;;;x
@@ -109,8 +109,8 @@ c_land149;Land149;Land149;Land149;;Land149;;;;;;;;;x
 c_land149_adj;Land149ian;;land149er;;;;;;;;;;;x
 c_land15;Land15;Land15;Land15;;Land15;;;;;;;;;x
 c_land15_adj;Land15ian;;land15er;;;;;;;;;;;x
-c_land150;Land150;Land150;Land150;;Land150;;;;;;;;;x
-c_land150_adj;Land150ian;;land150er;;;;;;;;;;;x
+c_land150;Pelsarium;;;;;;;;;;;;;x
+c_land150_adj;Pelsarian;;;;;;;;;;;;;x
 c_land151;Land151;Land151;Land151;;Land151;;;;;;;;;x
 c_land151_adj;Land151ian;;land151er;;;;;;;;;;;x
 c_land152;Land152;Land152;Land152;;Land152;;;;;;;;;x
@@ -119,10 +119,10 @@ c_land153;Land153;Land153;Land153;;Land153;;;;;;;;;x
 c_land153_adj;Land153ian;;land153er;;;;;;;;;;;x
 c_land154;Land154;Land154;Land154;;Land154;;;;;;;;;x
 c_land154_adj;Land154ian;;land154er;;;;;;;;;;;x
-c_land155;Land155;Land155;Land155;;Land155;;;;;;;;;x
-c_land155_adj;Land155ian;;land155er;;;;;;;;;;;x
-c_land156;Land156;Land156;Land156;;Land156;;;;;;;;;x
-c_land156_adj;Land156ian;;land156er;;;;;;;;;;;x
+c_land155;Central March;;;;;;;;;;;;;x
+c_land155_adj;Centromarchian;;;;;;;;;;;;;x
+c_land156;Eastern March;;;;;;;;;;;;;x
+c_land156_adj;Eastmarchian;;;;;;;;;;;;;x
 c_land157;Land157;Land157;Land157;;Land157;;;;;;;;;x
 c_land157_adj;Land157ian;;land157er;;;;;;;;;;;x
 c_land158;Land158;Land158;Land158;;Land158;;;;;;;;;x

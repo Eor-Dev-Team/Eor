@@ -116,7 +116,7 @@
 	trait = "skilled_tactician"
 	1020.1.1 = {
 		birth = yes
-		effect = { add_artifact = banner_of_artania }
+		effect = { add_artifact = banner_of_antania }
 	}
 	1080.1.1 = {
 		death = yes

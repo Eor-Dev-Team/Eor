@@ -4,26 +4,26 @@ namespace = erealic_event
 
 narrative_event = {
 	id = erealic_event.01
-	title = TITLE_artanian_restoration
+	title = TITLE_antanian_restoration
 	desc = {
-		text = EVTDESC_artanian_restoration
+		text = EVTDESC_antanian_restoration
 		trigger = {
 			is_alternate_start = no
 		}
 	}
-	picture = GFX_evt_artanian_restoration
+	picture = GFX_evt_antanian_restoration
 	trigger = {
 	    culture = calugian
 		has_landed_title = k_peninsula
-		NOT = { has_global_flag = artania_restored }
+		NOT = { has_global_flag = antania_restored }
 	}
 	mean_time_to_happen = {
 		days = 1
 	}
 	option = {
-		name = OPT_A_artanian_restoration
+		name = OPT_A_antanian_restoration
 		prestige = 400
-		set_global_flag = artania_restored
-		effect = { add_artifact = crown_of_artania }
+		set_global_flag = antania_restored
+		effect = { add_artifact = crown_of_antania }
     }
 }

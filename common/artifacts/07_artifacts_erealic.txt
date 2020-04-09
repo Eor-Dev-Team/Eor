@@ -1,5 +1,5 @@
 #Calugian Artifacts
-banner_of_artania = {
+banner_of_antania = {
 	quality = 2
 	calugian_opinion = 5
 	command_modifier = {
@@ -18,9 +18,9 @@ banner_of_artania = {
 	}
 	
 	stacking = yes
-	picture = "GFX_banner_of_artania"
+	picture = "GFX_banner_of_antania"
 }
-crown_of_artania = {
+crown_of_antania = {
 	quality = 3
 	calugian_opinion = 10
 	monthly_character_prestige = 0.2
@@ -39,6 +39,6 @@ crown_of_artania = {
 	}
 	
 	stacking = yes
-	picture = "GFX_crown_of_artania"
+	picture = "GFX_crown_of_antania"
 	slot = crown
 }

@@ -1,18 +1,18 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_banner_of_artania"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\banner_of_artania.dds"
+		name = "GFX_banner_of_antania"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\banner_of_antania.dds"
 	}
 	spriteType = {
-		name = "GFX_banner_of_artania_small"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\banner_of_artania_small.dds"
+		name = "GFX_banner_of_antania_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\banner_of_antania_small.dds"
 	}
 	spriteType = {
-		name = "GFX_crown_of_artania"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_of_artania.dds"
+		name = "GFX_crown_of_antania"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_of_antania.dds"
 	}	
 	spriteType = {
-		name = "GFX_crown_of_artania_small"
-		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_of_artania_small.dds"
+		name = "GFX_crown_of_antania_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\crown_of_antania_small.dds"
 	}
 }
