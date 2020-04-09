@@ -300,7 +300,7 @@ RETTYPE_SKIR2 =
 
 RETTYPE_CUL_CALUGIAN = {
 	first_type = 2
-	first_amount = 400
+	first_amount = 200
 	
 	potential = {
 		is_nomadic = no
@@ -308,7 +308,7 @@ RETTYPE_CUL_CALUGIAN = {
 	}
 	
 	modifier = {
-		pikemen_offensive = 0.2
+		pikemen_offensive = 0.3
 		pikemen_morale = 0.3
 	}
 }

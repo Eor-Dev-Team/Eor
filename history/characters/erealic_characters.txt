@@ -10,7 +10,7 @@
 2000 = { #The Legendary founder of Laurentia
 	name = "Laura"
 	female = yes
-	dynasty = 400 #De Menezes
+	dynasty = 1 #von Placeholder
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -23,7 +23,7 @@
 }
 2001 = {
 	name = "Jalius" 
-	dynasty = 400 #De Menezes
+	dynasty = 1 #von Placeholder
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -37,7 +37,7 @@
 }
 2002 = {
 	name = "Arnorius" 
-	dynasty = 400 #De Menezes
+	dynasty = 1 #von Placeholder
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -53,7 +53,7 @@
 2003 = {
 	name = "Tariana"
     female = yes	
-	dynasty = 400 #De Menezes
+	dynasty = 1 #von Placeholder
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -68,7 +68,7 @@
 2004 = {
 	name = "Lenole"
     female = yes	
-	dynasty = 400 #De Menezes
+	dynasty = 1 #von Placeholder
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -83,7 +83,7 @@
 2900 = {
 	name = "Suphre" 
 	female = yes
-	dynasty = 400 #De Menezes
+	dynasty = 2900 #Vernian
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -96,7 +96,7 @@
 }
 2901 = {
 	name = "Phomeus" 
-	dynasty = 400 #De Menezes
+	dynasty = 2904 #Celphernian
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -110,7 +110,7 @@
 }
 2902 = {
 	name = "Quentus" 
-	dynasty = 400 #De Menezes
+	dynasty = 2905 #Druséan
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "skilled_tactician"
@@ -126,7 +126,7 @@
 2903 = {
 	name = "Lanea" 
 	female = yes
-	dynasty = 400 #De Menezes
+	dynasty = 2900 #Vernian
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -140,7 +140,7 @@
 }
 2904 = {
 	name = "Tytus" 
-	dynasty = 400 #De Menezes
+	dynasty = 2907 #Galéan
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -155,7 +155,7 @@
 2905 = {
 	name = "Acera" 
 	female = yes
-	dynasty = 400 #De Menezes
+	dynasty = 2902 #Cinarian
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -169,8 +169,8 @@
 	#OWNS c_land151
 }
 2906 = {
-	name = "Parhatus" 
-	dynasty = 400 #De Menezes
+	name = "Aurus"
+	dynasty = 2909 #Aurian
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -184,10 +184,11 @@
 }
 2907 = {
 	name = "Sigrus" 
-	dynasty = 400 #De Menezes
+	dynasty = 2901 #Sigrian
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
+	trait = "proud"
 	1020.1.1 = {
 		birth = yes
 	}
@@ -198,7 +199,7 @@
 }
 2908 = {
 	name = "Macrus" 
-	dynasty = 400 #De Menezes
+	dynasty = 2902 #Cinarian
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -213,7 +214,7 @@
 }
 2909 = {
 	name = "Nevrus" 
-	dynasty = 400 #De Menezes
+	dynasty = 2908 #Dinian
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -228,7 +229,7 @@
 2910 = {
 	name = "Sénéa" 
 	female = yes
-	dynasty = 400 #De Menezes
+	dynasty = 2902 #Cinarian
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -243,7 +244,7 @@
 }
 2911 = {
 	name = "Glapeus" 
-	dynasty = 400 #De Menezes
+	dynasty = 2906 #Gordéan
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -257,7 +258,7 @@
 }
 2912 = {
 	name = "Phresus" 
-	dynasty = 400 #De Menezes
+	dynasty = 2903 #Pelsarian
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -272,7 +273,7 @@
 2913 = {
 	name = "Coreléa" 
 	female = yes
-	dynasty = 400 #De Menezes
+	dynasty = 2910 #Garvian
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -286,7 +287,7 @@
 }
 2914 = {
 	name = "Diadumus" 
-	dynasty = 400 #De Menezes
+	dynasty = 2911 #Ponéfean
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -300,7 +301,7 @@
 }
 2915 = {
 	name = "Venditus" 
-	dynasty = 400 #De Menezes
+	dynasty = 2907 #Galéan
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"

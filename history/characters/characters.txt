@@ -8,7 +8,7 @@
 
 1000 = {
 	name = "Noone" 
-	dynasty = 400 #De Menezes
+	dynasty = 1 #von Placeholder
 	religion = "norse_pagan"
 	culture = "hungarian" 
 	trait = "tough_soldier"

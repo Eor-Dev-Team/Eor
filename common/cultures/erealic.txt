@@ -62,6 +62,9 @@ erealic = {
 		mother_name_chance = 30
 
 		modifier = default_culture_modifier
+		character_modifier = {
+			calugian_opinion = -10
+		}
 	}
 	calugian = {
 		graphical_cultures = { byzantinegfx }
@@ -123,7 +126,7 @@ erealic = {
 
 		modifier = calugian_culture_modifier
 		character_modifier = {
-			calugian_opinion = 10
+			calugian_opinion = 5
 		}
 	}
 }

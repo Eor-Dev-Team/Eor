@@ -1,0 +1,79 @@
+1 = {
+	name = "von Placeholder"
+	culture = "hungarian"
+	religion = "norse_pagan"
+}
+
+#Calugian dynasties
+2900 = {
+	name = "Vernian"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2901 = {
+	name = "Sigrian"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2902 = {
+	name = "Cinarian"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2903 = {
+	name = "Pelsarian"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2904 = {
+	name = "Celphernian"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2905 = {
+	name = "Druséan"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2906 = {
+	name = "Gordéan"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2907 = {
+	name = "Galéan"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2908 = {
+	name = "Dinian"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2909 = {
+	name = "Aurian"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2910 = {
+	name = "Garvian"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2911 = {
+	name = "Ponéfean"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = no
+}

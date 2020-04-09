@@ -68,6 +68,9 @@ northeastern = {
 		disinherit_from_blinding = yes
 
 		modifier = default_culture_modifier
+		character_modifier = {
+			calugian_opinion = -10
+		}
 	}
 	akkalian = {
 		graphical_cultures = { byzantinegfx }
@@ -136,5 +139,8 @@ northeastern = {
 		disinherit_from_blinding = yes
 
 		modifier = default_culture_modifier
+		character_modifier = {
+			calugian_opinion = -10
+		}
 	}
 }
