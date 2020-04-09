@@ -6,73 +6,73 @@
 
 #Calugian dynasties
 2900 = {
-	name = "Vernian"
+	name = "Vernianus"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2901 = {
-	name = "Sigrian"
+	name = "Sigrianus"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2902 = {
-	name = "Cinarian"
+	name = "Cinarianus"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2903 = {
-	name = "Pelsarian"
+	name = "Pelsarianus"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2904 = {
-	name = "Celphernian"
+	name = "Celphernianus"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2905 = {
-	name = "Druséan"
+	name = "Druséane"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2906 = {
-	name = "Gordéan"
+	name = "Gordéana"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2907 = {
-	name = "Galéan"
+	name = "Galéana"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2908 = {
-	name = "Dinian"
+	name = "Dinianus"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2909 = {
-	name = "Aurian"
+	name = "Aurianus"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2910 = {
-	name = "Garvian"
+	name = "Garvéane"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2911 = {
-	name = "Ponéfean"
+	name = "Ponéfeane"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no

@@ -83,7 +83,7 @@
 2900 = {
 	name = "Suphre" 
 	female = yes
-	dynasty = 2900 #Vernian
+	dynasty = 2900 #Vernianus
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -96,7 +96,7 @@
 }
 2901 = {
 	name = "Phomeus" 
-	dynasty = 2904 #Celphernian
+	dynasty = 2904 #Celphernianus
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -110,7 +110,7 @@
 }
 2902 = {
 	name = "Quentus" 
-	dynasty = 2905 #Druséan
+	dynasty = 2905 #Druséané
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "skilled_tactician"
@@ -126,7 +126,7 @@
 2903 = {
 	name = "Lanea" 
 	female = yes
-	dynasty = 2900 #Vernian
+	dynasty = 2900 #Vernianus
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -140,7 +140,7 @@
 }
 2904 = {
 	name = "Tytus" 
-	dynasty = 2907 #Galéan
+	dynasty = 2907 #Galéana
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -155,7 +155,7 @@
 2905 = {
 	name = "Acera" 
 	female = yes
-	dynasty = 2902 #Cinarian
+	dynasty = 2902 #Cinarianus
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -170,7 +170,7 @@
 }
 2906 = {
 	name = "Aurus"
-	dynasty = 2909 #Aurian
+	dynasty = 2909 #Aurianus
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -184,7 +184,7 @@
 }
 2907 = {
 	name = "Sigrus" 
-	dynasty = 2901 #Sigrian
+	dynasty = 2901 #Sigrianus
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -199,7 +199,7 @@
 }
 2908 = {
 	name = "Macrus" 
-	dynasty = 2902 #Cinarian
+	dynasty = 2902 #Cinarianus
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -214,7 +214,7 @@
 }
 2909 = {
 	name = "Nevrus" 
-	dynasty = 2908 #Dinian
+	dynasty = 2908 #Dinianus
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -229,7 +229,7 @@
 2910 = {
 	name = "Sénéa" 
 	female = yes
-	dynasty = 2902 #Cinarian
+	dynasty = 2902 #Cinarianus
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -244,7 +244,7 @@
 }
 2911 = {
 	name = "Glapeus" 
-	dynasty = 2906 #Gordéan
+	dynasty = 2906 #Gordéana
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -258,7 +258,7 @@
 }
 2912 = {
 	name = "Phresus" 
-	dynasty = 2903 #Pelsarian
+	dynasty = 2903 #Pelsarianus
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -273,7 +273,7 @@
 2913 = {
 	name = "Coreléa" 
 	female = yes
-	dynasty = 2910 #Garvian
+	dynasty = 2910 #Garvéane
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -287,7 +287,7 @@
 }
 2914 = {
 	name = "Diadumus" 
-	dynasty = 2911 #Ponéfean
+	dynasty = 2911 #Ponéfeane
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
@@ -301,7 +301,7 @@
 }
 2915 = {
 	name = "Venditus" 
-	dynasty = 2907 #Galéan
+	dynasty = 2907 #Galéana
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
