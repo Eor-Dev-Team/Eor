@@ -2,6 +2,8 @@
 #
 # EREALIC GROUP
 # ereal
+count_ereal;Lestur;;;;;;;;;;;;;x,,,,,,
+count_female_ereal;Lestris;;;;;;;;;;;;;x,,,,,,
 duke_ereal;Etibun;;;;;;;;;;;;;x,,,,,,
 duke_female_ereal;Etibunis;;;;;;;;;;;;;x,,,,,,
 king_ereal;Tchonsul;;;;;;;;;;;;;x,,,,,,
@@ -10,6 +12,8 @@ emperor_ereal;Impeatur;;;;;;;;;;;;;x,,,,,,
 emperor_female_ereal;Impeatis;;;;;;;;;;;;;x,,,,,,
 #
 # calugian
+count_calugian;Lestur;;;;;;;;;;;;;x,,,,,,
+count_female_calugian;Lestrés;;;;;;;;;;;;;x,,,,,,
 duke_calugian;Etipun;;;;;;;;;;;;;x,,,,,,
 duke_female_calugian;Etépunés;;;;;;;;;;;;;x,,,,,,
 king_calugian;Tchonsul;;;;;;;;;;;;;x,,,,,,
