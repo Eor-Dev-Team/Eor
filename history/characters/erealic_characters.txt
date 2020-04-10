@@ -86,9 +86,16 @@
 	dynasty = 2900 #Vernianus
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "fortune_builder"
+	trait = "narrow_flank_leader"
+	trait = "brave"
+	trait = "scarred"
 	900.1.1 = {
 		birth = yes
+		create_bloodline = {
+			type = suphre_bloodline
+			has_dlc = "Holy Fury"
+		}
 	}
 	1000.1.1 = {
 		death = yes
@@ -99,7 +106,11 @@
 	dynasty = 2904 #Celphernianus
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "flamboyant_schemer"
+	trait = "zealous"
+	trait = "patient"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
 	}
@@ -114,6 +125,10 @@
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "skilled_tactician"
+	trait = "humble"
+	trait = "arbitrary"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
 		effect = { add_artifact = banner_of_antania }
@@ -129,7 +144,12 @@
 	dynasty = 2900 #Vernianus
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "misguided_warrior"
+	trait = "ambitious"
+	trait = "quick"
+	disallow_random_traits = yes
+	
+	mother = 2900
 	1020.1.1 = {
 		birth = yes
 	}
@@ -140,10 +160,15 @@
 }
 2904 = {
 	name = "Tytus" 
-	dynasty = 2907 #Galéana
+	dynasty = 2908 #Dinianus
 	religion = "norse_pagan"
-	culture = "ereal" 
-	trait = "tough_soldier"
+	culture = "calugian" 
+	trait = "indulgent_wastrel"
+	trait = "fair"
+	trait = "cruel"
+	trait = "trusting"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
 	}
@@ -159,6 +184,11 @@
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "tough_soldier"
+	trait = "proud"
+	trait = "cynical"
+	trait = "falconer"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
 		add_claim = d_west
@@ -173,7 +203,12 @@
 	dynasty = 2909 #Aurianus
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "intricate_webweaver"
+	trait = "charitable"
+	trait = "paranoid"
+	trait = "one_legged"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
 	}
@@ -187,8 +222,11 @@
 	dynasty = 2901 #Sigrianus
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "skilled_tactician"
 	trait = "proud"
+	trait = "just"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
 	}
@@ -202,7 +240,11 @@
 	dynasty = 2902 #Cinarianus
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "midas_touched"
+	trait = "craven"
+	trait = "envious"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
 		add_claim = d_west
@@ -214,12 +256,18 @@
 }
 2909 = {
 	name = "Nevrus" 
-	dynasty = 2908 #Dinianus
+	dynasty = 2912 #Erealus
 	religion = "norse_pagan"
-	culture = "calugian" 
-	trait = "tough_soldier"
+	culture = "ereal" 
+	trait = "scholarly_theologian"
+	trait = "erudite"
+	trait = "content"
+	trait = "temperate"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
+		give_nickname = nick_the_outsider
 	}
 	1080.1.1 = {
 		death = yes
@@ -232,10 +280,14 @@
 	dynasty = 2902 #Cinarianus
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "flamboyant_schemer"
+	trait = "kinslayer"
+	trait = "honest"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
-		add_claim = d_west
+		#add_claim = d_west
 	}
 	1080.1.1 = {
 		death = yes
@@ -247,7 +299,11 @@
 	dynasty = 2906 #Gordéana
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "intricate_webweaver"
+	trait = "shy"
+	trait = "lustful"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
 	}
@@ -261,9 +317,14 @@
 	dynasty = 2903 #Pelsarianus
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "underhanded_rogue"
+	trait = "diligent"
+	trait = "deceitful"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
+		effect = { add_artifact = crown_of_antania }
 	}
 	1080.1.1 = {
 		death = yes
@@ -275,8 +336,12 @@
 	female = yes
 	dynasty = 2910 #Garvéane
 	religion = "norse_pagan"
-	culture = "calugian" 
-	trait = "tough_soldier"
+	culture = "ereal" 
+	trait = "detached_priest"
+	trait = "stubborn"
+	trait = "brave"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
 	}
@@ -290,7 +355,11 @@
 	dynasty = 2911 #Ponéfeane
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "thrifty_clerk"
+	trait = "strong"
+	trait = "greedy"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
 	}
@@ -304,7 +373,11 @@
 	dynasty = 2907 #Galéana
 	religion = "norse_pagan"
 	culture = "calugian" 
-	trait = "tough_soldier"
+	trait = "brilliant_strategist"
+	trait = "kind"
+	trait = "wroth"
+	disallow_random_traits = yes
+	
 	1020.1.1 = {
 		birth = yes
 	}

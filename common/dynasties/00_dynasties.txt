@@ -77,3 +77,15 @@
 	religion = "norse_pagan"
 	used_for_random = no
 }
+2912 = {
+	name = "Erealus"
+	culture = "ereal"
+	religion = "norse_pagan"
+	used_for_random = no
+}
+2913 = {
+	name = "Calugianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+	used_for_random = yes
+}

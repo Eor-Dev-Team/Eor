@@ -24,6 +24,5 @@ narrative_event = {
 		name = OPT_A_antanian_restoration
 		prestige = 400
 		set_global_flag = antania_restored
-		effect = { add_artifact = crown_of_antania }
     }
 }
