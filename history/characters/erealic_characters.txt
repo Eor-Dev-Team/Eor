@@ -10,7 +10,7 @@
 2000 = { #The Legendary founder of Laurentia
 	name = "Laura"
 	female = yes
-	dynasty = 1 #von Placeholder
+	dynasty = 2 #Placeholderus
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -29,7 +29,7 @@
 }
 2001 = {
 	name = "Jalius" 
-	dynasty = 1 #von Placeholder
+	dynasty = 2 #Placeholderus
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -43,7 +43,7 @@
 }
 2002 = {
 	name = "Arnorius" 
-	dynasty = 1 #von Placeholder
+	dynasty = 2 #Placeholderus
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -59,7 +59,7 @@
 2003 = {
 	name = "Tariana"
     female = yes	
-	dynasty = 1 #von Placeholder
+	dynasty = 2 #Placeholderus
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -74,7 +74,7 @@
 2004 = {
 	name = "Lenole"
     female = yes	
-	dynasty = 1 #von Placeholder
+	dynasty = 2 #Placeholderus
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "tough_soldier"
@@ -117,7 +117,9 @@
 	}
 }
 2901 = {
-	name = "Phomeus" 
+	name = "Phomeus"
+    dna = ydftzlngjlw
+	prp = tm0dad00000000000000000000000000000000
 	dynasty = 2904 #Celphernianus
 	religion = "norse_pagan"
 	culture = "calugian" 
@@ -137,6 +139,8 @@
 }
 2902 = {
 	name = "Quentus" 
+    dna = rtuwbhqgtii
+	prp = cj0dbk00000000000000000000000000000000
 	dynasty = 2905 #Druséané
 	religion = "norse_pagan"
 	culture = "calugian" 
@@ -159,6 +163,8 @@
 2903 = {
 	name = "Lanea" 
 	female = yes
+	dna = eomqddwdzlh
+	prp = ci0cnd00000000000000000000000000000000
 	dynasty = 2900 #Vernianus
 	religion = "norse_pagan"
 	culture = "calugian" 
@@ -179,7 +185,7 @@
 }
 2904 = {
 	name = "Tytus" 
-	dynasty = 2908 #Dinianus
+	dynasty = 2911 #Ponéfeane
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "indulgent_wastrel"
@@ -276,6 +282,8 @@
 }
 2909 = {
 	name = "Nevrus" 
+    dna = clspwqisnfi
+	prp = cc0ebk00000000000000000000000000000000
 	dynasty = 2912 #Erealus
 	religion = "norse_pagan"
 	culture = "ereal" 
@@ -297,6 +305,8 @@
 2910 = {
 	name = "Sénéa" 
 	female = yes
+	dna = pbyksclgtqu
+	prp = cl0eed00000000000000000000000000000000
 	dynasty = 2902 #Cinarianus
 	religion = "norse_pagan"
 	culture = "calugian" 
@@ -336,6 +346,8 @@
 }
 2912 = {
 	name = "Phresus" 
+    dna = nlsaduucjdx
+	prp = ci0dnk00000000000000000000000000000000
 	dynasty = 2903 #Numeanus
 	religion = "norse_pagan"
 	culture = "calugian" 
@@ -374,7 +386,7 @@
 }
 2914 = {
 	name = "Diadumus" 
-	dynasty = 2911 #Ponéfeane
+	dynasty = 2908 #Dinianus
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "thrifty_clerk"

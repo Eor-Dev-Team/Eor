@@ -1,0 +1,136 @@
+bm_laurentia = {
+	name = "BM_LAURENTIA_ERA"
+	desc = "BM_LAURENTIA_ERA_INFO"
+	date = 1066.9.15
+	
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_5
+	custom_start = yes				## Choosing "Custom Start" will open this bookmark
+
+	selectable_character = {
+		id = 2903 # Lanea Vernianus
+		age = 16
+		name = ERA_CHAR_NAME_2903
+		title = c_land150
+		title_name = c_land150
+		
+		character = {
+		    female = yes
+	        dna = eomqddwdzlh
+	        properties = ci0cnd00000000000000000000000000000000
+			#dna = cagfktibaal
+			#properties = fj0dcd000000
+	        religion = "norse_pagan"
+	        culture = "calugian" 
+			government = feudal_government
+			dynasty = 2900 #Vernianus
+		}
+	}
+
+	selectable_character = {
+		id = 2910 # Sénéa Cinarianus
+		age = 16
+		name = ERA_CHAR_NAME_2910
+		title = d_west
+		title_name = d_west
+		
+		character = {
+		    female = yes
+		    dna = pbyksclgtqu
+	        properties = cl0eed00000000000000000000000000000000
+			#dna = ajbgarbifau
+			#properties = ae00c0000000
+	        religion = "norse_pagan"
+	        culture = "calugian" 
+			government = feudal_government
+			dynasty = 2902 #Cinarianus
+		}
+	}
+
+	selectable_character = {
+		id = 2909 # Nevrus Erealus
+		age = 16
+		name = ERA_CHAR_NAME_2909
+		title = c_land145
+		title_name = c_land145
+		
+		character = {
+		    dna = clspwqisnfi
+	        properties = cc0ebk00000000000000000000000000000000
+			#dna = cdbcdogibck
+			#properties = 0c0cbd000000
+	        religion = "norse_pagan"
+	        culture = "calugian" 
+			government = feudal_government
+			dynasty = 2912 #Erealus
+		}
+	}
+
+	selectable_character = {
+		id = 2912 # Phresus Numeanus
+		age = 16
+		name = ERA_CHAR_NAME_2912
+		title = c_land149
+		title_name = c_land149
+		
+		character = {
+		    dna = nlsaduucjdx
+	        properties = ci0dnk00000000000000000000000000000000
+			#dna = alhdhmkiaag
+			#properties = ak00bc000000
+	        religion = "norse_pagan"
+	        culture = "calugian" 
+			government = feudal_government
+			dynasty = 2903 #Numeanus
+		}
+	}
+
+	selectable_character = {
+		id = 2901 # Phomeus Celphernianus
+		age = 16
+		name = ERA_CHAR_NAME_2901
+		title = d_border
+		title_name = d_border
+		
+		character = {
+		    dna = ydftzlngjlw
+	        properties = tm0dad00000000000000000000000000000000
+			#dna = bdgeivbbbam
+			#properties = fg0aha000000
+	        religion = "norse_pagan"
+	        culture = "calugian" 
+			government = feudal_government
+			dynasty = 2904 #Celphernianus
+		}
+	}
+
+	selectable_character = {
+		id = 2902 # Quentus Druséané
+		age = 16
+		name = ERA_CHAR_NAME_2902
+		title = c_land154
+		title_name = c_land154
+		
+		character = {
+		    dna = rtuwbhqgtii
+	        properties = cj0dbk00000000000000000000000000000000
+			#dna = cgciafbbaaw
+			#properties = ah00ac000000
+	        religion = "norse_pagan"
+	        culture = "calugian" 
+			government = feudal_government
+			dynasty = 2905 #Druséané
+		}
+	}
+	
+	### These are not shown unless the player is viewing custom bookmarks
+
+	selectable_character = {
+		id = 2002 # Arnorius
+	}
+
+	selectable_character = {
+		id = 1000 # Noone
+	}
+	
+}

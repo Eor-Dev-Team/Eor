@@ -8,13 +8,19 @@
 
 1000 = {
 	name = "Noone" 
-	dynasty = 1 #von Placeholder
+	dynasty = 1 #The Placeholder
 	religion = "norse_pagan"
 	culture = "hungarian" 
 	trait = "tough_soldier"
 	trait = "immortal"
 	trait = "incapable"
 	trait = "falconer"
+	trait = "decadent"
+	trait = "genius"
+	trait = "strong"
+	trait = "fair"
+	trait = "inbred"
+	trait = "imbecile"
 	1.1.1 = {
 		birth = yes
 	}

@@ -1,9 +1,13 @@
 1 = {
-	name = "von Placeholder"
+	name = "The Placeholder"
 	culture = "hungarian"
-	religion = "norse_pagan"
+	religion = "kharijite"
 }
-
+2 = {
+	name = "Placeholderus"
+	culture = "ereal"
+	religion = "waldensian"
+}
 #Calugian dynasties
 2900 = {
 	name = "Vernianus"
