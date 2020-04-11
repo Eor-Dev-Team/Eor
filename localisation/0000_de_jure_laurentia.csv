@@ -21,13 +21,13 @@ d_pertac_adj;Pertacan;;;;;;;;;;;;;x
 calugian;Calugian;;;;;;;;;;;;;x
 k_peninsula;Antania;;;;;;;;;;;;;x
 k_peninsula_adj;Antanian;;;;;;;;;;;;;x
-d_border;The Border Marches;;;;;;;;;;;;;x
-d_border_adj;Border March;;;;;;;;;;;;;x
-d_main;Belzar;;;;;;;;;;;;;x
-d_main_adj;Belzaran;;;;;;;;;;;;;x
-d_north;The North;;;;;;;;;;;;;x
-d_north_adj;Northern;;;;;;;;;;;;;x
-d_west;The West;;;;;;;;;;;;;x
-d_west_adj;Western;;;;;;;;;;;;;x
-d_east;The East;;;;;;;;;;;;;x
-d_east_adj;Eastern;;;;;;;;;;;;;x
+d_border;Margonum;;;;;;;;;;;;;x
+d_border_adj;Margonan;;;;;;;;;;;;;x
+d_main;Numeum;;;;;;;;;;;;;x
+d_main_adj;Numean;;;;;;;;;;;;;x
+d_north;Tarianum;;;;;;;;;;;;;x
+d_north_adj;Tarianan;;;;;;;;;;;;;x
+d_west;Greater Massia;;;;;;;;;;;;;x
+d_west_adj;Greater Massian;;;;;;;;;;;;;x
+d_east;Gordica;;;;;;;;;;;;;x
+d_east_adj;Gordican;;;;;;;;;;;;;x

@@ -24,7 +24,7 @@
 	used_for_random = no
 }
 2903 = {
-	name = "Pelsarianus"
+	name = "Numeanus"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no

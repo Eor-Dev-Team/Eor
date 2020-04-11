@@ -95,30 +95,30 @@ c_land142;Garvéum;;;;;;;;;;;;;x
 c_land142_adj;Garvéan;;;;;;;;;;;;;x
 c_land143;Western March;;;;;;;;;;;;;x
 c_land143_adj;Westmarchian;;;;;;;;;;;;;x
-c_land144;Land144;Land144;Land144;;Land144;;;;;;;;;x
-c_land144_adj;Land144ian;;land144er;;;;;;;;;;;x
-c_land145;Land145;Land145;Land145;;Land145;;;;;;;;;x
-c_land145_adj;Land145ian;;land145er;;;;;;;;;;;x
-c_land146;Land146;Land146;Land146;;Land146;;;;;;;;;x
-c_land146_adj;Land146ian;;land146er;;;;;;;;;;;x
-c_land147;Land147;Land147;Land147;;Land147;;;;;;;;;x
-c_land147_adj;Land147ian;;land147er;;;;;;;;;;;x
+c_land144;Massia;;;;;;;;;;;;;x
+c_land144_adj;Massian;;;;;;;;;;;;;x
+c_land145;Typerum;;;;;;;;;;;;;x
+c_land145_adj;Typeran;;;;;;;;;;;;;x
+c_land146;The Edge;;;;;;;;;;;;;x
+c_land146_adj;Edgelander;;;;;;;;;;;;;x
+c_land147;Vitia;;;;;;;;;;;;;x
+c_land147_adj;Vitian;;;;;;;;;;;;;x
 c_land148;Sigrium;;;;;;;;;;;;;x
-c_land148_adj;Land148ian;;land148er;;;;;;;;;;;x
-c_land149;Land149;Land149;Land149;;Land149;;;;;;;;;x
-c_land149_adj;Land149ian;;land149er;;;;;;;;;;;x
+c_land148_adj;Sigrian;;;;;;;;;;;;;x
+c_land149;Phomerium;;;;;;;;;;;;;x
+c_land149_adj;Phomerian;;;;;;;;;;;;;x
 c_land15;Land15;Land15;Land15;;Land15;;;;;;;;;x
 c_land15_adj;Land15ian;;land15er;;;;;;;;;;;x
-c_land150;Pelsarium;;;;;;;;;;;;;x
-c_land150_adj;Pelsarian;;;;;;;;;;;;;x
-c_land151;Land151;Land151;Land151;;Land151;;;;;;;;;x
-c_land151_adj;Land151ian;;land151er;;;;;;;;;;;x
-c_land152;Land152;Land152;Land152;;Land152;;;;;;;;;x
-c_land152_adj;Land152ian;;land152er;;;;;;;;;;;x
-c_land153;Land153;Land153;Land153;;Land153;;;;;;;;;x
-c_land153_adj;Land153ian;;land153er;;;;;;;;;;;x
-c_land154;Land154;Land154;Land154;;Land154;;;;;;;;;x
-c_land154_adj;Land154ian;;land154er;;;;;;;;;;;x
+c_land150;Numeum;;;;;;;;;;;;;x
+c_land150_adj;Numean;;;;;;;;;;;;;x
+c_land151;Malia;;;;;;;;;;;;;x
+c_land151_adj;Malian;;;;;;;;;;;;;x
+c_land152;Noria;;;;;;;;;;;;;x
+c_land152_adj;Norian;;;;;;;;;;;;;x
+c_land153;Jalica;;;;;;;;;;;;;x
+c_land153_adj;Jalican;;;;;;;;;;;;;x
+c_land154;Phuneum;;;;;;;;;;;;;x
+c_land154_adj;Phunean;;;;;;;;;;;;;x
 c_land155;Central March;;;;;;;;;;;;;x
 c_land155_adj;Centromarchian;;;;;;;;;;;;;x
 c_land156;Eastern March;;;;;;;;;;;;;x

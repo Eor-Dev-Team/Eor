@@ -10,7 +10,6 @@
 # TRIGGERED ONLY
 ################
 
-nick_the_outsider = {}
 nick_the_visionary = {}
 nick_the_lawgiver = {}
 nick_the_usurper = {}
@@ -2789,3 +2788,8 @@ nick_the_incorruptible = {
 }
 
 nick_the_crimson = {}
+
+#EOR nicknames
+
+nick_the_outsider = {}
+nick_suphre = {}

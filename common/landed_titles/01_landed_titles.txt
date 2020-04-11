@@ -1633,7 +1633,7 @@ e_laurentia = {
 			color={ 0 128 255 }
 			color2={ 255 255 255 }
 			
-			capital = 148 #c_land145
+			capital = 147 #c_land144
 			
 			c_land144 = {
 				color={ 0 64 255 }
