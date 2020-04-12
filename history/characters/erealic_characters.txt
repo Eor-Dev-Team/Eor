@@ -58,7 +58,7 @@
 }
 2003 = {
 	name = "Tariana"
-    female = yes	
+        female = yes	
 	dynasty = 2 #Placeholderus
 	religion = "norse_pagan"
 	culture = "ereal" 
@@ -73,7 +73,7 @@
 }
 2004 = {
 	name = "Lenole"
-    female = yes	
+        female = yes	
 	dynasty = 2 #Placeholderus
 	religion = "norse_pagan"
 	culture = "ereal" 
@@ -139,9 +139,9 @@
 }
 2902 = {
 	name = "Quentus" 
-    dna = rtuwbhqgtii
+        dna = rtuwbhqgtii
 	prp = cj0dbk00000000000000000000000000000000
-	dynasty = 2905 #Druséané
+	dynasty = 2905 #Drusiané
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "skilled_tactician"
@@ -185,7 +185,7 @@
 }
 2904 = {
 	name = "Tytus" 
-	dynasty = 2911 #Ponéfeane
+	dynasty = 2911 #Ponifeané
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "indulgent_wastrel"
@@ -303,7 +303,7 @@
 	#OWNS c_land145
 }
 2910 = {
-	name = "Sénéa" 
+	name = "Sinéa" 
 	female = yes
 	dna = pbyksclgtqu
 	prp = cl0eed00000000000000000000000000000000
@@ -326,7 +326,7 @@
 }
 2911 = {
 	name = "Glapeus" 
-	dynasty = 2906 #Gordéana
+	dynasty = 2906 #Gordiané
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "intricate_webweaver"
@@ -368,7 +368,7 @@
 2913 = {
 	name = "Coreléa" 
 	female = yes
-	dynasty = 2910 #Garvéane
+	dynasty = 2910 #Garviané
 	religion = "norse_pagan"
 	culture = "ereal" 
 	trait = "detached_priest"
@@ -404,7 +404,7 @@
 }
 2915 = {
 	name = "Venditus" 
-	dynasty = 2907 #Galéana
+	dynasty = 2907 #Galiané
 	religion = "norse_pagan"
 	culture = "calugian" 
 	trait = "brilliant_strategist"

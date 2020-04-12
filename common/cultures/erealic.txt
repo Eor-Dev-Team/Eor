@@ -92,24 +92,24 @@ erealic = {
             Valenus Valius Venditus Verus Vesranius Visanius Vosunus Vitius
         }
         female_names = {
-            Acera Arména Annéa Antanéa Arnorée Aguta Aura
+            Acera Arména Annéa Antanéa Arnoré Aguta Aura
             Camme Carcella Caren Cashe Cloda Coreléa
-            Dénéa Domazéana Druzé
+            Dinéa Domazéana Druzé
             Elpaga Erea 
             Galéa Glapea Gordéa Grala Ganpaea
             Honéda Hoséla
             Jaléa Jane
-            Lanea Laure Lecée Lecéle Lenole Lucelle Luta
-            Malca Maléa Massue Mazée Memma
+            Lanea Laure Lecé Lecéle Lenole Lucelle Luta
+            Malca Maléa Massue Mazé Memma
             Nara Nevra Numea Nuména
-            Ondeata Oréa Ordénéa Orene
-            Quenta Quéna
-            Pelzara Ponéfe Purnea Phale Phetre Phomeréa Phomea Phunea Phrese Phya
+            Ondeata Oréa Ordinéa Orene
+            Quenta Quina
+            Pelzara Ponife Purnea Phale Phetre Phomeréa Phomea Phunea Phrese Phya
             Ramele Rena Réme
-            Sephéte Seve Sheéa Ségra Sénéa Sorea Suphre
-            Tapenéa Tareéa Taréana Terana Typere Tyte Tule
+            Sephéte Seve Shéa Sigra Sinéa Sorea Suphre
+            Tapenéa Taréa Taréana Terana Typere Tyte Tule
             Untere Urcéna Uste
-            Velena Valée Vendéta Vere Vesranéa Vysanéa Vytée
+            Velena Valé Vendéta Vere Vesranéa Vysanéa Vyté
         }
 
 		from_dynasty_prefix = "of "

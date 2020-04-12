@@ -40,19 +40,19 @@
 	used_for_random = no
 }
 2905 = {
-	name = "Druséane"
+	name = "Drusiané"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2906 = {
-	name = "Gordéana"
+	name = "Gordiané"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2907 = {
-	name = "Galéana"
+	name = "Galiané"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
@@ -70,13 +70,13 @@
 	used_for_random = no
 }
 2910 = {
-	name = "Garvéane"
+	name = "Garviané"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
 }
 2911 = {
-	name = "Ponéfeane"
+	name = "Ponifeané"
 	culture = "calugian"
 	religion = "norse_pagan"
 	used_for_random = no
@@ -87,9 +87,144 @@
 	religion = "norse_pagan"
 	used_for_random = no
 }
+#Generic Calugian dynasties mostly based on antanian provinces
 2913 = {
 	name = "Calugianus"
 	culture = "calugian"
 	religion = "norse_pagan"
-	used_for_random = yes
+}
+2914 = {
+	name = "Vitianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2915 = {
+	name = "Vitiané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2916 = {
+	name = "Sigriané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2917 = {
+	name = "Typerianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2918 = {
+	name = "Typeriané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2919 = {
+	name = "Phomerianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2920 = {
+	name = "Phomeriané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2921 = {
+	name = "Numeané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2922 = {
+	name = "Massianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2923 = {
+	name = "Massiané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2924 = {
+	name = "Malianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2925 = {
+	name = "Maliané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2926 = {
+	name = "Jalianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2927 = {
+	name = "Jaliané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2928 = {
+	name = "Norianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2929 = {
+	name = "Noriané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2930 = {
+	name = "Phuneanus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2931 = {
+	name = "Phuneané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2932 = {
+	name = "Garvianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2933 = {
+	name = "Tarianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2934 = {
+	name = "Tariané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2935 = {
+	name = "Gordianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2936 = {
+	name = "Calugiané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2937 = {
+	name = "Margeanus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2938 = {
+	name = "Margeané"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2939 = {
+	name = "Antanianus"
+	culture = "calugian"
+	religion = "norse_pagan"
+}
+2940 = {
+	name = "Antaniané"
+	culture = "calugian"
+	religion = "norse_pagan"
 }
