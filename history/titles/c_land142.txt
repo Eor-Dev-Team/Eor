@@ -2,5 +2,6 @@
 	set_tribute_suzerain = { who = d_border type = permanent }
 	law = full_cognatic_succession
 	law = succ_gavelkind
+	law = status_of_women_4
 	holder = 2913 #Coreléa
 }

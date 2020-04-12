@@ -1,5 +1,6 @@
 1066.1.1 = {
 	law = full_cognatic_succession
 	law = succ_gavelkind
+	law = status_of_women_4
 	holder = 2902 #Quentus
 }
