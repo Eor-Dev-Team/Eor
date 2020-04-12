@@ -1,6 +1,6 @@
-# e_land
-1066.1.1={
-	law = agnatic_succession
+1066.1.1 = {
+	law = full_cognatic_succession
 	law = succ_gavelkind
-	holder=1000
+	law = status_of_women_4
+	holder = 1000 # Noone The Placeholder
 }
