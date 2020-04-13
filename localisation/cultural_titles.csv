@@ -15,13 +15,13 @@ emperor_female_ereal;Impeatis;;;;;;;;;;;;;x,,,,,,
 #
 # calugian
 count_calugian;Lestur;;;;;;;;;;;;;x,,,,,,
-count_female_calugian;Lestrés;;;;;;;;;;;;;x,,,,,,
+count_female_calugian;LestrÃ©s;;;;;;;;;;;;;x,,,,,,
 duke_calugian;Etipun;;;;;;;;;;;;;x,,,,,,
-duke_female_calugian;Etépunés;;;;;;;;;;;;;x,,,,,,
+duke_female_calugian;EtipunÃ©s;;;;;;;;;;;;;x,,,,,,
 king_calugian;Tchonsul;;;;;;;;;;;;;x,,,,,,
-king_female_calugian;Tchonsolés;;;;;;;;;;;;;x,,,,,,
+king_female_calugian;TchonsolÃ©s;;;;;;;;;;;;;x,,,,,,
 emperor_calugian;Impheator;;;;;;;;;;;;;x,,,,,,
-emperor_female_calugian;Émpheatés;;;;;;;;;;;;;x,,,,,,
+emperor_female_calugian;ImpheatÃ©s;;;;;;;;;;;;;x,,,,,,
 #
 # ISHDADIC GROUP
 # ishdad
@@ -33,3 +33,14 @@ king_ishdad;Pharon;;;;;;;;;;;;;x,,,,,,
 king_female_ishdad;Pharon;;;;;;;;;;;;;x,,,,,,
 emperor_ishdad;Ar-Pharon;;;;;;;;;;;;;x,,,,,,
 emperor_female_ishdad;Ar-Pharon;;;;;;;;;;;;;x,,,,,,
+#
+# NORTHEASTERN GROUP
+# akkalian
+count_akkalian;Magistros;;;;;;;;;;;;;x,,,,,,
+count_female_akkalian;Magistra;;;;;;;;;;;;;x,,,,,,
+duke_akkalian;Arkhos;;;;;;;;;;;;;x,,,,,,
+duke_female_akkalian;Arkina;;;;;;;;;;;;;x,,,,,,
+king_akkalian;Megarkhos;;;;;;;;;;;;;x,,,,,,
+king_female_akkalian;Megarkina;;;;;;;;;;;;;x,,,,,,
+emperor_akkalian;Arkarkhos;;;;;;;;;;;;;x,,,,,,
+emperor_female_akkalian;Arkarkina;;;;;;;;;;;;;x,,,,,,
