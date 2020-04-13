@@ -1,0 +1,33 @@
+k_icthiraspis = {
+	color = { 128 255 255 }
+	color2 = { 0 0 0 }
+
+	capital = 7 #c_land4	
+	culture = akkalian
+	
+	allow = {
+		always = no # Only created through special decision
+	}
+}
+k_chanthex = {
+	color = { 128 128 255 }
+	color2 = { 0 0 0 }
+
+	capital = 22 #c_land19	
+	culture = akkalian
+	
+	allow = {
+		always = no # Only created through special decision
+	}
+}
+k_mestasarkis = {
+	color = { 64 128 128 }
+	color2 = { 0 0 0 }
+
+	capital = 31 #c_land28	
+	culture = akkalian
+	
+	allow = {
+		always = no # Only created through special decision
+	}
+}

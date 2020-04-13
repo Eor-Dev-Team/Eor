@@ -1,3 +1,26 @@
+# The numbers reserved for the Dynasties of a specific culture
+# are the same as those reserved for characters of that culture.
+#
+# Full List:
+#
+# 1-999       -   Anything, really
+# 1000-1999   -   Dwarven dynasties
+# 2000-2999   -   Erealic dynasties
+# 3000-3999   -   Middelric dynasties
+# 4000-4999   -   Unterland dynasties
+# 5000-5999   -   Ishdadic dynasties
+# 6000-6999   -   Northeastern dynasties
+# 7000-7999   -   Goblinoid dynasties
+# 8000-8999   -   Tchonfa dynasties
+# 9000-9999   -   Saurian dynasties
+# 10000-10999 -   Undead dynasties
+# 11000-11999 -   Alzairite dynasties
+# 12000-12999 -   Bakeeshian dynasties
+#
+# Assign more numbers for the other cultures when they are added
+
+#RANDOM DYNASTIES
+
 1 = {
 	name = "The Placeholder"
 	culture = "hungarian"
@@ -8,7 +31,10 @@
 	culture = "ereal"
 	religion = "waldensian"
 }
-#Calugian dynasties
+
+#EREAL DYNASTIES
+
+# Calugian dynasties with landed characters at start
 2900 = {
 	name = "Vernianus"
 	culture = "calugian"
@@ -227,4 +253,42 @@
 	name = "Antaniané"
 	culture = "calugian"
 	religion = "norse_pagan"
+}
+
+# NORTHEASTERN DYNASTIES
+
+6000 = {
+	name = "Mestasarkios"
+	culture = "akkalian"
+	religion = "iconoclast"
+	used_for_random = no
+}
+6001 = {
+	name = "Telesipthis"
+	culture = "akkalian"
+	religion = "iconoclast"
+	used_for_random = no
+}
+6002 = {
+	name = "Faras"
+	culture = "akkalian"
+	religion = "iconoclast"
+	used_for_random = no
+}
+6003 = {
+	name = "Korthos"
+	culture = "akkalian"
+	religion = "iconoclast"
+	used_for_random = no
+}
+6004 = {
+	name = "Geodecdis"
+	culture = "akkalian"
+	religion = "iconoclast"
+	used_for_random = no
+}
+6005 = {
+	name = "Greekoid"
+	culture = "akkalian"
+	religion = "iconoclast"
 }

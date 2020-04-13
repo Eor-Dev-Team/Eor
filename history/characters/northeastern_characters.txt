@@ -6,3 +6,74 @@
 #
 # 6000-6999 is reserved for the Northeastern culture group.
 
+6000 = {
+	name = "Mestasarkis" 
+	dynasty = 6000 #Mestasarkios
+	religion = "norse_pagan"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	700.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+6001 = {
+	name = "Nastaios" 
+	dynasty = 6003 #Korthos
+	religion = "norse_pagan"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS k_icthiraspis, c_land2, c_land3, c_land4, c_land5,
+	#c_land6, c_land7
+}
+
+6002 = {
+	name = "Anthelos" 
+	dynasty = 6001 #Telesipthis
+	religion = "norse_pagan"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS k_chanthex, c_land18, c_land19, c_land22
+}
+
+6003 = {
+	name = "Amantes" 
+	dynasty = 6000 #Mestasarkios
+	religion = "norse_pagan"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS k_mestasarkis, c_land21, c_land28, c_land197
+}

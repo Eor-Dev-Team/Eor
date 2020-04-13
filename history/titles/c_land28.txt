@@ -1,6 +1,5 @@
-# e_land
-1066.1.1={
+1066.1.1 = {
 	law = agnatic_succession
 	law = succ_gavelkind
-	holder=1000
+	holder = 6003 #Amantes Mestasarkios
 }
