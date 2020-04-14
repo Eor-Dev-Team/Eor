@@ -9,7 +9,7 @@
 6000 = {
 	name = "Mestasarkis" 
 	dynasty = 6000 #Mestasarkios
-	religion = "norse_pagan"
+	religion = "orthodox"
 	culture = "akkalian" 
 	trait = "tough_soldier"
 	trait = "quick"
@@ -26,7 +26,7 @@
 6001 = {
 	name = "Nastaios" 
 	dynasty = 6003 #Korthos
-	religion = "norse_pagan"
+	religion = "orthodox"
 	culture = "akkalian" 
 	trait = "tough_soldier"
 	trait = "quick"
@@ -45,7 +45,7 @@
 6002 = {
 	name = "Anthelos" 
 	dynasty = 6001 #Telesipthis
-	religion = "norse_pagan"
+	religion = "bogomilist"
 	culture = "akkalian" 
 	trait = "tough_soldier"
 	trait = "quick"
@@ -63,7 +63,7 @@
 6003 = {
 	name = "Amantes" 
 	dynasty = 6000 #Mestasarkios
-	religion = "norse_pagan"
+	religion = "monothelite"
 	culture = "akkalian" 
 	trait = "tough_soldier"
 	trait = "quick"
@@ -76,4 +76,180 @@
 		death = yes
 	}
 	#OWNS k_mestasarkis, c_land21, c_land28, c_land197
+}
+
+6004 = {
+	name = "Iakepios" 
+	dynasty = 6005 #Kassandros
+	religion = "iconoclast"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land8, c_land11
+}
+
+6005 = {
+	name = "Leutheria" 
+	female = yes
+	dynasty = 6006 #Elemakhos
+	religion = "paulician"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land9, c_land10
+}
+
+6006 = {
+	name = "Demesthenes" 
+	dynasty = 6007 #Thanasis
+	religion = "orthodox"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land13, c_land16
+}
+
+6007 = {
+	name = "Emistekles" 
+	dynasty = 6008 #Nikeveros
+	religion = "bogomilist"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land12, c_land17
+}
+
+6008 = {
+	name = "Neptemes" 
+	dynasty = 6009 #Stratakios
+	religion = "monothelite"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land14, c_land15
+}
+6009 = {
+	name = "Kestanantios" 
+	dynasty = 6010 #Akarpos
+	religion = "iconoclast"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land23, c_land25
+}
+6010 = {
+	name = "Regeries" 
+	dynasty = 6011 #Nevites
+	religion = "paulician"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land20, c_land27
+}
+6011 = {
+	name = "Nikelaes" 
+	dynasty = 6012 #Thekaristes
+	religion = "orthodox"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land26, c_land196
+}
+6012 = {
+	name = "Isenes" 
+	dynasty = 6013 #Isenios
+	religion = "bogomilist"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land195, c_land198
+}
+6013 = {
+	name = "Dasseias" 
+	dynasty = 6014 #Innekentis
+	religion = "monothelite"
+	culture = "akkalian" 
+	trait = "tough_soldier"
+	trait = "quick"
+	trait = "poet"
+	
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+	#OWNS c_land2, c_land5
 }

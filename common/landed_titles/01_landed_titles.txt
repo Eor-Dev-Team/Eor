@@ -246,25 +246,11 @@ e_land = {
 				b_land138 = {
 				}
 			}
-			c_land14 = { # 17
-				color={ 168 60 52 }
-				color2={ 255 255 255 }
-				
-				b_land14 = {
-				}
-			}
 			c_land141 = { # 144
 				color={ 168 87 92 }
 				color2={ 255 255 255 }
 				
 				b_land141 = {
-				}
-			}
-			c_land15 = { # 18
-				color={ 0 63 180 }
-				color2={ 255 255 255 }
-				
-				b_land15 = {
 				}
 			}
 			c_land157 = { # 160
@@ -533,27 +519,6 @@ e_land = {
 				b_land194 = {
 				}
 			}
-			c_land195 = { # 198
-				color={ 42 30 18 }
-				color2={ 255 255 255 }
-				
-				b_land195 = {
-				}
-			}
-			c_land196 = { # 199
-				color={ 42 30 18 }
-				color2={ 255 255 255 }
-				
-				b_land196 = {
-				}
-			}
-			c_land198 = { # 201
-				color={ 42 30 18 }
-				color2={ 255 255 255 }
-				
-				b_land198 = {
-				}
-			}
 			c_land199 = { # 202
 				color={ 42 30 18 }
 				color2={ 255 255 255 }
@@ -778,48 +743,6 @@ e_land = {
 				b_land230 = {
 				}
 			}			
-			c_land20 = { # 23
-				color={ 0 78 55 }
-				color2={ 255 255 255 }
-				
-				b_land20 = {
-				}
-			}
-			c_land23 = { # 26
-				color={ 126 87 184 }
-				color2={ 255 255 255 }
-				
-				b_land23 = {
-				}
-			}
-			c_land24 = { # 27
-				color={ 168 90 57 }
-				color2={ 255 255 255 }
-				
-				b_land24 = {
-				}
-			}
-			c_land25 = { # 28
-				color={ 0 93 185 }
-				color2={ 255 255 255 }
-				
-				b_land25 = {
-				}
-			}
-			c_land26 = { # 29
-				color={ 42 96 58 }
-				color2={ 255 255 255 }
-				
-				b_land26 = {
-				}
-			}
-			c_land27 = { # 30
-				color={ 84 99 186 }
-				color2={ 255 255 255 }
-				
-				b_land27 = {
-				}
-			}
 			c_land29 = { # 32
 				color={ 126 147 194 }
 				color2={ 255 255 255 }
@@ -1605,7 +1528,7 @@ e_akronithene = {
 			}
 		}
 		d_lasthenis = {
-			color={ 255 255 255 }
+			color={ 0 194 255 }
 			color2={ 255 255 255 }
 			
 			capital = 9 #c_land6
@@ -1673,6 +1596,13 @@ e_akronithene = {
 				b_land22 = {
 				}
 			}
+			c_land24 = { # 27
+				color={ 168 90 57 }
+				color2={ 255 255 255 }
+				
+				b_land24 = {
+				}
+			}
 		}
 		d_mestasarkis = {
 			color={ 64 128 128 }
@@ -1699,6 +1629,153 @@ e_akronithene = {
 				color2={ 255 255 255 }
 				
 				b_land197 = {
+				}
+			}
+		}
+		d_ryperpis = {
+			color={ 128 64 128 }
+			color2={ 255 255 255 }
+			
+			capital = 26 #c_land23
+			
+			c_land14 = {
+				color={ 168 60 52 }
+				color2={ 255 255 255 }
+				
+				b_land14 = {
+				}
+			}
+			c_land15 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land15 = {
+				}
+			}
+			c_land18 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land18 = {
+				}
+			}
+			c_land23 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land23 = {
+				}
+			}
+			c_land24 = {
+				color={ 168 90 57 }
+				color2={ 255 255 255 }
+				
+				b_land24 = {
+				}
+			}
+			c_land25 = {
+				color={ 168 90 57 }
+				color2={ 255 255 255 }
+				
+				b_land25 = {
+				}
+			}
+		}
+		d_osperis = {
+			color={ 192 128 192 }
+			color2={ 255 255 255 }
+			
+			capital = 15 #c_land12
+			
+			c_land9 = {
+				color={ 168 60 52 }
+				color2={ 255 255 255 }
+				
+				b_land9 = {
+				}
+			}
+			c_land11 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land11 = {
+				}
+			}
+			c_land12 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land12 = {
+				}
+			}
+			c_land13 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land13 = {
+				}
+			}
+			c_land16 = {
+				color={ 168 90 57 }
+				color2={ 255 255 255 }
+				
+				b_land16 = {
+				}
+			}
+			c_land17 = {
+				color={ 168 90 57 }
+				color2={ 255 255 255 }
+				
+				b_land17 = {
+				}
+			}
+		}
+		d_kallistis = {
+			color={ 128 64 192 }
+			color2={ 255 255 255 }
+			
+			capital = 199 #c_land196
+			
+			c_land20 = {
+				color={ 168 60 52 }
+				color2={ 255 255 255 }
+				
+				b_land20 = {
+				}
+			}
+			c_land26 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land26 = {
+				}
+			}
+			c_land27 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land27 = {
+				}
+			}
+			c_land195 = {
+				color={ 0 255 0 }
+				color2={ 255 255 255 }
+				
+				b_land195 = {
+				}
+			}
+			c_land196 = {
+				color={ 168 90 57 }
+				color2={ 255 255 255 }
+				
+				b_land196 = {
+				}
+			}
+			c_land198 = {
+				color={ 168 90 57 }
+				color2={ 255 255 255 }
+				
+				b_land198 = {
 				}
 			}
 		}

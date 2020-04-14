@@ -1,5 +1,5 @@
 1066.1.1={
 	law = agnatic_succession
 	law = succ_gavelkind
-	holder = 6004 #Iakepios Kassandros
+	holder = 6002 #Anthelos Telesipthis
 }

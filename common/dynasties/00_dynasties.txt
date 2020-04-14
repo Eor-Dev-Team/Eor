@@ -260,35 +260,90 @@
 6000 = {
 	name = "Mestasarkios"
 	culture = "akkalian"
-	religion = "iconoclast"
+	religion = "finnish_pagan"
 	used_for_random = no
 }
 6001 = {
 	name = "Telesipthis"
 	culture = "akkalian"
-	religion = "iconoclast"
+	religion = "finnish_pagan"
 	used_for_random = no
 }
 6002 = {
 	name = "Faras"
 	culture = "akkalian"
-	religion = "iconoclast"
+	religion = "finnish_pagan"
 	used_for_random = no
 }
 6003 = {
 	name = "Korthos"
 	culture = "akkalian"
-	religion = "iconoclast"
+	religion = "finnish_pagan"
 	used_for_random = no
 }
 6004 = {
 	name = "Geodecdis"
 	culture = "akkalian"
-	religion = "iconoclast"
+	religion = "finnish_pagan"
 	used_for_random = no
 }
 6005 = {
-	name = "Greekoid"
+	name = "Kassandros"
 	culture = "akkalian"
-	religion = "iconoclast"
+	religion = "finnish_pagan"
+	used_for_random = no
+}
+6006 = {
+	name = "Elemakhos"
+	culture = "akkalian"
+	religion = "finnish_pagan"
+	used_for_random = no
+}
+6007 = {
+	name = "Thanasis"
+	culture = "akkalian"
+	religion = "finnish_pagan"
+	used_for_random = no
+}
+6008 = {
+	name = "Nikeveros"
+	culture = "akkalian"
+	religion = "finnish_pagan"
+	used_for_random = no
+}
+6009 = {
+	name = "Stratakios"
+	culture = "akkalian"
+	religion = "finnish_pagan"
+	used_for_random = no
+}
+6010 = {
+	name = "Akarpos"
+	culture = "akkalian"
+	religion = "finnish_pagan"
+	used_for_random = no
+}
+6011 = {
+	name = "Nevites"
+	culture = "akkalian"
+	religion = "finnish_pagan"
+	used_for_random = no
+}
+6012 = {
+	name = "Thekaristes"
+	culture = "akkalian"
+	religion = "finnish_pagan"
+	used_for_random = no
+}
+6013 = {
+	name = "Isenios"
+	culture = "akkalian"
+	religion = "finnish_pagan"
+	used_for_random = no
+}
+6014 = {
+	name = "Innekentis"
+	culture = "akkalian"
+	religion = "finnish_pagan"
+	used_for_random = no
 }

@@ -1,5 +1,5 @@
 1066.1.1={
 	law = agnatic_succession
 	law = succ_gavelkind
-	holder = 6001 #Nastaios Korthos
+	holder = 6013 #Dasseias Innekentis
 }
