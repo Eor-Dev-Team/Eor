@@ -10,6 +10,10 @@ b_land150 = castle
 
 # Misc
 culture = calugian
-religion = norse_pagan
+religion = sea_erealic
 
 #History
+537.1.1 = {
+	build_wonder = wonder_temple_of_evernus
+	set_wonder_stage = 4
+}

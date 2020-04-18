@@ -1,0 +1,87 @@
+#cricket events, basically modified versions of the mesoamerican ball game events in AtEFF##
+
+namespace = calugian_event
+
+narrative_event = {
+	id = calugian_event.1
+	title = TITLE_antanian_restoration
+	desc = {
+		text = EVTDESC_antanian_restoration
+		trigger = {
+			is_alternate_start = no
+		}
+	}
+	picture = GFX_event_antanian_restoration
+	trigger = {
+	    culture = calugian
+		has_landed_title = k_peninsula
+		NOT = { has_global_flag = antania_restored }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = OPT_A_antanian_restoration
+		prestige = 400
+		set_global_flag = antania_restored
+    }
+}
+
+character_event = {
+	id = calugian_event.2
+	is_triggered_only = yes
+	picture = GFX_evt_battle_scene
+	border = GFX_event_normal_frame_war
+
+	desc = {
+		text = EVTDESC_calugian_victory_ritual
+		trigger = {
+			is_alternate_start = no
+		}
+	}
+	option = { #Agree to perform the ritual
+		name = OPT_A_calugian_victory_ritual
+		narrative_event = { id = calugian_event.20 days = 2 }
+	}
+	option = { #Refuse to perform the ritual
+		name = OPT_B_calugian_victory_ritual
+		piety = -200
+		random_list = {
+			20 = { add_trait = cynical }
+			20 = { give_nickname = nick_the_impious }
+			80 = {}
+		}
+	}
+	option = { #Take credit for the victory yourself
+		name = OPT_C_calugian_victory_ritual
+	    trigger = {
+		    trait = proud
+			NOT = { trait = zealous }
+	    }
+		prestige = 300
+		piety = -300
+		random_list = {
+			20 = { add_trait = cynical }
+			20 = { give_nickname = nick_the_impious }
+			20 = { give_nickname = nick_the_proud }
+			60 = {}
+		}
+	}
+}
+narrative_event = {
+	id = calugian_event.20
+	title = TITLE_calugian_victory_ritual_end
+	is_triggered_only = yes
+	picture = GFX_evt_aztec_sacrifice
+	border = GFX_event_narrative_frame_war
+
+	desc = {
+		text = EVTDESC_calugian_victory_ritual_end
+	}
+	
+	option = { #Ritual ends
+		name = OPT_A_calugian_victory_ritual_end
+		piety = 200
+		prestige = -200
+	}
+}

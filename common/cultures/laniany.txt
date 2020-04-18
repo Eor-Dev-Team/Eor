@@ -1,0 +1,108 @@
+laniany = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { easterngfx }
+
+	laedary = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.8 0.4 0.3 }
+
+		male_names = {
+			GenericName
+		}
+		female_names = {
+			GenericName
+		}
+		from_dynasty_prefix = "of "
+		prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	grechkosii = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.6 0 0 }
+
+		male_names = {
+			GenericName
+		}
+		female_names = {
+			GenericName
+		}
+		from_dynasty_prefix = "of "
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	harcyzaky = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.6 0 0 }
+
+		male_names = {
+			GenericName
+		}
+		female_names = {
+			GenericName
+		}
+		from_dynasty_prefix = "of "
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+	vuyky = {
+		graphical_cultures = { westernslavicgfx }
+		
+		color = { 0.6 0 0 }
+
+		male_names = {
+			GenericName
+		}
+		female_names = {
+			GenericName
+		}
+		from_dynasty_prefix = "of "
+		prefix = no
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 40
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 30
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}

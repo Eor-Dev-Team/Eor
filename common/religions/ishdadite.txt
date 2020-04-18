@@ -16,21 +16,21 @@ ishdadite = {
 		icon = 1
 		heresy_icon = 6
 		
-		color = { 1 0.6 0}
+		color = { 1 0.6 0 }
 		
-		crusade_name = PURIFICATION
+		crusade_name = CRUSADE_PURIFICATION
 		use_new_crusade = yes
 		crusade_cb = crusade
-		scripture_name = CONFESSIONS_OF_ISHDAD
-		priest_title = GUARDIAN
+		scripture_name = SCRIPTURE_CONFESSIONS_OF_ISHDAD
+		priest_title = PRIEST_GUARDIAN
 		
-		high_god_name = GOD_ISHDAD_THE_IMMORTAL
+		high_god_name = GOD_ISHDAD
 		
 		god_names = {
-			GOD_ISHDAD_THE_IMMORTAL GOD_CSERI GOD_THE_COHORTS
+			GOD_ISHDAD GOD_CSERI GODS_COHORTS
 		}
 		evil_god_names = {
-			KRASSOGGUA
+			GOD_KRASSOGGUA
 		}
 		character_modifier = {
 		}
@@ -58,21 +58,21 @@ ishdadite = {
 		icon = 2
 		heresy_icon = 7
 		
-		color = { 0.7 0.6 0.1}
+		color = { 0.7 0.6 0.1 }
 		
-		crusade_name = PURIFICATION
+		crusade_name = CRUSADE_PURIFICATION
 		use_new_crusade = yes
 		crusade_cb = crusade
-		scripture_name = EPISTLES_OF_CSERI
-		priest_title = GUARDIAN
+		scripture_name = SCRIPTURE_EPISTLES_OF_CSERI
+		priest_title = PRIEST_GUARDIAN
 		
-		high_god_name = GOD_ISHDAD_THE_IMMORTAL
+		high_god_name = GOD_ISHDAD
 		
 		god_names = {
-			GOD_ISHDAD_THE_IMMORTAL GOD_CSERI
+			GOD_ISHDAD GOD_CSERI
 		}
 		evil_god_names = {
-			KRASSOGGUA GOD_THE_COHORTS
+			GOD_KRASSOGGUA GODS_COHORTS
 		}
 		character_modifier = {
 		}

@@ -1,0 +1,12 @@
+TITLE_antanian_restoration;The Kingdom of Antania;;;;;;;;;;;;;x
+EVTDESC_antanian_restoration;The Antanian peninsula has long been the home of the fiercely independent calugian people. Legends say that a man named Calugius, the chief of a minor migrating tribe, came upon the lush and fertile lands of the peninsula, and told his people to settle there. The people of Antania claim descent from these first settlers, and call themselves Calugians in honor of their chief. In the not-too-distant past, Antania had been united under a strong Kingdom. However, time took its toll on the state, and eventually the provinces grew so powerful and independent that they refused to acknowledge the monarch. Antania fell not with a bang, but a mere whimper. However, you have managed to unify the region under your rule. It is clear that a capable monarch once again sits upon the Antanian throne.;;;;;;;;;;;;;x
+OPT_A_antanian_restoration;The calugian people stand united.;;;;;;;;;;;;;x
+
+EVTDESC_calugian_victory_ritual;You have finally prevailed against the foe that refuses to honor the sea gods. It is time to perform the Victory ritual, to thank Amurus e Amera for this victory, and to ensure that they favor you in future conflicts.;;;;;;;;;;;;;x
+OPT_A_calugian_victory_ritual;I will perform a great ritual to Amurus and Amura.;;;;;;;;;;;;;x
+OPT_B_calugian_victory_ritual;I have no interest in doing so.;;;;;;;;;;;;;x
+OPT_C_calugian_victory_ritual;This war was won not by the gods, but by my valor and bravery. This victory is mine alone!;;;;;;;;;;;;;x
+
+TITLE_calugian_victory_ritual_end;The Ritual of Victory;;;;;;;;;;;;;x
+EVTDESC_calugian_victory_ritual_end;You silently watch as the priests carefully mix a small lump of soil taken from the land of the vanquished foe in a large cauldron of ritually purified water, and pour it on top of an idol of Amurus, the punishing god of the stormy seas.\n\nThen, scribes copy the terms of the peace treaty onto a special parchment, which the priests dissolve in another cauldron, poured on top of Amera, the goddess of the calm sea and the judge of the cosmos.\n\nYou then wash your weapons in a smaller container of water, and prostrate yourself before the two dieties, while the priests pour water on you, and ask the gods to favor you in future wars.;;;;;;;;;;;;;x
+OPT_A_calugian_victory_ritual_end;This victory was granted to me by the gods.;;;;;;;;;;;;;x

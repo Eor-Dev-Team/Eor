@@ -1,0 +1,101 @@
+western_cults = {
+	has_coa_on_barony_only = yes
+	graphical_culture = norsegfx
+	playable = yes
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 2 # always try to convert
+	ai_convert_other_group = 1	# never try to convert
+	ai_fabricate_claims = yes
+	
+	color = { 0.6 0.0 0.0 }
+	
+	interface_skin = { pagan_interface }
+
+	sea_erealic = {
+		graphical_culture = norsegfx
+        secondary_event_pictures = sunni
+		icon = 35
+		heresy_icon = 36
+		
+		ai_convert_same_group = 1
+		ai_convert_other_group = 2
+		
+		color = { 0.9 0.2 0.1 }
+		
+		interface_skin = { zun_interface pagan_interface }
+
+		high_god_name = GODS_AMURUS_E_AMERA
+
+		god_names = {
+			GOD_AMURUS GOD_AMERA GODS_SEA_SPIRITS GOD_EARTH GOD_AIR GOD_SUN
+		}
+		evil_god_names = {
+			GOD_KRASSOGGUA
+		}
+		
+		#crusade_name = GREAT_HOLY_WAR
+		scripture_name = SCRIPTURE_SONG_OF_GODS
+		priest_title = PRIEST
+		#can_call_crusade = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		female_temple_holders = yes
+		women_can_take_consorts = yes
+		max_consorts = 3
+		allow_in_ruler_designer = yes
+		feminist = yes
+		
+		aggression = 1.2 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+
+		intermarry = land_erealic
+	}
+
+	land_erealic = {
+		graphical_culture = norsegfx
+		secondary_event_pictures = sunni
+		icon = 35
+		heresy_icon = 36
+		parent = sea_erealic
+
+		ai_convert_same_group = 1
+		ai_convert_other_group = 2
+		
+		color = { 0.8 0.8 0.2 }
+		
+		interface_skin = { zun_interface pagan_interface }
+
+		high_god_name = GOD_EARTH
+
+		god_names = {
+			GOD_EARTH GOD_AMERA GOD_AIR GOD_SUN
+		}
+		evil_god_names = {
+			GOD_KRASSOGGUA GOD_PUNISHER
+		}
+		
+		#crusade_name = GREAT_HOLY_WAR
+		scripture_name = SCRIPTURE_SONG_OF_GODS
+		priest_title = PRIEST
+		#can_call_crusade = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		female_temple_holders = yes
+		women_can_take_consorts = yes
+		max_consorts = 3
+		allow_in_ruler_designer = yes
+		feminist = yes
+		
+		aggression = 1.2 # AI aggression factor
+		
+		religious_clothing_head = 3
+		religious_clothing_priest = 3
+
+		intermarry = sea_erealic
+	}
+}

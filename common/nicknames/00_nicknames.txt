@@ -2793,3 +2793,4 @@ nick_the_crimson = {}
 
 nick_the_outsider = {}
 nick_suphre = {}
+nick_the_impious = {}
