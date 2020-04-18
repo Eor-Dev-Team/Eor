@@ -45,7 +45,24 @@ character_event = {
 	}
 	option = { #Refuse to perform the ritual
 		name = OPT_B_calugian_victory_ritual
-		piety = -200
+		if = {
+			limit = {
+				has_law = ritual_enforcement_2
+			}
+			piety = -500
+		}
+		if = {
+			limit = {
+				has_law = ritual_enforcement_1
+			}
+			piety = -200
+		}
+		if = {
+			limit = {
+				has_law = ritual_enforcement_0
+			}
+			piety = -50
+		}
 		random_list = {
 			20 = { add_trait = cynical }
 			20 = { give_nickname = nick_the_impious }
@@ -59,7 +76,24 @@ character_event = {
 			NOT = { trait = zealous }
 	    }
 		prestige = 300
-		piety = -300
+		if = {
+			limit = {
+				has_law = ritual_enforcement_2
+			}
+			piety = -600
+		}
+		if = {
+			limit = {
+				has_law = ritual_enforcement_1
+			}
+			piety = -250
+		}
+		if = {
+			limit = {
+				has_law = ritual_enforcement_0
+			}
+			piety = -80
+		}
 		random_list = {
 			20 = { add_trait = cynical }
 			20 = { give_nickname = nick_the_impious }
@@ -81,7 +115,24 @@ narrative_event = {
 	
 	option = { #Ritual ends
 		name = OPT_A_calugian_victory_ritual_end
-		piety = 200
+				if = {
+			limit = {
+				has_law = ritual_enforcement_2
+			}
+			piety = 300
+		}
+		if = {
+			limit = {
+				has_law = ritual_enforcement_1
+			}
+			piety = 150
+		}
+		if = {
+			limit = {
+				has_law = ritual_enforcement_0
+			}
+			piety = 50
+		}
 		prestige = -200
 	}
 }

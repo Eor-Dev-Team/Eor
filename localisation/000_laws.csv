@@ -1,0 +1,11 @@
+ritual_enforcement;Ritual Enforcement;;;;;;;;;;;;;x
+ritual_enforcement_desc;Whether rituals are respected and enforced in the realm.;;;;;;;;;;;;;x
+ritual_enforcement_0_option;Weak;;;;;;;;;;;;;x
+ritual_enforcement_1_option;Moderate;;;;;;;;;;;;;x
+ritual_enforcement_2_option;Strong;;;;;;;;;;;;;x
+ritual_enforcement_0;Weak Ritual Enforcement;;;;;;;;;;;;;x
+ritual_enforcement_1;Moderate Ritual Enforcement;;;;;;;;;;;;;x
+ritual_enforcement_2;Strong Ritual Enforcement;;;;;;;;;;;;;x
+ritual_enforcement_0_desc;Rituals are barely enforced.;;;;;;;;;;;;;x
+ritual_enforcement_1_desc;Rituals are fairly significant.;;;;;;;;;;;;;x
+ritual_enforcement_2_desc;Rituals are very influential in the realm and are almost universally enforced.;;;;;;;;;;;;;x
