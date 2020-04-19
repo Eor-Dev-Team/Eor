@@ -1,0 +1,105 @@
+decisions = {
+	calugian_kinslayer_ritual = {
+		only_playable = yes
+		ai_check_interval = 36
+
+		potential = {
+			culture = calugian
+			religion = sea_erealic
+			OR = {
+			    trait = kinslayer
+			    trait = familial_kinslayer
+				trait = dynastic_kinslayer
+			}
+			
+			NOT = { has_character_flag = calugian_kinslayer_ritual_flag }
+			NOT = { primary_title = { has_law = priestly_influence_0 } }
+		}
+		allow = {
+		    NOT = { trait = cynical }
+			wealth = 1000
+		}
+		effect = {
+			set_character_flag = calugian_kinslayer_ritual_flag
+			hidden_tooltip = { narrative_event = { id = calugian_event.3 } }	
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	borrow_money_calugian = {
+		only_playable = yes
+		ai_check_interval = 30
+		potential = {
+			is_playable = yes
+			is_nomadic = no
+			culture = calugian
+			religion = sea_erealic
+			NOT = { government = order_government }
+			NOT = { has_character_flag = borrowing_calugian }
+			NOT = { has_character_modifier = borrowed_calugian }
+		}
+		
+		allow = {
+			prisoner = no
+		}
+		
+		effect = {
+			set_character_flag = borrowing_calugian
+		    hidden_tooltip = { character_event = { id = calugian_event.4 } }
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				wealth = 0
+				war = no
+			}
+			modifier = {
+				factor = 0
+				wealth = 200
+				war = yes
+			}			
+			modifier = {
+				factor = 0.1 # Slow it down
+			}
+		}
+	}
+	repay_money_calugian = {
+		only_playable = yes
+		ai_check_interval = 6
+		potential = {
+			is_playable = yes
+			has_character_modifier = borrowed_calugian
+		}
+		
+		allow = {
+		    prisoner = no
+		}
+		
+		effect = {
+			remove_character_modifier = borrowed_calugian
+			wealth = -650
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { wealth = 650 }
+			}
+			modifier = {
+				factor = 0.5 # Slow it down
+			}
+		}
+	}
+}

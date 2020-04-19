@@ -1,11 +1,20 @@
-ritual_enforcement;Ritual Enforcement;;;;;;;;;;;;;x
-ritual_enforcement_desc;Whether rituals are respected and enforced in the realm.;;;;;;;;;;;;;x
-ritual_enforcement_0_option;Weak;;;;;;;;;;;;;x
-ritual_enforcement_1_option;Moderate;;;;;;;;;;;;;x
-ritual_enforcement_2_option;Strong;;;;;;;;;;;;;x
-ritual_enforcement_0;Weak Ritual Enforcement;;;;;;;;;;;;;x
-ritual_enforcement_1;Moderate Ritual Enforcement;;;;;;;;;;;;;x
-ritual_enforcement_2;Strong Ritual Enforcement;;;;;;;;;;;;;x
-ritual_enforcement_0_desc;Rituals are barely enforced.;;;;;;;;;;;;;x
-ritual_enforcement_1_desc;Rituals are fairly significant.;;;;;;;;;;;;;x
-ritual_enforcement_2_desc;Rituals are very influential in the realm and are almost universally enforced.;;;;;;;;;;;;;x
+priestly_influence;Priestly Influence;;;;;;;;;;;;;x
+priestly_influence_desc;The amount of influence enjoyed by the priests of the realm.;;;;;;;;;;;;;x
+
+priestly_influence_0_option;Feeble;;;;;;;;;;;;;x
+priestly_influence_1_option;Weak;;;;;;;;;;;;;x
+priestly_influence_2_option;Moderate;;;;;;;;;;;;;x
+priestly_influence_3_option;Strong;;;;;;;;;;;;;x
+priestly_influence_4_option;Max;;;;;;;;;;;;;x
+
+priestly_influence_0;Negligible Priestly Influence;;;;;;;;;;;;;x
+priestly_influence_1;Weak Priestly Influence;;;;;;;;;;;;;x
+priestly_influence_2;Moderate Priestly Influence;;;;;;;;;;;;;x
+priestly_influence_3;Strong Priestly Influence;;;;;;;;;;;;;x
+priestly_influence_4;Maximum Priestly Influence;;;;;;;;;;;;;x
+
+priestly_influence_0_desc;The role of priests in the realm is ceremonial, at best. They lack any kind of exemption on taxes and levies.;;;;;;;;;;;;;x
+priestly_influence_1_desc;The influence enjoyed by priests is somewhat limited. They have very few exemptions on taxes and levies..;;;;;;;;;;;;;x
+priestly_influence_2_desc;Priests have some degree of influence. They have some exemptions on taxes and levies.;;;;;;;;;;;;;x
+priestly_influence_3_desc;Priests are highly influential. They are granted significant exemptions on taxes and levies;;;;;;;;;;;;;x
+priestly_influence_4_desc;Priests are so influential that the monarch is forced to rely on them to legitimize his or her rule. They enjoy a large amount of autonomy from the state, and do not have to contribute taxes or levies.;;;;;;;;;;;;;x

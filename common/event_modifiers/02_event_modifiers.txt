@@ -1,0 +1,3 @@
+borrowed_calugian = {
+	icon = 24
+}

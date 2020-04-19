@@ -1,5 +1,5 @@
 law_groups = {
-	ritual_enforcement = {
+	priestly_influence = {
 		law_type = realm
 	}
 	status_of_women = {
@@ -16,11 +16,12 @@ law_groups = {
 laws = {
     # RITUAL ENFORCEMENT LAWS
 	##############################
-		ritual_enforcement_0 = {
-		group = ritual_enforcement
+		priestly_influence_0 = {
+		group = priestly_influence
 		
 		allow = {
-			has_law = ritual_enforcement_1
+			has_law = priestly_influence_1
+			NOT = { holder_scope = { trait = zealous } }
 		}
 		potential = {
 			higher_tier_than = count
@@ -41,28 +42,28 @@ laws = {
 			factor = 0
 		}
 		effect = {
+		    piety = -500
 			hidden_tooltip = {
-				revoke_law = ritual_enforcement_0
-				revoke_law = ritual_enforcement_1
-				revoke_law = ritual_enforcement_2
+				revoke_law = priestly_influence_0
+				revoke_law = priestly_influence_1
+				revoke_law = priestly_influence_2
+				revoke_law = priestly_influence_3
+				revoke_law = priestly_influence_4
 			}
 		}
 		
-		temple_opinion = -10
+		temple_opinion = -20
+		temple_vassal_min_levy = 1
+		temple_vassal_max_levy = 1
+		temple_vassal_tax_modifier = 1
 	}
-	ritual_enforcement_1 = {
-		group = ritual_enforcement
-		default = yes
+	priestly_influence_1 = {
+		group = priestly_influence
 		
 		allow = {
 			OR = { 
-				has_law = ritual_enforcement_0
-				has_law = ritual_enforcement_2
-				AND = {
-					NOT = {	has_law = ritual_enforcement_0 }
-					NOT = {	has_law = ritual_enforcement_1 }
-					NOT = {	has_law = ritual_enforcement_2 }
-				}
+				has_law = priestly_influence_0
+				has_law = priestly_influence_2
 			}
 		}
 		potential = {
@@ -85,20 +86,34 @@ laws = {
 		}
 		effect = {
 			hidden_tooltip = {
-				revoke_law = ritual_enforcement_0
-				revoke_law = ritual_enforcement_1
-				revoke_law = ritual_enforcement_2
+				revoke_law = priestly_influence_0
+				revoke_law = priestly_influence_1
+				revoke_law = priestly_influence_2
+				revoke_law = priestly_influence_3
+				revoke_law = priestly_influence_4
 			}
 		}
 		
-		temple_opinion = 0
+		temple_opinion = -10
+		temple_vassal_min_levy = 0.5
+		temple_vassal_max_levy = 0.5
+		temple_vassal_tax_modifier = 0.5
 	}
 
-	ritual_enforcement_2 = {
-		group = ritual_enforcement
+	priestly_influence_2 = {
+		group = priestly_influence
+		default = yes
 		
 		allow = {
-			has_law = ritual_enforcement_1
+			has_law = priestly_influence_1
+			has_law = priestly_influence_3
+			AND = {
+				NOT = {	has_law = priestly_influence_0 }
+				NOT = {	has_law = priestly_influence_1 }
+				NOT = {	has_law = priestly_influence_2 }
+				NOT = {	has_law = priestly_influence_3 }
+				NOT = {	has_law = priestly_influence_4 }
+			}
 		}
 		potential = {
 			higher_tier_than = count
@@ -120,14 +135,100 @@ laws = {
 		}
 		effect = {
 			hidden_tooltip = {
-				revoke_law = ritual_enforcement_0
-				revoke_law = ritual_enforcement_1
-				revoke_law = ritual_enforcement_2
+				revoke_law = priestly_influence_0
+				revoke_law = priestly_influence_1
+				revoke_law = priestly_influence_2
+				revoke_law = priestly_influence_3
+				revoke_law = priestly_influence_4
+			}
+		}
+	}
+	
+	priestly_influence_3 = {
+		group = priestly_influence
+		
+		allow = {
+			has_law = priestly_influence_2
+			has_law = priestly_influence_4
+		}
+		potential = {
+			higher_tier_than = count
+			is_nomadic = no
+			holder_scope = { culture = calugian }
+			holder_scope = { religion = sea_erealic }
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.8
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = priestly_influence_0
+				revoke_law = priestly_influence_1
+				revoke_law = priestly_influence_2
+				revoke_law = priestly_influence_3
+				revoke_law = priestly_influence_4
 			}
 		}
 		
 		temple_opinion = 10
+		temple_vassal_min_levy = -0.5
+		temple_vassal_max_levy = -0.5
+		temple_vassal_tax_modifier = -0.5
 	}
+	priestly_influence_4 = {
+		group = priestly_influence
+		
+		allow = {
+			has_law = priestly_influence_3
+		}
+		potential = {
+			higher_tier_than = count
+			is_nomadic = no
+			holder_scope = { religion = sea_erealic }
+			OR = {
+			    holder_scope = { culture = calugian }
+			    has_law = priestly_influence_4
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.8
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = priestly_influence_0
+				revoke_law = priestly_influence_1
+				revoke_law = priestly_influence_2
+				revoke_law = priestly_influence_3
+				revoke_law = priestly_influence_4
+			}
+		}
+		
+		temple_opinion = 20
+		temple_vassal_min_levy = -1
+		temple_vassal_max_levy = -1
+		temple_vassal_tax_modifier = -1
+	}
+	
+	#STATUS OF WOMEN
+	
 	status_of_women_0 = {
 		group = status_of_women
 		allow = {
