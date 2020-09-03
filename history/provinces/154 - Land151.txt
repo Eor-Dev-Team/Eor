@@ -10,6 +10,6 @@ b_land151 = castle
 
 # Misc
 culture = calugian
-religion = norse_pagan
+religion = oceanic
 
 #History

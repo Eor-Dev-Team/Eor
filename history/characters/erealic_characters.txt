@@ -90,7 +90,7 @@
 	name = "Suphre" 
 	female = yes
 	dynasty = 2900 #Vernianus
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "fortune_builder"
 	trait = "narrow_flank_leader"
@@ -121,7 +121,7 @@
     dna = ydftzlngjlw
 	prp = tm0dad00000000000000000000000000000000
 	dynasty = 2904 #Celphernianus
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "flamboyant_schemer"
 	trait = "zealous"
@@ -142,7 +142,7 @@
         dna = rtuwbhqgtii
 	prp = cj0dbk00000000000000000000000000000000
 	dynasty = 2905 #Drusiané
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "skilled_tactician"
 	trait = "humble"
@@ -166,7 +166,7 @@
 	dna = eomqddwdzlh
 	prp = ci0cnd00000000000000000000000000000000
 	dynasty = 2900 #Vernianus
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "misguided_warrior"
 	trait = "brave"
@@ -186,7 +186,7 @@
 2904 = {
 	name = "Tytus" 
 	dynasty = 2911 #Ponifeané
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "indulgent_wastrel"
 	trait = "fair"
@@ -206,7 +206,7 @@
 	name = "Acera" 
 	female = yes
 	dynasty = 2902 #Cinarianus
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "tough_soldier"
 	trait = "proud"
@@ -226,7 +226,7 @@
 2906 = {
 	name = "Aurus"
 	dynasty = 2909 #Aurianus
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "intricate_webweaver"
 	trait = "charitable"
@@ -245,7 +245,7 @@
 2907 = {
 	name = "Sigrus" 
 	dynasty = 2901 #Sigrianus
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "skilled_tactician"
 	trait = "proud"
@@ -264,7 +264,7 @@
 2908 = {
 	name = "Macrus" 
 	dynasty = 2902 #Cinarianus
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "midas_touched"
 	trait = "craven"
@@ -285,7 +285,7 @@
     dna = clspwqisnfi
 	prp = cc0ebk00000000000000000000000000000000
 	dynasty = 2912 #Erealus
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "ereal" 
 	trait = "scholarly_theologian"
 	trait = "erudite"
@@ -308,7 +308,7 @@
 	dna = pbyksclgtqu
 	prp = cl0eed00000000000000000000000000000000
 	dynasty = 2902 #Cinarianus
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "flamboyant_schemer"
 	trait = "kinslayer"
@@ -327,7 +327,7 @@
 2911 = {
 	name = "Glapeus" 
 	dynasty = 2906 #Gordiané
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "intricate_webweaver"
 	trait = "shy"
@@ -349,7 +349,7 @@
     dna = nlsaduucjdx
 	prp = ci0dnk00000000000000000000000000000000
 	dynasty = 2903 #Numeanus
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "underhanded_rogue"
 	trait = "diligent"
@@ -369,7 +369,7 @@
 	name = "Coreléa" 
 	female = yes
 	dynasty = 2910 #Garviané
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "ereal" 
 	trait = "detached_priest"
 	trait = "stubborn"
@@ -387,7 +387,7 @@
 2914 = {
 	name = "Diadumus" 
 	dynasty = 2908 #Dinianus
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "thrifty_clerk"
 	trait = "strong"
@@ -405,7 +405,7 @@
 2915 = {
 	name = "Venditus" 
 	dynasty = 2907 #Galiané
-	religion = "sea_erealic"
+	religion = "oceanic"
 	culture = "calugian" 
 	trait = "brilliant_strategist"
 	trait = "kind"

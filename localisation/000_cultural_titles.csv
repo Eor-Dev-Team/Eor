@@ -14,14 +14,14 @@ emperor_ereal;Impeatur;;;;;;;;;;;;;x,,,,,,
 emperor_female_ereal;Impeatis;;;;;;;;;;;;;x,,,,,,
 #
 # calugian
-count_calugian;Lestur;;;;;;;;;;;;;x,,,,,,
-count_female_calugian;Lestrés;;;;;;;;;;;;;x,,,,,,
-duke_calugian;Etipun;;;;;;;;;;;;;x,,,,,,
-duke_female_calugian;Etipunés;;;;;;;;;;;;;x,,,,,,
-king_calugian;Tchonsul;;;;;;;;;;;;;x,,,,,,
-king_female_calugian;Tchonsolés;;;;;;;;;;;;;x,,,,,,
-emperor_calugian;Impheator;;;;;;;;;;;;;x,,,,,,
-emperor_female_calugian;Impheatés;;;;;;;;;;;;;x,,,,,,
+count_calugian;Provinctor;;;;;;;;;;;;;x,,,,,,
+count_female_calugian;Provinctrix;;;;;;;;;;;;;x,,,,,,
+duke_calugian;Regulus;;;;;;;;;;;;;x,,,,,,
+duke_female_calugian;Reginula;;;;;;;;;;;;;x,,,,,,
+king_calugian;Regnopotis;;;;;;;;;;;;;x,,,,,,
+king_female_calugian;Regnopotnis;;;;;;;;;;;;;x,,,,,,
+emperor_calugian;Magnus;;;;;;;;;;;;;x,,,,,,
+emperor_female_calugian;Magna;;;;;;;;;;;;;x,,,,,,
 #
 # ISHDADIC GROUP
 # ishdad

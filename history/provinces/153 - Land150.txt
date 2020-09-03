@@ -10,7 +10,7 @@ b_land150 = castle
 
 # Misc
 culture = calugian
-religion = sea_erealic
+religion = oceanic
 
 #History
 537.1.1 = {

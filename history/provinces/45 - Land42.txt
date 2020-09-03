@@ -1,15 +1,15 @@
-# c_land148
+# c_land42
 
 # County Title
-title = c_land148
+title = c_land42
 
 # Settlements
 max_settlements = 1
 
-b_land148 = castle
+b_land42 = castle
 
 # Misc
-culture = calugian
+culture = ereal
 religion = oceanic
 
 #History

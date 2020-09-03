@@ -2,26 +2,26 @@ TITLE_antanian_restoration;The Kingdom of Antania;;;;;;;;;;;;;x
 EVTDESC_antanian_restoration;The Antanian peninsula has long been the home of the fiercely independent calugian people. Legends say that a man named Calugius, the chief of a minor migrating tribe, came upon the lush and fertile lands of the peninsula, and told his people to settle there. The people of Antania claim descent from these first settlers, and call themselves Calugians in honor of their chief. In the not-too-distant past, Antania had been united under a strong Kingdom. However, time took its toll on the state, and eventually the provinces grew so powerful and independent that they refused to acknowledge the monarch. Antania fell not with a bang, but a mere whimper. However, you have managed to unify the region under your rule. It is clear that a capable monarch once again sits upon the Antanian throne.;;;;;;;;;;;;;x
 OPT_A_antanian_restoration;The calugian people stand united.;;;;;;;;;;;;;x
 
-EVTDESC_calugian_victory_ritual;You have finally prevailed against the foe that refuses to honor the sea gods. It is time to perform the Victory ritual, to thank Amurus e Amera for this victory, and to ensure that they favor you in future conflicts.;;;;;;;;;;;;;x
-OPT_A_calugian_victory_ritual;I will perform a great ritual to Amurus and Amera.;;;;;;;;;;;;;x
-OPT_B_calugian_victory_ritual;I have no interest in doing so.;;;;;;;;;;;;;x
-OPT_C_calugian_victory_ritual;This war was won not by the gods, but by my valor and bravery. This victory is mine alone!;;;;;;;;;;;;;x
+EVTDESC_oceanic_victory_ritual;You have finally prevailed against the foe that refuses to honor the sea gods. It is time to perform the Victory ritual, to thank Amurus e Amera for this victory, and to ensure that they favor you in future conflicts.;;;;;;;;;;;;;x
+OPT_A_oceanic_victory_ritual;I will perform a great ritual to Amurus and Amera.;;;;;;;;;;;;;x
+OPT_B_oceanic_victory_ritual;I have no interest in doing so.;;;;;;;;;;;;;x
+OPT_C_oceanic_victory_ritual;This war was won not by the gods, but by my valor and bravery. This victory is mine alone!;;;;;;;;;;;;;x
 
-TITLE_calugian_victory_ritual_end;The Ritual of Victory;;;;;;;;;;;;;x
-EVTDESC_calugian_victory_ritual_end;You silently watch as the priests carefully mix a small lump of soil taken from the land of the vanquished foe in a large cauldron of ritually purified water, and pour it on top of an idol of Amurus, the punishing god of the stormy seas.\n\nThen, scribes copy the terms of the peace treaty onto a special parchment, which the priests dissolve in another cauldron, poured on top of Amera, the goddess of the calm sea and the judge of the cosmos.\n\nYou then wash your weapons in a smaller container of water, and prostrate yourself before the two dieties, while the priests pour water on you, and ask the gods to favor you in future wars.;;;;;;;;;;;;;x
-OPT_A_calugian_victory_ritual_end;This victory was granted to me by the gods.;;;;;;;;;;;;;x
+TITLE_oceanic_victory_ritual_end;The Ritual of Victory;;;;;;;;;;;;;x
+EVTDESC_oceanic_victory_ritual_end;You silently watch as the priests carefully mix a small lump of soil taken from the land of the vanquished foe in a large cauldron of ritually purified water, and pour it on top of an idol of Amurus, the punishing god of the stormy seas.\n\nThen, scribes copy the terms of the peace treaty onto a special parchment, which the priests dissolve in another cauldron, poured on top of Amera, the goddess of the calm sea and the judge of the cosmos.\n\nYou then wash your weapons in a smaller container of water, and prostrate yourself before the two dieties, while the priests pour water on you, and ask the gods to favor you in future wars.;;;;;;;;;;;;;x
+OPT_A_oceanic_victory_ritual_end;This victory was granted to me by the gods.;;;;;;;;;;;;;x
 
-calugian_kinslayer_ritual;Repent for Slaying your Kin;;;;;;;;;;;;;x
-calugian_kinslayer_ritual_desc;Ask the priests to appeal to the gods to forgive you for slaying your kin.;;;;;;;;;;;;;x
-TITLE_calugian_kinslayer_ritual;The Ritual of Repentance;;;;;;;;;;;;;x
-EVTDESC_calugian_kinslayer_ritual;A large idol of Amera the Judge looms over you. One of the priests hands you a ceremonial sword, and you briefly notice the intricate carvings on its hilt. You prick your hand with the tip of the sword until three drops of blood emerge from the puncture. You splatter these drops onto the floor near Amera's feet. You then touch the wound to your forehead, and appeal fervently to the merciful Amera to forgive you. Then, the senior priest hands you a concoction specially prepared for the ritual. It tastes bitter, but your mind feels clearer, and a great weight seems to have been lifted off your conscience.;;;;;;;;;;;;;x
-OPT_A_calugian_kinslayer_ritual;Amera has granted me forgiveness.;;;;;;;;;;;;;x
-OPT_B_calugian_kinslayer_ritual;;Amera has granted me forgiveness.;;;;;;;;;;;;;x
-OPT_C_calugian_kinslayer_ritual;;Amera has granted me forgiveness.;;;;;;;;;;;;;x
+oceanic_kinslayer_ritual;Repent for Slaying your Kin;;;;;;;;;;;;;x
+oceanic_kinslayer_ritual_desc;Ask the priests to appeal to the gods to forgive you for slaying your kin.;;;;;;;;;;;;;x
+TITLE_oceanic_kinslayer_ritual;The Ritual of Repentance;;;;;;;;;;;;;x
+EVTDESC_oceanic_kinslayer_ritual;A large idol of Amera the Judge looms over you. One of the priests hands you a ceremonial sword, and you briefly notice the intricate carvings on its hilt. You prick your hand with the tip of the sword until three drops of blood emerge from the puncture. You splatter these drops onto the floor near Amera's feet. You then touch the wound to your forehead, and appeal fervently to the merciful Amera to forgive you. Then, the senior priest hands you a concoction specially prepared for the ritual. It tastes bitter, but your mind feels clearer, and a great weight seems to have been lifted off your conscience.;;;;;;;;;;;;;x
+OPT_A_oceanic_kinslayer_ritual;Amera has granted me forgiveness.;;;;;;;;;;;;;x
+OPT_B_oceanic_kinslayer_ritual;;Amera has granted me forgiveness.;;;;;;;;;;;;;x
+OPT_C_oceanic_kinslayer_ritual;;Amera has granted me forgiveness.;;;;;;;;;;;;;x
 
-EVTDESC_borrowing_calugian;You have decided to borrow money from the priests. This may increase their overall influence in the realm as a consequence.;;;;;;;;;;;;;x
-OPT_A_borrowing_calugian;But I do need the money;;;;;;;;;;;;;x
-OPT_B_borrowing_calugian;I don't need their help;;;;;;;;;;;;;x
+EVTDESC_borrowing_oceanic;You have decided to borrow money from the priests. This may increase their overall influence in the realm as a consequence.;;;;;;;;;;;;;x
+OPT_A_borrowing_oceanic;But I do need the money;;;;;;;;;;;;;x
+OPT_B_borrowing_oceanic;I don't need their help;;;;;;;;;;;;;x
 
 EVTDESC_sir_thunderhammer;Your pet hedgehog has always struck you as a gifted tactician and a fearless warrior, a quality you feel is sorely lacking in your current marshal. Time to shake things up a bit. You will appoint the hedgehog as your new Marshal.;;;;;;;;;;;;;x
 OPT_A_sir_thunderhammer;Brave Sir Thunderhammer, I hereby appoint thee as Marshal.;;;;;;;;;;;;;x

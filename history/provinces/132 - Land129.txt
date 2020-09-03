@@ -10,6 +10,6 @@ b_land129 = castle
 
 # Misc
 culture = ereal
-religion = norse_pagan
+religion = oceanic
 
 #History

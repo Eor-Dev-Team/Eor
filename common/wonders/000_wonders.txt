@@ -6,7 +6,7 @@ wonder_temple_of_evernus = {
 	potential = {}
 	active = {
 		ROOT = {
-			religion = norse_pagan
+			religion = oceanic
 		}
 	}
 	flags = {

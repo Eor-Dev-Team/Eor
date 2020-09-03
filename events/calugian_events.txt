@@ -1,9 +1,7 @@
-#cricket events, basically modified versions of the mesoamerican ball game events in AtEFF##
-
-namespace = calugian_event
+namespace = oceanic_event
 
 narrative_event = {
-	id = calugian_event.1
+	id = oceanic_event.1
 	title = TITLE_antanian_restoration
 	desc = {
 		text = EVTDESC_antanian_restoration
@@ -28,54 +26,25 @@ narrative_event = {
 }
 
 character_event = {
-	id = calugian_event.2
+	id = oceanic_event.2
 	is_triggered_only = yes
 	picture = GFX_evt_battle_scene
 	border = GFX_event_normal_frame_war
 
 	desc = {
-		text = EVTDESC_calugian_victory_ritual
+		text = EVTDESC_oceanic_victory_ritual
 		trigger = {
 			is_alternate_start = no
 		}
 	}
 	option = { #Agree to perform the ritual
-		name = OPT_A_calugian_victory_ritual
-		wealth = 100
-		narrative_event = { id = calugian_event.20 days = 2 }
+		name = OPT_A_oceanic_victory_ritual
+		wealth = -100
+		narrative_event = { id = oceanic_event.20 days = 2 }
 	}
 	option = { #Refuse to perform the ritual
-		name = OPT_B_calugian_victory_ritual
-		if = {
-			limit = {
-				primary_title = { has_law = priestly_influence_4 }
-			}
-			piety = -500
-		}
-		if = {
-			limit = {
-				primary_title = { has_law = priestly_influence_3 }
-			}
-			piety = -400
-		}
-		if = {
-			limit = {
-				primary_title = { has_law = priestly_influence_2 }
-			}
-			piety = -300
-		}
-		if = {
-			limit = {
-				primary_title = { has_law = priestly_influence_1 }
-			}
-			piety = -200
-		}
-		if = {
-			limit = {
-				primary_title = { has_law = priestly_influence_0 }
-			}
-			piety = -100
-		}
+		name = OPT_B_oceanic_victory_ritual
+		piety = -100
 		random_list = {
 			20 = { add_trait = cynical }
 			20 = { give_nickname = nick_the_impious }
@@ -83,266 +52,163 @@ character_event = {
 		}
 	}
 	option = { #Take credit for the victory yourself
-		name = OPT_C_calugian_victory_ritual
+		name = OPT_C_oceanic_victory_ritual
 		tooltip_info = proud
 	    trigger = {
 		    trait = proud
 			NOT = { trait = zealous }
 	    }
-		prestige = 300
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_4 }
-			}
-			piety = -600
-		}
-				if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_3 }
-			}
-			piety = -500
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_2 }
-			}
-			piety = -400
-		}
-		if = {
-			limit = {
-				primary_title = { has_law = priestly_influence_1 }
-			}
-			piety = -300
-		}
-		if = {
-			limit = {
-				primary_title = { has_law = priestly_influence_0 }
-			}
-			piety = -200
-		}
+		prestige = 100
+		piety = -150
 		random_list = {
 			20 = { add_trait = cynical }
 			20 = { give_nickname = nick_the_impious }
-			20 = { give_nickname = nick_the_proud }
+			40 = { give_nickname = nick_the_proud }
 			60 = {}
 		}
 	}
 }
 narrative_event = {
-	id = calugian_event.20
-	title = TITLE_calugian_victory_ritual_end
+	id = oceanic_event.20
+	title = TITLE_oceanic_victory_ritual_end
 	is_triggered_only = yes
 	picture = GFX_evt_aztec_sacrifice
 	border = GFX_event_narrative_frame_war
 
 	desc = {
-		text = EVTDESC_calugian_victory_ritual_end
+		text = EVTDESC_oceanic_victory_ritual_end
 	}
 	
 	option = { #Ritual ends
-		name = OPT_A_calugian_victory_ritual_end
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_4 }
-			}
-			piety = 300
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_3 }
-			}
-			piety = 250
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_2 }
-			}
-			piety = 200
-		}
-		if = {
-			limit = {
-				primary_title = { has_law = priestly_influence_1 }
-			}
-			piety = 150
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_0 }
-			}
-			piety = 100
-		}
-		prestige = -200
+		name = OPT_A_oceanic_victory_ritual_end
+		piety = 50
 	}
 }
 narrative_event = {
-	id = calugian_event.3
-	title = TITLE_calugian_kinslayer_ritual
+	id = oceanic_event.3
+	title = TITLE_oceanic_kinslayer_ritual
 	is_triggered_only = yes
 	picture = GFX_evt_aztec_sacrifice
 	border = GFX_event_narrative_frame_war
 
 	desc = {
-		text = EVTDESC_calugian_kinslayer_ritual
+		text = EVTDESC_oceanic_kinslayer_ritual
 	}
 	
 	option = {
-		name = OPT_A_calugian_kinslayer_ritual
+		name = OPT_A_oceanic_kinslayer_ritual
 		trigger = {
 			trait = kinslayer
 		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_1 }
-			}
-			add_trait = familial_kinslayer
-			piety = 50
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_2 }
-			}
-			add_trait = dynastic_kinslayer
-			piety = 50
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_3 }
-			}
-			add_trait = dynastic_kinslayer
-			piety = 100
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_4 }
-			}
-			remove_trait = kinslayer
-			piety = 100
-		}
+		remove_trait = kinslayer
+		add_trait = dynastic_kinslayer
+		piety = 100
+
 	}
 	option = {
-		name = OPT_B_calugian_kinslayer_ritual
+		name = OPT_B_oceanic_kinslayer_ritual
 		trigger = {
-		    trait = familial_kinslayer
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_1 }
+		    OR = {
+		        trait = familial_kinslayer
+				trait = dynastic_kinslayer
 			}
-			add_trait = dynastic_kinslayer
-			piety = 50
 		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_2 }
-			}
-			add_trait = dynastic_kinslayer
-			piety = 50
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_3 }
-			}
-			remove_trait = familial_kinslayer
-			piety = 50
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_4 }
-			}
-			remove_trait = familial_kinslayer
-			piety = 100
-		}
-	}
-	option = {
-		name = OPT_C_calugian_kinslayer_ritual
-		trigger = {
-		    trait = dynastic_kinslayer
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_1 }
-			}
-			remove_trait = dynastic_kinslayer
-			piety = 50
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_2 }
-			}
-			remove_trait = dynastic_kinslayer
-			piety = 50
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_3 }
-			}
-			remove_trait = dynastic_kinslayer
-			piety = 100
-		}
-		if = {
-			limit = {
-				primary_title = {  has_law = priestly_influence_4 }
-			}
-			remove_trait = dynastic_kinslayer
-			piety = 100
-		}
+		remove_trait = familial_kinslayer
+		remove_trait = dynastic_kinslayer
+		piety = 100
 	}
 }
 character_event = {
-	id = calugian_event.4
+	id = oceanic_event.4
 	is_triggered_only = yes
 	picture = GFX_evt_battle_scene
 	border = GFX_event_normal_frame_war
 
 	desc = {
-		text = EVTDESC_borrowing_calugian
+		text = EVTDESC_borrowing_oceanic
 		trigger = {
 			is_alternate_start = no
 		}
 	}
 	option = { #Agree to borrow
-		name = OPT_A_borrowing_calugian
-		clr_character_flag = borrowing_calugian
+		name = OPT_A_borrowing_oceanic
+		clr_character_flag = borrowing_oceanic
 		add_character_modifier = {
-			name = borrowed_calugian
+			name = borrowed_oceanic
 			duration = -1
 			inherit = yes
 		}
-		wealth = 600
+		wealth = 400
 		if = {
 			limit = {
-				primary_title = { has_law = priestly_influence_0 }
+				primary_title = { has_law = tax_levy_law_theocracy_0 }
 			}
 			primary_title = {
-			    revoke_law = priestly_influence_0
-			    add_law_w_cooldown = priestly_influence_1
+			    revoke_law = tax_levy_law_theocracy_0
+			    add_law_w_cooldown = tax_levy_law_theocracy_1
 		    }
 		}
 		else_if = {
 			limit = {
-				primary_title = { has_law = priestly_influence_1 }
+				primary_title = { has_law = tax_levy_law_theocracy_1 }
 			}
 			primary_title = {
-			    revoke_law = priestly_influence_1
-			    add_law_w_cooldown = priestly_influence_2
+			    revoke_law = tax_levy_law_theocracy_1
+			    add_law_w_cooldown = tax_levy_law_theocracy_2
 		    }
 		}
 		else_if = {
 			limit = {
-				primary_title = { has_law = priestly_influence_2 }
+				primary_title = { has_law = tax_levy_law_theocracy_2 }
 			}
 			primary_title = {
-			    revoke_law = priestly_influence_2
-			    add_law_w_cooldown = priestly_influence_3
+			    revoke_law = tax_levy_law_theocracy_2
+			    add_law_w_cooldown = tax_levy_law_theocracy_3
 		    }
 		}
 		else_if = {
 			limit = {
-				primary_title = { has_law = priestly_influence_3 }
+				primary_title = { has_law = tax_levy_law_theocracy_3 }
 			}
 			primary_title = {
-			    revoke_law = priestly_influence_3
-			    add_law_w_cooldown = priestly_influence_4
+			    revoke_law = tax_levy_law_theocracy_3
+			    add_law_w_cooldown = tax_levy_law_theocracy_4
+		    }
+		}
+		else_if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_4 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_4
+			    add_law_w_cooldown = tax_levy_law_theocracy_5
+		    }
+		}
+		else_if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_5 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_5
+			    add_law_w_cooldown = tax_levy_law_theocracy_6
+		    }
+		}
+		else_if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_6 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_6
+			    add_law_w_cooldown = tax_levy_law_theocracy_7
+		    }
+		}
+		else_if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_7 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_7
+			    add_law_w_cooldown = tax_levy_law_theocracy_8
 		    }
 		}
 		else = {
@@ -350,13 +216,13 @@ character_event = {
 		}
 	}
 	option = { #Refuse to borrow
-		name = OPT_B_borrowing_calugian
-		clr_character_flag = borrowing_calugian
+		name = OPT_B_borrowing_oceanic
+		clr_character_flag = borrowing_oceanic
 	}
 }
 ### Hedgehog Marshal
 character_event = {
-	id = calugian_event.5
+	id = oceanic_event.5
 	border = GFX_event_normal_frame_religion
 	picture = GFX_evt_courier
 

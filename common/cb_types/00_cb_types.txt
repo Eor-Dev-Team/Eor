@@ -6063,14 +6063,13 @@ religious = {
 	}
 	
 	on_success = {
-		ROOT = { #Victory ritual event for calugians
+		ROOT = { #Victory ritual event for oceanics
 			show_scope_change = no
 			if = {
 				limit = {
-				    religion = sea_erealic
-					culture = calugian
+				    religion = oceanic
 				}
-				character_event = { id = calugian_event.2 }
+				character_event = { id = oceanic_event.2 }
 			}
 		}
 		any_attacker = {

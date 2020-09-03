@@ -1,10 +1,14 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_calugian_kinslayer_ritual"
-		texturefile = "gfx\\interface\\decision_icon_calugian_kinslayer_ritual.dds"
+		name = "GFX_oceanic_kinslayer_ritual"
+		texturefile = "gfx\\interface\\decision_icon_oceanic_kinslayer_ritual.dds"
 	}
 	spriteType = {
-		name = "GFX_borrow_money_calugian"
-		texturefile = "gfx\\interface\\decision_icon_borrow_money_calugian.dds"
+		name = "GFX_borrow_money_oceanic"
+		texturefile = "gfx\\interface\\decision_icon_borrow_money_oceanic.dds"
+	}
+	spriteType = {
+		name = "GFX_repay_money_oceanic"
+		texturefile = "gfx\\interface\\decision_icon_repay_money_oceanic.dds"
 	}
 }
