@@ -16,8 +16,6 @@ oceanic_kinslayer_ritual_desc;Ask the priests to appeal to the gods to forgive y
 TITLE_oceanic_kinslayer_ritual;The Ritual of Repentance;;;;;;;;;;;;;x
 EVTDESC_oceanic_kinslayer_ritual;A large idol of Amera the Judge looms over you. One of the priests hands you a ceremonial sword, and you briefly notice the intricate carvings on its hilt. You prick your hand with the tip of the sword until three drops of blood emerge from the puncture. You splatter these drops onto the floor near Amera's feet. You then touch the wound to your forehead, and appeal fervently to the merciful Amera to forgive you. Then, the senior priest hands you a concoction specially prepared for the ritual. It tastes bitter, but your mind feels clearer, and a great weight seems to have been lifted off your conscience.;;;;;;;;;;;;;x
 OPT_A_oceanic_kinslayer_ritual;Amera has granted me forgiveness.;;;;;;;;;;;;;x
-OPT_B_oceanic_kinslayer_ritual;;Amera has granted me forgiveness.;;;;;;;;;;;;;x
-OPT_C_oceanic_kinslayer_ritual;;Amera has granted me forgiveness.;;;;;;;;;;;;;x
 
 EVTDESC_borrowing_oceanic;You have decided to borrow money from the priests. This may increase their overall influence in the realm as a consequence.;;;;;;;;;;;;;x
 OPT_A_borrowing_oceanic;But I do need the money;;;;;;;;;;;;;x
@@ -25,3 +23,10 @@ OPT_B_borrowing_oceanic;I don't need their help;;;;;;;;;;;;;x
 
 EVTDESC_sir_thunderhammer;Your pet hedgehog has always struck you as a gifted tactician and a fearless warrior, a quality you feel is sorely lacking in your current marshal. Time to shake things up a bit. You will appoint the hedgehog as your new Marshal.;;;;;;;;;;;;;x
 OPT_A_sir_thunderhammer;Brave Sir Thunderhammer, I hereby appoint thee as Marshal.;;;;;;;;;;;;;x
+
+EVTDESC_oceanic_summer_festival_begin;placeholder text;;;;;;;;;;;;;x
+OPT_A_oceanic_summer_festival_begin;placeholder text;;;;;;;;;;;;;x
+EVTDESC_oceanic_summer_festival;placeholder text;;;;;;;;;;;;;x
+OPT_A_oceanic_summer_festival;placeholder text;;;;;;;;;;;;;x
+EVTDESC_oceanic_summer_festival_end;placeholder text;;;;;;;;;;;;;x
+OPT_A_oceanic_summer_festival_end;placeholder text;;;;;;;;;;;;;x

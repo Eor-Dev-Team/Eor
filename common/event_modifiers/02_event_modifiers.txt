@@ -1,3 +1,6 @@
 borrowed_oceanic = {
 	icon = 24
 }
+holding_oceanic_summer_festival = {
+	icon = 24
+}

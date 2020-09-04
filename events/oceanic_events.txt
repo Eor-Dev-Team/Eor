@@ -1,0 +1,258 @@
+namespace = oceanic_event
+
+character_event = {
+	id = oceanic_event.1
+	desc = "EVTDESC_oceanic_summer_festival_begin"
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_character_flag = oceanic_summer_festival_begin
+		hidden_tooltip = {
+			character_event = {
+				id = oceanic_event.10
+				days = 15
+			}
+		}
+	}
+
+	option = {
+		name = "OPT_A_oceanic_summer_festival_begin"
+	}
+}
+character_event = {
+	id = oceanic_event.10
+	desc = "EVTDESC_oceanic_summer_festival"
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_character_flag = oceanic_summer_festival_begin
+		hidden_tooltip = {
+			character_event = {
+				id = oceanic_event.100
+				days = 15
+			}
+		}
+	}
+
+	option = {
+		name = "OPT_A_oceanic_summer_festival"
+	}
+}
+character_event = {
+	id = oceanic_event.100
+	desc = "EVTDESC_oceanic_summer_festival_end"
+	picture = GFX_evt_market
+
+	is_triggered_only = yes
+
+	option = {
+		name = "OPT_A_oceanic_summer_festival_end"
+		remove_character_modifier = holding_oceanic_summer_festival
+		clr_character_flag = do_not_disturb
+		#clr_character_flag = fair_event_happened
+		clr_character_flag = oceanic_summer_festival_begin
+		set_character_flag = recent_oceanic_summer_festival
+		#clr_character_flag = fair_event_74000
+		prestige = 10
+	}
+}
+
+character_event = {
+	id = oceanic_event.2
+	is_triggered_only = yes
+	picture = GFX_evt_battle_scene
+	border = GFX_event_normal_frame_war
+
+	desc = {
+		text = EVTDESC_oceanic_victory_ritual
+		trigger = {
+			is_alternate_start = no
+		}
+	}
+	option = { #Agree to perform the ritual
+		name = OPT_A_oceanic_victory_ritual
+		wealth = -100
+		narrative_event = { id = oceanic_event.20 days = 2 }
+	}
+	option = { #Refuse to perform the ritual
+		name = OPT_B_oceanic_victory_ritual
+		piety = -100
+		random_list = {
+			20 = { add_trait = cynical }
+			20 = { give_nickname = nick_the_impious }
+			80 = {}
+		}
+	}
+	option = { #Take credit for the victory yourself
+		name = OPT_C_oceanic_victory_ritual
+		tooltip_info = proud
+	    trigger = {
+		    trait = proud
+			NOT = { trait = zealous }
+	    }
+		prestige = 100
+		piety = -150
+		random_list = {
+			20 = { add_trait = cynical }
+			20 = { give_nickname = nick_the_impious }
+			40 = { give_nickname = nick_the_proud }
+			60 = {}
+		}
+	}
+}
+narrative_event = {
+	id = oceanic_event.20
+	title = TITLE_oceanic_victory_ritual_end
+	is_triggered_only = yes
+	picture = GFX_evt_aztec_sacrifice
+	border = GFX_event_narrative_frame_war
+
+	desc = {
+		text = EVTDESC_oceanic_victory_ritual_end
+	}
+	
+	option = { #Ritual ends
+		name = OPT_A_oceanic_victory_ritual_end
+		piety = 50
+	}
+}
+narrative_event = {
+	id = oceanic_event.3
+	title = TITLE_oceanic_kinslayer_ritual
+	is_triggered_only = yes
+	picture = GFX_evt_aztec_sacrifice
+	border = GFX_event_narrative_frame_war
+
+	desc = {
+		text = EVTDESC_oceanic_kinslayer_ritual
+	}
+	
+	option = {
+		name = OPT_A_oceanic_kinslayer_ritual
+		trigger = {
+			trait = kinslayer
+		}
+		remove_trait = kinslayer
+		add_trait = dynastic_kinslayer
+		piety = 100
+
+	}
+	option = {
+		name = OPT_B_oceanic_kinslayer_ritual
+		trigger = {
+		    OR = {
+		        trait = familial_kinslayer
+				trait = dynastic_kinslayer
+			}
+		}
+		remove_trait = familial_kinslayer
+		remove_trait = dynastic_kinslayer
+		piety = 100
+	}
+}
+character_event = {
+	id = oceanic_event.4
+	is_triggered_only = yes
+	picture = GFX_evt_battle_scene
+	border = GFX_event_normal_frame_war
+
+	desc = {
+		text = EVTDESC_borrowing_oceanic
+		trigger = {
+			is_alternate_start = no
+		}
+	}
+	option = { #Agree to borrow
+		name = OPT_A_borrowing_oceanic
+		clr_character_flag = borrowing_oceanic
+		add_character_modifier = {
+			name = borrowed_oceanic
+			duration = -1
+			inherit = yes
+		}
+		wealth = 400
+		if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_0 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_0
+			    add_law_w_cooldown = tax_levy_law_theocracy_1
+		    }
+		}
+		else_if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_1 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_1
+			    add_law_w_cooldown = tax_levy_law_theocracy_2
+		    }
+		}
+		else_if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_2 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_2
+			    add_law_w_cooldown = tax_levy_law_theocracy_3
+		    }
+		}
+		else_if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_3 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_3
+			    add_law_w_cooldown = tax_levy_law_theocracy_4
+		    }
+		}
+		else_if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_4 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_4
+			    add_law_w_cooldown = tax_levy_law_theocracy_5
+		    }
+		}
+		else_if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_5 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_5
+			    add_law_w_cooldown = tax_levy_law_theocracy_6
+		    }
+		}
+		else_if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_6 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_6
+			    add_law_w_cooldown = tax_levy_law_theocracy_7
+		    }
+		}
+		else_if = {
+			limit = {
+				primary_title = { has_law = tax_levy_law_theocracy_7 }
+			}
+			primary_title = {
+			    revoke_law = tax_levy_law_theocracy_7
+			    add_law_w_cooldown = tax_levy_law_theocracy_8
+		    }
+		}
+		else = {
+			prestige = -100
+		}
+	}
+	option = { #Refuse to borrow
+		name = OPT_B_borrowing_oceanic
+		clr_character_flag = borrowing_oceanic
+	}
+}

@@ -1,30 +1,80 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+
 # MAGYAR (?) GROUP
-# hungarian
+
+
+# hungarian Feudal RULERS
 emperor_hungarian;Cadaverist Pope;;;;;;;;;;;;;x,,,,,,
+
+
 # EREALIC GROUP
-# ereal
+
+
+### ereal Feudal RULERS
 count_ereal;Lestur;;;;;;;;;;;;;x,,,,,,
 count_female_ereal;Lestris;;;;;;;;;;;;;x,,,,,,
 duke_ereal;Etibun;;;;;;;;;;;;;x,,,,,,
 duke_female_ereal;Etibunis;;;;;;;;;;;;;x,,,,,,
 king_ereal;Tchonsul;;;;;;;;;;;;;x,,,,,,
-king_female_ereal;Tchonsulis;;;;;;;;;;;;;x,,,,,,
+king_female_ereal;Tchonsolis;;;;;;;;;;;;;x,,,,,,
 emperor_ereal;Impeatur;;;;;;;;;;;;;x,,,,,,
 emperor_female_ereal;Impeatis;;;;;;;;;;;;;x,,,,,,
-#
-# calugian
+vice_royalty_duke_ereal;Protibun;;;;;;;;;;;;;x,,,,,,
+vice_royalty_duke_female_ereal;Protibunis;;;;;;;;;;;;;x,,,,,,
+vice_royalty_king_ereal;Prochonsul;;;;;;;;;;;;;x,,,,,,
+vice_royalty_king_female_ereal;Prochonsolis;;;;;;;;;;;;;x,,,,,,
+### ereal Feudal TITLES
+barony_ereal;Barony;;;;;;;;;;;;;x,,,,,,
+county_ereal;Lesturate;;;;;;;;;;;;;x,,,,,,
+duchy_ereal;Etibunate;;;;;;;;;;;;;x,,,,,,
+kingdom_ereal;Tchonsulate;;;;;;;;;;;;;x,,,,,,
+empire_ereal;Imperium;;;;;;;;;;;;;x,,,,,,
+vice_royalty_duchy_ereal;Protibunate;;;;;;;;;;;;;x,,,,,,
+vice_royalty_kingdom_ereal;Prochonsulate;;;;;;;;;;;;;x,,,,,,
+### ereal Feudal TITLES_OF
+barony_of_ereal;Barony of;;;;;;;;;;;;;x,,,,,,
+county_of_ereal;Lesturate of;;;;;;;;;;;;;x,,,,,,
+duchy_of_ereal;Etibunate of;;;;;;;;;;;;;x,,,,,,
+kingdom_of_ereal;Tchonsulate of;;;;;;;;;;;;;x,,,,,,
+empire_of_ereal;Imperium;;;;;;;;;;;;;x,,,,,,
+vice_royalty_duchy_of_ereal;Protibunate of;;;;;;;;;;;;;x,,,,,,
+vice_royalty_kingdom_of_ereal;Prochonsulate of;;;;;;;;;;;;;x,,,,,,
+
+### calugian Feudal RULERS
 count_calugian;Provinctor;;;;;;;;;;;;;x,,,,,,
-count_female_calugian;Provinctrix;;;;;;;;;;;;;x,,,,,,
+count_female_calugian;Provinctris;;;;;;;;;;;;;x,,,,,,
 duke_calugian;Regulus;;;;;;;;;;;;;x,,,,,,
 duke_female_calugian;Reginula;;;;;;;;;;;;;x,,,,,,
 king_calugian;Regnopotis;;;;;;;;;;;;;x,,,,,,
 king_female_calugian;Regnopotnis;;;;;;;;;;;;;x,,,,,,
 emperor_calugian;Magnus;;;;;;;;;;;;;x,,,,,,
 emperor_female_calugian;Magna;;;;;;;;;;;;;x,,,,,,
-#
+vice_royalty_duke_calugian;Junior Proregnator;;;;;;;;;;;;;x,,,,,,
+vice_royalty_duke_female_calugian;Junior Proregnatris;;;;;;;;;;;;;x,,,,,,
+vice_royalty_king_calugian;Proregnator;;;;;;;;;;;;;x,,,,,,
+vice_royalty_king_female_calugian;Proregnatris;;;;;;;;;;;;;x,,,,,,
+### calugian Feudal TITLES
+barony_calugian;Barony;;;;;;;;;;;;;x,,,,,,
+county_calugian;Provincia;;;;;;;;;;;;;x,,,,,,
+duchy_calugian;Magna Provincia;;;;;;;;;;;;;x,,,,,,
+kingdom_calugian;Regnum;;;;;;;;;;;;;x,,,,,,
+empire_calugian;Regnum;;;;;;;;;;;;;x,,,,,,
+vice_royalty_duchy_calugian;Lesser Proregnum;;;;;;;;;;;;;x,,,,,,
+vice_royalty_kingdom_calugian;Proregnum;;;;;;;;;;;;;x,,,,,,
+### calugian Feudal TITLES_OF
+barony_of_calugian;Barony of;;;;;;;;;;;;;x,,,,,,
+county_of_calugian;Provincia;;;;;;;;;;;;;x,,,,,,
+duchy_of_calugian;Magna Provincia;;;;;;;;;;;;;x,,,,,,
+kingdom_of_calugian;Regnum;;;;;;;;;;;;;x,,,,,,
+empire_of_calugian;Regnum;;;;;;;;;;;;;x,,,,,,
+vice_royalty_duchy_of_calugian;Lesser Proregnum;;;;;;;;;;;;;x,,,,,,
+vice_royalty_kingdom_of_calugian;Proregnum;;;;;;;;;;;;;x,,,,,,
+
 # ISHDADIC GROUP
-# ishdad
+
+
+### ishdad Feudal RULERS
 count_ishdad;Governor;;;;;;;;;;;;;x,,,,,,
 count_female_ishdad;Governess;;;;;;;;;;;;;x,,,,,,
 duke_ishdad;Mejay;;;;;;;;;;;;;x,,,,,,
@@ -33,9 +83,24 @@ king_ishdad;Pharon;;;;;;;;;;;;;x,,,,,,
 king_female_ishdad;Pharon;;;;;;;;;;;;;x,,,,,,
 emperor_ishdad;Ar-Pharon;;;;;;;;;;;;;x,,,,,,
 emperor_female_ishdad;Ar-Pharon;;;;;;;;;;;;;x,,,,,,
-#
+### ishdad Feudal TITLES
+barony_ishdad;Barony;;;;;;;;;;;;;x,,,,,,
+county_ishdad;Governorate;;;;;;;;;;;;;x,,,,,,
+duchy_ishdad;Mejayat;;;;;;;;;;;;;x,,,,,,
+kingdom_ishdad;Pharonat;;;;;;;;;;;;;x,,,,,,
+empire_ishdad;Ar-Pharonat;;;;;;;;;;;;;x,,,,,,
+### ishdad Feudal TITLES_OF
+barony_of_ishdad;Barony of;;;;;;;;;;;;;x,,,,,,
+county_of_ishdad;Governorate of;;;;;;;;;;;;;x,,,,,,
+duchy_of_ishdad;Mejayat;;;;;;;;;;;;;x,,,,,,
+kingdom_of_ishdad;Pharonat;;;;;;;;;;;;;x,,,,,,
+empire_of_ishdad;Ar-Pharonat;;;;;;;;;;;;;x,,,,,,
+
+
 # NORTHEASTERN GROUP
-# akkalian
+
+
+### akkalian Feudal RULERS
 count_akkalian;Magistros;;;;;;;;;;;;;x,,,,,,
 count_female_akkalian;Magistra;;;;;;;;;;;;;x,,,,,,
 duke_akkalian;Arkhos;;;;;;;;;;;;;x,,,,,,
@@ -44,3 +109,75 @@ king_akkalian;Megarkhos;;;;;;;;;;;;;x,,,,,,
 king_female_akkalian;Megarkina;;;;;;;;;;;;;x,,,,,,
 emperor_akkalian;Arkarkhos;;;;;;;;;;;;;x,,,,,,
 emperor_female_akkalian;Arkarkina;;;;;;;;;;;;;x,,,,,,
+### akkalian Feudal TITLES
+barony_akkalian;Barony;;;;;;;;;;;;;x,,,,,,
+county_akkalian;Magistracy;;;;;;;;;;;;;x,,,,,,
+duchy_akkalian;Archy;;;;;;;;;;;;;x,,,,,,
+kingdom_akkalian;Megarchy;;;;;;;;;;;;;x,,,,,,
+empire_akkalian;Archarchy;;;;;;;;;;;;;x,,,,,,
+### akkalian Feudal TITLES_OF
+barony_of_akkalian;Barony of;;;;;;;;;;;;;x,,,,,,
+county_of_akkalian;Magistracy of;;;;;;;;;;;;;x,,,,,,
+duchy_of_akkalian;Archy of;;;;;;;;;;;;;x,,,,,,
+kingdom_of_akkalian;Megarchy of;;;;;;;;;;;;;x,,,,,,
+empire_of_akkalian;Archarchy of;;;;;;;;;;;;;x,,,,,,
+
+
+# MANDESH SEA GROUP
+
+
+### makan Feudal RULERS
+count_makan;Patis;;;;;;;;;;;;;x,,,,,,
+count_female_makan;Patnis;;;;;;;;;;;;;x,,,,,,
+duke_makan;Raza;;;;;;;;;;;;;x,,,,,,
+duke_female_makan;Razani;;;;;;;;;;;;;x,,,,,,
+king_makan;Kshasathiya;;;;;;;;;;;;;x,,,,,,
+king_female_makan;Kshasathiya;;;;;;;;;;;;;x,,,,,,
+emperor_makan;Maharaza;;;;;;;;;;;;;x,,,,,,
+emperor_female_makan;Maharazni;;;;;;;;;;;;;x,,,,,,
+vice_royalty_duke_makan;Razyapavan;;;;;;;;;;;;;x,,,,,,
+vice_royalty_duke_female_makan;Razyapavan;;;;;;;;;;;;;x,,,,,,
+vice_royalty_king_makan;Kshatrapavan;;;;;;;;;;;;;x,,,,,,
+vice_royalty_king_female_makan;Kshatrapavan;;;;;;;;;;;;;x,,,,,,
+### makan Feudal TITLES
+barony_makan;Barony;;;;;;;;;;;;;x,,,,,,
+county_makan;County;;;;;;;;;;;;;x,,,,,,
+duchy_makan;Razya;;;;;;;;;;;;;x,,,,,,
+kingdom_makan;Kshatra;;;;;;;;;;;;;x,,,,,,
+empire_makan;Mahakshatra;;;;;;;;;;;;;x,,,,,,
+vice_royalty_duchy_makan;Razya;;;;;;;;;;;;;x,,,,,,
+vice_royalty_kingdom_makan;Kshatra;;;;;;;;;;;;;x,,,,,,
+### makan Feudal TITLES_OF
+barony_of_makan;Barony of;;;;;;;;;;;;;x,,,,,,
+county_of_makan;County of;;;;;;;;;;;;;x,,,,,,
+duchy_of_makan;Razya;;;;;;;;;;;;;x,,,,,,
+kingdom_of_makan;Kshatra;;;;;;;;;;;;;x,,,,,,
+empire_of_makan;Mahakshatra;;;;;;;;;;;;;x,,,,,,
+vice_royalty_duchy_of_makan;Razya;;;;;;;;;;;;;x,,,,,,
+vice_royalty_kingdom_of_makan;Kshatra;;;;;;;;;;;;;x,,,,,,
+
+
+# UNTERLAND GROUP
+
+
+### unterlander Feudal RULERS
+count_unterlander;Lavord;;;;;;;;;;;;;x,,,,,,
+count_female_unterlander;Lavdie;;;;;;;;;;;;;x,,,,,,
+duke_unterlander;Rics;;;;;;;;;;;;;x,,,,,,
+duke_female_unterlander;Ricsan;;;;;;;;;;;;;x,,,,,,
+king_unterlander;Kunics;;;;;;;;;;;;;x,,,,,,
+king_female_unterlander;Kunicin;;;;;;;;;;;;;x,,,,,,
+emperor_unterlander;Gudakunics;;;;;;;;;;;;;x,,,,,,
+emperor_female_unterlander;Gudakunicin;;;;;;;;;;;;;x,,,,,,
+### unterlander Feudal TITLES
+barony_unterlander;Baronship;;;;;;;;;;;;;x,,,,,,
+county_unterlander;Lavordship;;;;;;;;;;;;;x,,,,,,
+duchy_unterlander;Ric;;;;;;;;;;;;;x,,,,,,
+kingdom_unterlander;Kinric;;;;;;;;;;;;;x,,,,,,
+empire_unterlander;Gudaric;;;;;;;;;;;;;x,,,,,,
+### unterlander Feudal TITLES_OF
+barony_of_unterlander;Baronship of;;;;;;;;;;;;;x,,,,,,
+county_of_unterlander;Lavordship of;;;;;;;;;;;;;x,,,,,,
+duchy_of_unterlander;Ric;;;;;;;;;;;;;x,,,,,,
+kingdom_of_unterlander;Kinric;;;;;;;;;;;;;x,,,,,,
+empire_of_unterlander;Gudaric;;;;;;;;;;;;;x,,,,,,
